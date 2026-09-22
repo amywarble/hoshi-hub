@@ -36,9 +36,10 @@ Pocket KGS does not currently operate a separate moderation service. KGS adminis
 
 To report conduct on KGS:
 
-1. Contact an available KGS administrator or assistant in a private KGS message. Administrators are identified by a star in KGS user lists.
-2. If no administrator is available, email a description of what happened to [admin@gokgs.com](mailto:admin@gokgs.com), as directed by the KGS Terms of Service.
-3. Preserve the username, approximate time, room or game, and a short factual description. Do not repost harmful material publicly.
+1. In Pocket KGS, use **Report this player** on a player profile or **Report** beside a room, game, private-chat, or saved message. Add a short factual explanation. Pocket KGS privately sends the report and relevant context through AdminBot to the KGS admin team.
+2. You may also contact an available KGS administrator or assistant in a private KGS message. Administrators are identified by a star in KGS user lists.
+3. If no administrator is available, email a description of what happened to [admin@gokgs.com](mailto:admin@gokgs.com), as directed by the KGS Terms of Service.
+4. Preserve the username, approximate time, room or game, and a short factual description. Do not repost harmful material publicly.
 
 If you believe someone is in immediate danger, contact local emergency services. Reports involving child sexual abuse material should also be made to the appropriate national reporting authority; do not download, copy, or attach illegal material.
 

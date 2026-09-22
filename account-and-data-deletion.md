@@ -9,6 +9,8 @@ _Last updated: September 21, 2026_
 
 Pocket KGS does not operate a separate account system. It signs you in to an account hosted and controlled by the KGS Go Server.
 
+Pocket KGS does not create KGS accounts. The app links to the official [KGS registration page](https://www.gokgs.com/register/index.html), where account creation is handled directly by KGS.
+
 ## Delete data stored by the app
 
 To remove Pocket KGS data from your Android device:
@@ -26,10 +28,12 @@ Clearing local data or uninstalling does **not** delete your KGS account, messag
 
 ## Delete a KGS account and server-side data
 
-KGS's published [account-deletion instructions](https://www.gokgs.com/help/Accounts.html) state that a registered account is deleted automatically after six consecutive months without login, or after two years for a KGS Plus subscriber, and that this is the only available deletion method. KGS also states that games remain accessible in its archives after the account expires.
+To request deletion of your KGS account and its associated server-side data:
 
-Because the Pocket KGS developer does not control the KGS servers, the developer cannot directly delete a KGS account or KGS-held data. Questions about KGS-held data should be directed to [admin@gokgs.com](mailto:admin@gokgs.com).
+1. [Email the KGS administrators](mailto:admin@gokgs.com?subject=KGS%20account%20deletion%20request) at **admin@gokgs.com** with the subject `KGS account deletion request`.
+2. State clearly that you want your KGS account and associated server-side data deleted.
+3. Include your KGS username and the email address associated with the account. **Never send your password.**
 
-## Current limitation
+A KGS administrator may contact you to verify account ownership. The administrator will process the deletion request and can explain the expected completion time and whether any information must be retained for security, service-integrity, or legal reasons.
 
-Pocket KGS currently allows a guest user to begin KGS registration, but KGS does not expose an immediate deletion operation for the app to call. Pocket KGS therefore cannot immediately delete a KGS account or its associated server-side data.
+Pocket KGS does not delete the account automatically when you uninstall the app or clear its storage. Account deletion is performed by a KGS administrator after receiving and verifying your request.

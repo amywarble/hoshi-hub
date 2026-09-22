@@ -5,7 +5,7 @@ permalink: /privacy/
 nav_order: 3
 ---
 
-_Effective: September 21, 2026_
+_Effective: September 23, 2026_
 
 Pocket KGS is an independent Android client that connects you to the KGS Go Server ("KGS"). Pocket KGS is not affiliated with or endorsed by KGS. This policy explains what information the Pocket KGS app handles, why it handles it, where it goes, and the choices available to you.
 
@@ -36,7 +36,7 @@ Depending on the features you use, Pocket KGS handles the following information:
 Pocket KGS uses information to:
 
 - sign you in and maintain your KGS session;
-- register or update a KGS account and profile when you request it;
+- update your existing KGS account profile when you request it;
 - display rooms, users, games, profiles, messages, and other KGS content;
 - send your moves, messages, profile changes, avatar, audio, and other requested actions to KGS;
 - remember app settings, your KGS client identifier, and notification preferences on your device;
@@ -64,7 +64,9 @@ The legacy KGS protocol used by Pocket KGS does not provide a modern TLS-protect
 
 Pocket KGS stores its client identifier and preferences in app-private storage and caches avatar images in Android's cache area. Android may remove cached files when space is needed. Clearing Pocket KGS storage or uninstalling the app removes Pocket KGS's app-private data; credentials saved through Android Credential Manager may need to be removed separately from your password manager.
 
-The developer does not maintain a separate server-side copy of your KGS account, chats, games, avatar, or teacher audio. KGS controls its own server-side retention. KGS states that conversations are logged, game records may remain available in its archives, and registered accounts expire after a period of inactivity. See [Account and Data Deletion]({{ '/account-and-data-deletion/' | relative_url }}) for details.
+The developer does not maintain a separate server-side copy of your KGS account, chats, games, avatar, or teacher audio. KGS controls its own server-side retention. KGS states that conversations are logged, and game records may remain available in its archives.
+
+To request deletion of your KGS account and associated server-side data, email the KGS administrators at [admin@gokgs.com](mailto:admin@gokgs.com?subject=KGS%20account%20deletion%20request). Include your KGS username and account email address, but never your password. A KGS administrator may contact you to verify ownership and will process the request. See [Account and Data Deletion]({{ '/account-and-data-deletion/' | relative_url }}) for complete instructions, including removal of data stored locally by Pocket KGS.
 
 Public GitHub issues and their history remain on GitHub until they are edited or deleted in accordance with GitHub's features and policies.
 
@@ -72,7 +74,7 @@ Public GitHub issues and their history remain on GitHub until they are edited or
 
 You can:
 
-- use a guest KGS session instead of registering an account;
+- use a guest KGS session instead of creating an account on the KGS website;
 - decide whether to save a password through Android Credential Manager;
 - mark your KGS email address private where that option is available;
 - choose whether to upload an avatar or edit profile information;
@@ -97,3 +99,5 @@ This policy may change as Pocket KGS changes. The effective date at the top will
 ## Contact
 
 General app-support requests may be submitted through the [public issue tracker](https://github.com/amywarble/pocket-kgs-support/issues/new/choose), provided they contain no personal or sensitive information.
+
+For private questions or concerns about Pocket KGS, including privacy and sensitive safety matters, email the Pocket KGS developer at [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For concerns about KGS accounts, server-side data, moderation, or the KGS service, contact the KGS administrators at [admin@gokgs.com](mailto:admin@gokgs.com).

@@ -9,3 +9,6 @@ contact_links:
   - name: Privacy and deletion information
     url: https://amywarble.github.io/pocket-kgs-support/account-and-data-deletion/
     about: Read what can be removed locally and what is controlled by KGS.
+  - name: KGS Nova privacy and deletion information
+    url: https://amywarble.github.io/pocket-kgs-support/desktop/account-and-data-deletion/
+    about: Remove KGS Nova desktop files and saved credentials or request KGS account deletion.

@@ -4,6 +4,7 @@ remote_theme: just-the-docs/just-the-docs@v0.12.0
 url: "https://amywarble.github.io"
 baseurl: "/pocket-kgs-support"
 repository: amywarble/pocket-kgs-support
+color_scheme: dark
 
 plugins:
   - jekyll-remote-theme

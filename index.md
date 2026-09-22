@@ -14,4 +14,6 @@ Use these pages to get help and understand how Pocket KGS handles data and commu
 - [Community Guidelines]({{ '/community-guidelines/' | relative_url }})
 - [Account and Data Deletion]({{ '/account-and-data-deletion/' | relative_url }})
 
+For the Windows, macOS, and Linux client, see the separate [KGS Nova desktop support and policies]({{ '/desktop/' | relative_url }}).
+
 For app bugs and feature requests, [open a public GitHub issue](https://github.com/amywarble/pocket-kgs-support/issues/new/choose). Do not include passwords, email addresses, private messages, access tokens, or other sensitive information in an issue.

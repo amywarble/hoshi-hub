@@ -21,7 +21,9 @@ Never post any of the following in a public issue:
 
 ## KGS account, server, or moderation help
 
-Pocket KGS is an independent client and cannot administer the KGS service. For password recovery, account status, server-side data, or KGS moderation, contact a KGS administrator in the service or follow the [KGS Terms of Service](https://www.gokgs.com/tos.jsp). KGS lists [admin@gokgs.com](mailto:admin@gokgs.com) for situations in which an administrator is unavailable.
+Pocket KGS is an independent client. For password recovery, account status, server-side data, or KGS moderation, contact a KGS administrator in the service or email [admin@gokgs.com](mailto:admin@gokgs.com).
+
+To request deletion of a KGS account and its associated server-side data, follow the [Account and Data Deletion instructions]({{ '/account-and-data-deletion/' | relative_url }}). Do not put account details in a public GitHub issue.
 
 See the [Community Guidelines]({{ '/community-guidelines/' | relative_url }}) for blocking and reporting instructions.
 
@@ -30,5 +32,8 @@ See the [Community Guidelines]({{ '/community-guidelines/' | relative_url }}) fo
 Do not use a public GitHub issue for a privacy request, deletion request, sensitive safety report, or security vulnerability.
 
 - Read the [Privacy Policy]({{ '/privacy/' | relative_url }}).
-- Read [Account and Data Deletion]({{ '/account-and-data-deletion/' | relative_url }}).
+- Request [Account and Data Deletion]({{ '/account-and-data-deletion/' | relative_url }}).
 - Report a vulnerability using the repository's [private security-reporting form](https://github.com/amywarble/pocket-kgs-support/security/advisories/new).
+- Email the Pocket KGS developer at [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) for a private app, privacy, or sensitive safety concern.
+
+Concerns about KGS accounts, server-side data, moderation, or the KGS service should instead go to [admin@gokgs.com](mailto:admin@gokgs.com).
