@@ -4,11 +4,11 @@ contact_links:
     url: https://www.gokgs.com/tos.jsp
     about: Contact KGS for account access, server-side data, or conduct on the KGS service.
   - name: Report a security vulnerability privately
-    url: https://github.com/amywarble/pocket-kgs-support/security/advisories/new
+    url: https://github.com/amywarble/hoshi-hub/security/advisories/new
     about: Never disclose a suspected vulnerability in a public issue.
   - name: Privacy and deletion information
-    url: https://amywarble.github.io/pocket-kgs-support/account-and-data-deletion/
+    url: https://amywarble.github.io/hoshi-hub/account-and-data-deletion/
     about: Read what can be removed locally and what is controlled by KGS.
   - name: KGS Nova privacy and deletion information
-    url: https://amywarble.github.io/pocket-kgs-support/desktop/account-and-data-deletion/
+    url: https://amywarble.github.io/hoshi-hub/desktop/account-and-data-deletion/
     about: Remove KGS Nova desktop files and saved credentials or request KGS account deletion.
