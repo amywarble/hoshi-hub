@@ -7,7 +7,7 @@ nav_order: 2
 
 ## Pocket KGS app help
 
-For a reproducible app bug or a feature request, [choose a public issue form](https://github.com/amywarble/pocket-kgs-support/issues/new/choose). Search existing issues first when practical.
+For a reproducible app bug or a feature request, [choose a public issue form](https://github.com/amywarble/hoshi-hub/issues/new/choose). Search existing issues first when practical.
 
 Include the Pocket KGS version, Android version, what you expected, what happened, and minimal steps to reproduce the problem. Screenshots are useful only after you remove usernames, messages, email addresses, and other personal information.
 
@@ -33,7 +33,7 @@ Do not use a public GitHub issue for a privacy request, deletion request, sensit
 
 - Read the [Privacy Policy]({{ '/privacy/' | relative_url }}).
 - Request [Account and Data Deletion]({{ '/account-and-data-deletion/' | relative_url }}).
-- Report a vulnerability using the repository's [private security-reporting form](https://github.com/amywarble/pocket-kgs-support/security/advisories/new).
+- Report a vulnerability using the repository's [private security-reporting form](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 - Email the Pocket KGS developer at [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) for a private app, privacy, or sensitive safety concern.
 
 Concerns about KGS accounts, server-side data, moderation, or the KGS service should instead go to [admin@gokgs.com](mailto:admin@gokgs.com).

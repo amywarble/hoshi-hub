@@ -1,10 +1,15 @@
 ---
 layout: default
-title: Pocket KGS Support
+title: Hoshi Hub
 nav_order: 1
 ---
 
-Pocket KGS is an independent Android client for the [KGS Go Server](https://www.gokgs.com/). It is not affiliated with or endorsed by KGS.
+Hoshi Hub is the home for Pocket KGS and KGS Nova downloads, support, and policies.
+Both apps are independent clients for the [KGS Go Server](https://www.gokgs.com/)
+and are not affiliated with or endorsed by KGS.
+
+For KGS Nova desktop downloads, visit
+[GitHub Releases](https://github.com/amywarble/hoshi-hub/releases).
 
 Use these pages to get help and understand how Pocket KGS handles data and community features:
 
@@ -16,4 +21,4 @@ Use these pages to get help and understand how Pocket KGS handles data and commu
 
 For the Windows, macOS, and Linux client, see the separate [KGS Nova desktop support and policies]({{ '/desktop/' | relative_url }}).
 
-For app bugs and feature requests, [open a public GitHub issue](https://github.com/amywarble/pocket-kgs-support/issues/new/choose). Do not include passwords, email addresses, private messages, access tokens, or other sensitive information in an issue.
+For app bugs and feature requests, [open a public GitHub issue](https://github.com/amywarble/hoshi-hub/issues/new/choose). Do not include passwords, email addresses, private messages, access tokens, or other sensitive information in an issue.

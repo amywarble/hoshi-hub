@@ -20,4 +20,4 @@ These pages cover the desktop app:
 
 The separate [Pocket KGS pages]({{ '/' | relative_url }}) cover the Android app.
 
-For desktop bugs and feature requests, [open a public GitHub issue](https://github.com/amywarble/pocket-kgs-support/issues/new/choose) and identify the app as **KGS Nova desktop**. Do not include credentials, private messages, or other sensitive information.
+For desktop bugs and feature requests, [open a public GitHub issue](https://github.com/amywarble/hoshi-hub/issues/new/choose) and identify the app as **KGS Nova desktop**. Do not include credentials, private messages, or other sensitive information.

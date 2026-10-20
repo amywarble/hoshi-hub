@@ -90,7 +90,7 @@ Pocket KGS is not directed to children under 13. KGS is a public online service 
 
 ## Security
 
-No system is completely secure. Keep your device and app up to date, use a unique KGS password, and do not post credentials or private content in the public issue tracker. See the [Security Policy](https://github.com/amywarble/pocket-kgs-support/security/policy) for vulnerability-reporting instructions.
+No system is completely secure. Keep your device and app up to date, use a unique KGS password, and do not post credentials or private content in the public issue tracker. See the [Security Policy](https://github.com/amywarble/hoshi-hub/security/policy) for vulnerability-reporting instructions.
 
 ## Changes to this policy
 
@@ -98,6 +98,6 @@ This policy may change as Pocket KGS changes. The effective date at the top will
 
 ## Contact
 
-General app-support requests may be submitted through the [public issue tracker](https://github.com/amywarble/pocket-kgs-support/issues/new/choose), provided they contain no personal or sensitive information.
+General app-support requests may be submitted through the [public issue tracker](https://github.com/amywarble/hoshi-hub/issues/new/choose), provided they contain no personal or sensitive information.
 
 For private questions or concerns about Pocket KGS, including privacy and sensitive safety matters, email the Pocket KGS developer at [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For concerns about KGS accounts, server-side data, moderation, or the KGS service, contact the KGS administrators at [admin@gokgs.com](mailto:admin@gokgs.com).

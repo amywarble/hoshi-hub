@@ -1,9 +1,9 @@
-title: Pocket KGS Support
-description: Privacy, safety, and support information for Pocket KGS.
+title: Hoshi Hub
+description: Downloads, privacy, safety, and support information for Pocket KGS and KGS Nova.
 remote_theme: just-the-docs/just-the-docs@v0.12.0
 url: "https://amywarble.github.io"
-baseurl: "/pocket-kgs-support"
-repository: amywarble/pocket-kgs-support
+baseurl: "/hoshi-hub"
+repository: amywarble/hoshi-hub
 color_scheme: dark
 
 plugins:

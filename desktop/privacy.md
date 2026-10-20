@@ -43,6 +43,6 @@ You can use a guest session, choose whether to remember credentials, control sup
 
 Do not submit a child's personal information in a public issue. A parent or guardian should review KGS's terms and communication features before allowing a minor to use the service.
 
-For private app or privacy questions, contact [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For KGS accounts and server-side data, contact [admin@gokgs.com](mailto:admin@gokgs.com). For vulnerabilities, use [private security reporting](https://github.com/amywarble/pocket-kgs-support/security/advisories/new).
+For private app or privacy questions, contact [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For KGS accounts and server-side data, contact [admin@gokgs.com](mailto:admin@gokgs.com). For vulnerabilities, use [private security reporting](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 
 This policy will be updated as desktop behavior changes; the effective date above identifies the revision.
