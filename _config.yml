@@ -5,10 +5,16 @@ url: "https://amywarble.github.io"
 baseurl: "/hoshi-hub"
 repository: amywarble/hoshi-hub
 color_scheme: dark
+lang: en
+search_enabled: false
 
 plugins:
   - jekyll-remote-theme
 
 exclude:
   - README.md
+  - SECURITY.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
   - vendor

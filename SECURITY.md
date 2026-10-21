@@ -1,13 +1,5 @@
 # Security Policy
 
-## Reporting a vulnerability
+For both Pocket KGS and KGS Nova, follow the [Security Policy](https://amywarble.github.io/hoshi-hub/security-policy/). Translations are available through the language bar.
 
-Do not disclose a suspected vulnerability in a public GitHub issue.
-
-Use [GitHub's private vulnerability-reporting form](https://github.com/amywarble/hoshi-hub/security/advisories/new). Include the affected Pocket KGS version, impact, reproduction steps, and any suggested mitigation. Remove unrelated personal data from screenshots and logs.
-
-If the private reporting form is unavailable, email the Pocket KGS developer at [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com?subject=Pocket%20KGS%20security%20report). Do not disclose the report in a public issue, and never include a KGS password.
-
-You should receive an acknowledgment within seven days. Please allow a reasonable time to investigate and release a fix before public disclosure.
-
-For abuse by a KGS user rather than a software vulnerability, follow the [Community Guidelines](https://amywarble.github.io/hoshi-hub/community-guidelines/) or contact the KGS administrators at [admin@gokgs.com](mailto:admin@gokgs.com).
+Report suspected vulnerabilities using [GitHub private vulnerability reporting](https://github.com/amywarble/hoshi-hub/security/advisories/new), or email [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). Never disclose vulnerabilities in public issues or include a KGS password.

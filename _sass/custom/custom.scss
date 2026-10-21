@@ -1,0 +1,131 @@
+.hoshi-site {
+  overflow-wrap: anywhere;
+}
+
+.hoshi-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid $border-color;
+}
+
+.hoshi-brand {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.hoshi-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  a {
+    padding: 0.35rem 0.65rem;
+    border: 1px solid $border-color;
+    border-radius: 0.25rem;
+  }
+}
+
+.hoshi-site a[aria-current] {
+  color: $body-heading-color;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.hoshi-body {
+  display: grid;
+  grid-template-columns: minmax(13rem, 17rem) minmax(0, 52rem);
+  justify-content: center;
+}
+
+.hoshi-sidebar {
+  padding: 1rem 1.5rem;
+  border-right: 1px solid $border-color;
+
+  h2 {
+    margin: 1.25rem 0 0.5rem;
+    font-size: 1rem;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: inline-block;
+    padding: 0.3rem 0;
+  }
+}
+
+.hoshi-content {
+  min-width: 0;
+  padding: 1.5rem 2rem 3rem;
+}
+
+.hoshi-search-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+
+  input {
+    min-width: 0;
+    flex: 1;
+    padding: 0.4rem;
+    color: $body-text-color;
+    background: $body-background-color;
+    border: 1px solid $border-color;
+    border-radius: 0.25rem;
+  }
+}
+
+.hoshi-search-status:empty {
+  display: none;
+}
+
+.hoshi-skip {
+  position: absolute;
+  top: -10rem;
+  left: 1rem;
+  padding: 0.75rem;
+  background: $body-background-color;
+  z-index: 10;
+
+  &:focus {
+    top: 1rem;
+  }
+}
+
+.hoshi-site a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (max-width: 50rem) {
+  .hoshi-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hoshi-content {
+    order: -1;
+    padding: 1rem 1.5rem 2rem;
+  }
+
+  .hoshi-sidebar {
+    border-right: 0;
+    border-top: 1px solid $border-color;
+  }
+}
+
+@media print {
+  .hoshi-header, .hoshi-sidebar, .hoshi-skip, .hoshi-search {
+    display: none;
+  }
+
+  .hoshi-body {
+    display: block;
+  }
+}
