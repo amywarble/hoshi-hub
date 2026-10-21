@@ -1,18 +1,12 @@
 # Hoshi Hub
 
-This repository contains the public support, privacy, terms, safety, and deletion information for the Pocket KGS Android app, with a separate `desktop/` section for KGS Nova on Windows, macOS, and Linux. It is designed to be published with GitHub Pages at:
+This repository contains the public support, privacy, terms, safety, and deletion information for the Pocket KGS Android app.
 
 <https://amywarble.github.io/hoshi-hub/>
 
-The desktop section's URL is <https://amywarble.github.io/hoshi-hub/desktop/> once these files are deployed through GitHub Pages. Its policies describe desktop storage, native credential handling, logs, and reporting.
+
 
 App source code belongs in the private application repository. Public issues in this repository are only for non-sensitive app bugs, feature requests, and documentation corrections.
-
-KGS Nova desktop packages are published to this repository's
-[GitHub Releases](https://github.com/amywarble/hoshi-hub/releases) by the private
-application repository's release workflow.
-
-The documents in this repository describe current app behavior. They do not fix policy gaps in the app or replace legal advice.
 
 ## Pages and languages
 
