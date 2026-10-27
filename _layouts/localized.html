@@ -34,15 +34,17 @@
     <div class="hoshi-body">
       <aside class="hoshi-sidebar">
         <nav aria-label="{{ ui.navigation | escape }}">
-          {% assign sections = 'global,android,desktop' | split: ',' %}
+          {% assign sections = 'global,android,desktop,gtp' | split: ',' %}
           {% for section in sections %}
+            {% assign section_pages = site.pages | where: 'lang', page.lang | where: 'section', section | sort: 'nav_order' %}
+            {% if section_pages.size > 0 %}
             <h2>{{ ui[section] }}</h2>
             <ul>
-              {% assign section_pages = site.pages | where: 'lang', page.lang | where: 'section', section | sort: 'nav_order' %}
               {% for item in section_pages %}
                 <li><a href="{{ item.url | relative_url }}"{% if item.page_key == page.page_key %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
               {% endfor %}
             </ul>
+            {% endif %}
           {% endfor %}
         </nav>
       </aside>

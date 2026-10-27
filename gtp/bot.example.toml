@@ -1,0 +1,86 @@
+# Copy this file to bot.toml and adapt the account, engine, and matchmaking settings.
+# Set the password through KGS_PASSWORD. Never put it in this file.
+# Explicit command-line options override these settings. Times are in seconds.
+
+[account]
+username = "YourBot"
+# clientIdFile = "./state/client-id" # Otherwise an identity is chosen per server/account.
+
+[server]
+host = "goserver.gokgs.com"
+port = 2379
+
+[engine]
+executable = 'C:\Go\katago.exe'
+arguments = ["gtp", "-config", 'C:\Go\gtp.cfg', "-model", 'C:\Go\model.bin.gz']
+# rules = "Japanese" # Declare the engine's existing rules only if it lacks kgs-rules.
+# For an externally managed engine, omit executable/arguments and set stdio = true.
+
+[matchmaking]
+mode = "Automatch"
+gameType = "Free" # Ranked requires server-granted RankedRobot permission and rank enabled.
+games = 0 # Zero continues until cancellation or failure.
+
+[automatch]
+speed = ["Fast", "Medium"] # Or "All", "Blitz", "Fast", "Medium".
+rank = "20k" # Required when the account has no numeric server rank.
+opponents = "Humans" # Humans, Robots, or Any.
+maxRankDifference = 0 # Up to 9 for Free, or 6 for Ranked.
+
+[undo]
+free = "Allow" # Never or Allow. Omitted policies default to Never.
+ranked = "Never"
+
+# Each continuous wait is bounded independently; expiry stops the bridge with an unfinished-game diagnostic.
+[interactions]
+pauseTimeoutFree = 300
+adjournmentTimeoutFree = 300
+opponentTimeoutFree = 300
+pauseTimeoutRanked = 300
+adjournmentTimeoutRanked = 300
+opponentTimeoutRanked = 300
+
+[timeouts]
+login = 30
+lobby = 300
+move = 600
+scoring = 120
+cleanup = 300
+
+[connectionRecovery]
+budget = 180 # Total seconds per outage, including engine drain, backoff, login, and rejoin.
+resetAfter = 60 # Healthy seconds after reattachment before a later outage gets a fresh budget.
+delay = 1 # Initial backoff window; doubles to 30 seconds, with a random delay inside each window.
+timeout = 120 # Per-attempt login/rejoin limit, also bounded by the remaining outage budget.
+engineDrainTimeout = 30
+# attempts = 3 # Optional cap per outage. Omit to use the time budget; zero disables retries.
+
+[engineRecovery]
+attempts = 3
+delay = 1 # Exponential backoff with jitter, capped at 30 seconds.
+timeout = 120
+# pipe = "YourBot-recovery" # Otherwise uses kgs-gtp-<process ID>.
+
+# For custom challenges, replace matchmaking and automatch above with:
+# [matchmaking]
+# mode = "Offer" # Or Join.
+# gameType = "Free"
+# opponentPolicy = "Any" # Named requires opponent = "OtherAccount".
+# room = "Computer Go" # Room name on your server.
+# games = 0
+# challengeNotes = "Your bot's challenge" # Offer only.
+#
+# [game]
+# boardSize = 19
+# rules = "Chinese"
+# komi = 7.5
+# color = "Nigiri" # Black, White, or Nigiri.
+# handicap = 0
+# private = false
+#
+# [timing]
+# system = "ByoYomi" # None, Absolute, Canadian, or ByoYomi.
+# mainTime = 600
+# byoYomiTime = 30
+# byoYomiPeriods = 5
+# canadianStones = 0

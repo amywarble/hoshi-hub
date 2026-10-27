@@ -14,6 +14,7 @@ and are not affiliated with or endorsed by KGS.
 
 - [Pocket KGS for Android]({% include page-url.html key='android/home' %})
 - [KGS Nova for Windows, macOS, and Linux]({% include page-url.html key='desktop/home' %})
+- [KGS GTP for Windows and Linux (English)]({% include page-url.html key='gtp/home' %})
 - [Security Policy]({% include page-url.html key='global/security-policy' %})
 
 For KGS Nova downloads, visit [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases).

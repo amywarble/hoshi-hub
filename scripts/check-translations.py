@@ -10,12 +10,20 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = json.loads((ROOT / '_data/languages.json').read_text(encoding='utf-8'))
-SECTIONS = ('global', 'android', 'desktop')
+SECTIONS = ('global', 'android', 'desktop', 'gtp')
 PAGE_NAMES = ('home', 'support', 'privacy', 'terms', 'community-guidelines', 'account-and-data-deletion')
-EXPECTED_KEYS = {'global/home', 'global/security-policy'} | {
+LOCALIZED_KEYS = {'global/home', 'global/security-policy'} | {
     f'{section}/{name}' for section in ('android', 'desktop') for name in PAGE_NAMES
 }
+ENGLISH_ONLY_KEYS = {'gtp/home', 'gtp/user-guide', 'gtp/upgrade-guide'}
+EXPECTED_KEYS = LOCALIZED_KEYS | ENGLISH_ONLY_KEYS
 LINK_PATTERN = re.compile(r"\{%\s*include page-url.html key='([^']+)'\s*%\}")
+ASSET_PATTERN = re.compile(r"\{\{ '([^']+)' \| relative_url \}\}")
+
+
+def available_languages(key):
+    """Keep complete translation coverage for localized pages and explicit English-only guides."""
+    return ('en',) if key in ENGLISH_ONLY_KEYS else tuple(LANGUAGES)
 
 
 def read_page(path):
@@ -112,10 +120,13 @@ def check_sources():
             assert (key, lang) not in pages, f'{path}: duplicate translation'
             pages[key, lang] = (data, body)
 
-    assert set(pages) == {(key, lang) for key in EXPECTED_KEYS for lang in LANGUAGES}, 'Translation set incomplete'
+    expected_pages = {(key, lang) for key in EXPECTED_KEYS for lang in available_languages(key)}
+    assert set(pages) == expected_pages, 'Translation set incomplete'
     for (key, lang), (data, body) in pages.items():
         for target in LINK_PATTERN.findall(body):
-            assert (target, lang) in pages, f'{key}/{lang}: missing linked translation {target}'
+            assert (target, lang) in pages or (target, 'en') in pages, f'{key}/{lang}: missing linked page {target}'
+        for asset in ASSET_PATTERN.findall(body):
+            assert asset.startswith('/') and (ROOT / asset.lstrip('/')).is_file(), f'{key}/{lang}: missing asset {asset}'
         assert body.count('{%') == len(LINK_PATTERN.findall(body)), f'{key}/{lang}: unexpected Liquid tag'
         if lang != 'en':
             english = pages[key, 'en'][1]
@@ -140,18 +151,19 @@ def check_output(site, pages):
         assert '{%' not in html and '{{' not in html, f'{output}: unresolved Liquid'
         document = Document(html)
         key, lang = identity
+        languages = available_languages(key)
         assert document.language == lang, f'{output}: incorrect HTML language'
         assert document.headings == 1, f'{output}: expected one page heading'
         assert dict(document.selector) == {
-            language: baseurl + pages[key, language][0]['permalink'] for language in LANGUAGES
+            language: baseurl + pages[key, language][0]['permalink'] for language in languages
         }, f'{output}: incorrect language selector'
-        assert len(document.selector) == len(LANGUAGES), f'{output}: duplicate language links'
+        assert len(document.selector) == len(languages), f'{output}: duplicate language links'
         assert document.current_language == [lang], f'{output}: incorrect selected language'
         assert set(document.sidebar) == {
             baseurl + metadata['permalink'] for (page_key, language), (metadata, _) in pages.items() if language == lang
         }, f'{output}: navigation mixes languages or omits pages'
         assert document.current_page == [baseurl + data['permalink']], f'{output}: incorrect active page'
-        for language in LANGUAGES:
+        for language in languages:
             assert document.alternates[language] == siteurl + baseurl + pages[key, language][0]['permalink']
         assert document.alternates['x-default'] == siteurl + baseurl + pages[key, 'en'][0]['permalink']
         documents[data['permalink']] = document
@@ -174,7 +186,7 @@ def check_output(site, pages):
         path = site / 'assets/search' / f'{lang}.json'
         index = json.loads(path.read_text(encoding='utf-8'))
         expected = {baseurl + data['permalink'] for (key, language), (data, _) in pages.items() if language == lang}
-        assert len(index) == len(EXPECTED_KEYS) and {item['url'] for item in index} == expected, f'{lang}: incorrect search coverage'
+        assert len(index) == len(expected) and {item['url'] for item in index} == expected, f'{lang}: incorrect search coverage'
         assert all(item['title'] and item['text'] for item in index), f'{lang}: empty search document'
         assert all('{%' not in item['text'] for item in index), f'{lang}: unresolved Liquid in search'
 

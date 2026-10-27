@@ -1,5 +1,5 @@
 ---
-source_revision: "a820c2f0c8b2dd46ae4c3d8ecb5e77bd613aa887ae85788f6ceca0818cf5bdef"
+source_revision: "dab2d685fcb4d1c622bc8c2d05f0ed97a91e1d4cd01ac486d6ea822cc87f9083"
 layout: localized
 title: "Startseite"
 lang: "de"
@@ -13,6 +13,7 @@ Hoshi Hub bietet Downloads, Hilfe und Richtlinien für Pocket KGS und KGS Nova. 
 
 - [Pocket KGS für Android]({% include page-url.html key='android/home' %})
 - [KGS Nova für Windows, macOS und Linux]({% include page-url.html key='desktop/home' %})
+- [KGS GTP für Windows und Linux (Englisch)]({% include page-url.html key='gtp/home' %})
 - [Sicherheitsrichtlinie]({% include page-url.html key='global/security-policy' %})
 
 KGS Nova können Sie über [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases) herunterladen. Für Fehler und Funktionswünsche [erstellen Sie ein öffentliches GitHub-Issue](https://github.com/amywarble/hoshi-hub/issues/new/choose). Veröffentlichen Sie keine Passwörter, E-Mail-Adressen, privaten Nachrichten, Zugriffstoken oder anderen vertraulichen Angaben.

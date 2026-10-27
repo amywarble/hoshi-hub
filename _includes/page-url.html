@@ -1,2 +1,5 @@
 {%- assign linked_page = site.pages | where: 'page_key', include.key | where: 'lang', page.lang | first -%}
+{%- unless linked_page -%}
+  {%- assign linked_page = site.pages | where: 'page_key', include.key | where: 'lang', 'en' | first -%}
+{%- endunless -%}
 {{- linked_page.url | relative_url -}}

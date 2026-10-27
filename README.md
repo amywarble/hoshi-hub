@@ -1,6 +1,6 @@
 # Hoshi Hub
 
-This repository contains the public support, privacy, terms, safety, and deletion information for the Pocket KGS Android/iOS apps and the KGS Nova desktop apps.
+This repository contains the public support, privacy, terms, safety, and deletion information for the Pocket KGS Android/iOS apps and the KGS Nova desktop apps, plus KGS GTP documentation for Windows and Linux.
 
 <https://amywarble.github.io/hoshi-hub/>
 
@@ -25,15 +25,27 @@ desktop/
   terms/
   community-guidelines/
   account-and-data-deletion/
+gtp/
+  home/en.md
+  user-guide/en.md
+  upgrade-guide/en.md
+  bot.example.toml
 global/
   home/
   security-policy/
 ```
 
-All folders contain the same eight languages: English, Danish, German, Spanish,
+The Android, desktop, and global page folders contain the same eight languages: English, Danish, German, Spanish,
 French, Japanese, Russian, and Simplified Chinese. The root `SECURITY.md` is a
 short pointer retained for GitHub's security-policy discovery; the complete
 website policy and its translations live under `global/security-policy/`.
+GTP documentation is currently English-only at `/gtp/`, `/gtp/user-guide/`, and
+`/gtp/upgrade-guide/`. Its page groups declare only the available language;
+links from translated home pages fall back to the English GTP landing page.
+The GTP guides use collapsible Windows (PowerShell) and Linux (Bash) examples,
+with `markdown="1"` on `<details>` so Jekyll renders the code blocks. They work
+without JavaScript. Keep these public guides and `gtp/bot.example.toml` aligned
+with the offline guides and example configuration shipped by Kgs.Gtp.
 
 Explicit permalinks preserve the original English policy URLs, including
 `/privacy/`, `/terms/`, and `/desktop/privacy/`. Android's landing page is
