@@ -39,11 +39,16 @@
             {% assign section_pages = site.pages | where: 'lang', page.lang | where: 'section', section | sort: 'nav_order' %}
             {% if section_pages.size > 0 %}
             <h2>{{ ui[section] }}</h2>
-            <ul>
-              {% for item in section_pages %}
-                <li><a href="{{ item.url | relative_url }}"{% if item.page_key == page.page_key %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+            {% if section == 'android' or section == 'desktop' %}
+              {% assign groups = 'documentation,policies' | split: ',' %}
+              {% for group in groups %}
+                {% assign group_pages = section_pages | where: 'nav_group', group %}
+                <h3>{{ ui[group] }}</h3>
+                {% include navigation-links.html pages=group_pages %}
               {% endfor %}
-            </ul>
+            {% else %}
+              {% include navigation-links.html pages=section_pages %}
+            {% endif %}
             {% endif %}
           {% endfor %}
         </nav>

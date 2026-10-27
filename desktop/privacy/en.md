@@ -6,11 +6,12 @@ page_key: "desktop/privacy"
 section: "desktop"
 nav_order: 10
 permalink: "/desktop/privacy/"
+nav_group: "policies"
 ---
 
-_Effective: October 10, 2026_
+_Effective: October 27, 2026_
 
-This policy covers the KGS Nova desktop app for Windows, macOS, and Linux. KGS Nova is an independent client, not affiliated with or endorsed by KGS. KGS operates a separate service with its own [terms and privacy information](https://www.gokgs.com/tos.jsp).
+This policy covers the KGS Nova desktop app for Windows, macOS, and Linux. KGS Nova is officially endorsed by KGS. KGS operates a separate service with its own [terms and privacy information](https://www.gokgs.com/tos.jsp).
 
 ## Information handled by the desktop app
 
@@ -24,12 +25,14 @@ The desktop app does not include advertising, analytics, or automatic crash-repo
 
 ## Local storage and diagnostics
 
-- **Database:** `data.db` in the app's working directory holds saved account metadata, the client identifier, preferences, and application state. The database as a whole is not encrypted.
+- **Database:** `data.db` in the KGS Nova folder in your operating system’s local application-data directory holds saved account metadata, the client identifier, preferences, and application state. On Windows this folder is `%LOCALAPPDATA%\KGS Nova`. The database as a whole is not encrypted.
 - **Saved passwords:** On Windows, saved passwords in the database are encrypted with Windows DPAPI for the current Windows user. On macOS, passwords are stored in Keychain. On Linux, passwords are stored through the Secret Service keyring. Native credential storage may require unlocking or permission from your operating system. Password storage does not encrypt the rest of the database.
-- **Logs:** The desktop logging configuration writes `logs.txt` in the application directory and also sends diagnostics to console/debug output. The file is replaced when the app starts. Logs can include version and system details, usernames, room/game identifiers, app actions, exception details, and protocol data when a connection or message fails. Do not assume logs are free of personal content. Logs are not automatically uploaded to the developer.
+- **Logs:** Release builds write error diagnostics to `client.log` and rotating `client.archive*.log` files in the same KGS Nova data folder. Optional diagnostic logging enables more detailed events for the current session. Release logs retain version information, event templates, exception types, and stack traces, with a layout designed to omit runtime argument values, exception messages, and source-file paths. Developer builds can produce more detailed `logs.txt` and console/debug output. Review logs before sharing them. They are not automatically uploaded to the developer.
 - **Files you save:** Game records and other files you explicitly export remain in the locations you choose.
 
 Other people or software with access to these files or your operating-system account may be able to read them. Uninstalling or replacing the application does not necessarily remove its database, logs, exported files, or native keyring entries. See [desktop data-removal instructions]({% include page-url.html key='desktop/account-and-data-deletion' %}).
+
+The same data folder contains the `sgf` workspace, recovery files and backups, and the `analysis` engine/model files. Save any recovered games you want to keep before deleting these folders. Removing the whole KGS Nova data folder removes this local data together.
 
 ## Communications and third-party services
 

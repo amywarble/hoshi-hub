@@ -5,8 +5,9 @@ title: "サポート"
 lang: "ja"
 page_key: "desktop/support"
 section: "desktop"
-nav_order: 9
+nav_order: 2
 permalink: "/ja/desktop/support/"
+nav_group: "documentation"
 ---
 
 再現できる不具合や機能要望は [既存 Issue](https://github.com/amywarble/hoshi-hub/issues) を検索し、[不具合報告](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) または [機能要望](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md) を作成してください。バージョン、OS、CPU アーキテクチャ、期待／実際の動作、再現手順を記載します。

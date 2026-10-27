@@ -1,5 +1,5 @@
 ---
-source_revision: "c0720ca8cede62afb75cc2d2bb2188cb6f42790a1a5ec1c815ee03a2934d2d54"
+source_revision: "2d36d2b70789618639852311a38a6f07a24e7e70cf3e48b416dc750ba7627c90"
 layout: localized
 title: "Politique de confidentialité"
 lang: "fr"
@@ -7,11 +7,12 @@ page_key: "desktop/privacy"
 section: "desktop"
 nav_order: 10
 permalink: "/fr/desktop/privacy/"
+nav_group: "policies"
 ---
 
-_En vigueur le 10 octobre 2026_
+_En vigueur le 27 octobre 2026_
 
-Cette politique couvre KGS Nova pour Windows, macOS et Linux, client indépendant sans affiliation ni approbation de KGS. Le service KGS est distinct et possède ses propres [conditions et informations de confidentialité](https://www.gokgs.com/tos.jsp).
+Cette politique couvre KGS Nova pour Windows, macOS et Linux, client officiellement approuvé par KGS. Le service KGS est distinct et possède ses propres [conditions et informations de confidentialité](https://www.gokgs.com/tos.jsp).
 
 ## Informations traitées
 
@@ -25,12 +26,14 @@ Aucune publicité, analyse ou transmission automatique de plantages. Le dévelop
 
 ## Stockage local et diagnostics
 
-- **Base de données :** `data.db`, dans le répertoire de travail, contient métadonnées des comptes mémorisés, identifiant client, préférences et état de l’application. La base entière n’est pas chiffrée.
+- **Base de données :** `data.db`, dans le dossier KGS Nova des données locales d’application du système, contient métadonnées des comptes, identifiant client, préférences et état. Sous Windows, il s’agit de `%LOCALAPPDATA%\KGS Nova`. La base entière n’est pas chiffrée.
 - **Mots de passe :** sous Windows, chiffrés dans la base avec DPAPI pour l’utilisateur Windows actuel ; sous macOS, dans le Trousseau ; sous Linux, via Secret Service. Déverrouillage ou autorisation du système parfois nécessaires. Cette protection ne chiffre pas le reste de la base.
-- **Journaux :** `logs.txt` dans le répertoire de l’application, avec sorties console/débogage. Le fichier est remplacé au démarrage. Il peut contenir versions et système, noms d’utilisateur, identifiants de parties/salons, actions, exceptions et données du protocole lors d’un échec de connexion/message. Ne les supposez pas exempts de données personnelles. Aucun envoi automatique.
+- **Journaux :** Les versions publiées écrivent les diagnostics d’erreur dans `client.log` et les fichiers tournants `client.archive*.log` du même dossier. La journalisation diagnostique facultative ajoute des événements pour la session en cours. Les journaux conservent version, modèles d’événements, types d’exceptions et traces de pile, avec un format conçu pour omettre valeurs d’arguments, messages d’exceptions et chemins des fichiers source. Les versions de développement peuvent produire un `logs.txt` et des sorties console/débogage plus détaillés. Relisez les journaux avant partage. Aucun envoi automatique au développeur.
 - **Exports :** parties et autres fichiers exportés restent à l’emplacement choisi.
 
 Des personnes ou logiciels ayant accès aux fichiers ou au compte système peuvent les lire. Désinstaller/remplacer ne supprime pas nécessairement base, journaux, exports ou entrées du trousseau. Voir [suppression des données]({% include page-url.html key='desktop/account-and-data-deletion' %}).
+
+Ce dossier contient aussi l’espace `sgf`, les fichiers de récupération et sauvegardes, ainsi que les moteurs/modèles dans `analysis`. Enregistrez les parties récupérées à conserver avant suppression. Supprimer tout le dossier de données KGS Nova efface ensemble ces données locales.
 
 ## Communications et services tiers
 

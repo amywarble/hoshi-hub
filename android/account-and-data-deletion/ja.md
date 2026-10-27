@@ -5,8 +5,9 @@ title: "アカウントとデータの削除"
 lang: "ja"
 page_key: "android/account-and-data-deletion"
 section: "android"
-nav_order: 7
+nav_order: 13
 permalink: "/ja/account-and-data-deletion/"
+nav_group: "policies"
 ---
 
 _最終更新：2026年9月21日_

@@ -1,18 +1,20 @@
 ---
-source_revision: "e6bb0fa3a65a49d1ffc994c8f4447f8f9834853092ba9c17b356ea070dad2940"
+source_revision: "d1a3b3dd378f6c8213b2ccc1cd07e123ce698663f0f8d208fbb9979c2c7218f3"
 layout: localized
 title: "KGS Nova"
 lang: "da"
 page_key: "desktop/home"
 section: "desktop"
-nav_order: 8
+nav_order: 0
 permalink: "/da/desktop/"
+nav_group: "documentation"
 ---
 
-KGS Nova er en uafhængig klient til [KGS Go Server](https://www.gokgs.com/) til Windows, macOS og Linux, uden tilknytning til eller godkendelse fra KGS.
+KGS Nova er en klient til [KGS Go Server](https://www.gokgs.com/) til Windows, macOS og Linux. Appen er officielt anbefalet af KGS.
 
 Disse sider gælder computerappen:
 
+- [Kom godt i gang]({% include page-url.html key='desktop/help' %})
 - [Support]({% include page-url.html key='desktop/support' %})
 - [Privatlivspolitik]({% include page-url.html key='desktop/privacy' %})
 - [Brugsvilkår]({% include page-url.html key='desktop/terms' %})

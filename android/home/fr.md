@@ -1,18 +1,20 @@
 ---
-source_revision: "75d05b9bb03fe2a20d4107fa164c7ec78eb8724eab2b24fd6fa5d454f556da83"
+source_revision: "63a6da57b6671a5bf08f86d1050e2af4753384d150e6df62ee25dc7b2d2bd503"
 layout: localized
 title: "Pocket KGS"
 lang: "fr"
 page_key: "android/home"
 section: "android"
-nav_order: 2
+nav_order: 0
 permalink: "/fr/android/"
+nav_group: "documentation"
 ---
 
-Pocket KGS est un client Android indépendant du [KGS Go Server](https://www.gokgs.com/), sans affiliation ni approbation de KGS.
+Pocket KGS est un client Android du [KGS Go Server](https://www.gokgs.com/). Il est officiellement approuvé par KGS.
 
 Ces pages expliquent l’utilisation de l’application, le traitement des données et les fonctions communautaires :
 
+- [Premiers pas]({% include page-url.html key='android/help' %})
 - [Assistance]({% include page-url.html key='android/support' %})
 - [Politique de confidentialité]({% include page-url.html key='android/privacy' %})
 - [Conditions d’utilisation]({% include page-url.html key='android/terms' %})

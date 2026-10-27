@@ -5,8 +5,9 @@ title: "Suppression du compte et des données"
 lang: "fr"
 page_key: "android/account-and-data-deletion"
 section: "android"
-nav_order: 7
+nav_order: 13
 permalink: "/fr/account-and-data-deletion/"
+nav_group: "policies"
 ---
 
 _Dernière mise à jour : 21 septembre 2026_

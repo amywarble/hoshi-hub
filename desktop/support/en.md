@@ -4,8 +4,9 @@ title: "Support"
 lang: "en"
 page_key: "desktop/support"
 section: "desktop"
-nav_order: 9
+nav_order: 2
 permalink: "/desktop/support/"
+nav_group: "documentation"
 ---
 
 For a reproducible bug or a feature request, search the [public issue tracker](https://github.com/amywarble/hoshi-hub/issues), then [report a desktop bug](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) or [request a desktop feature](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Include the app version, your operating system and processor architecture, what you expected, what happened, and steps to reproduce the problem.

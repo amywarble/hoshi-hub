@@ -5,8 +5,9 @@ title: "Поддержка"
 lang: "ru"
 page_key: "desktop/support"
 section: "desktop"
-nav_order: 9
+nav_order: 2
 permalink: "/ru/desktop/support/"
+nav_group: "documentation"
 ---
 
 Для ошибки/пожелания просмотрите [существующие обращения](https://github.com/amywarble/hoshi-hub/issues), затем [сообщите об ошибке](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) или [предложите функцию](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Укажите версию, ОС, архитектуру процессора, ожидаемый/фактический результат и воспроизведение.

@@ -1,5 +1,5 @@
 ---
-source_revision: "3aa9378df5f32e6acf17ec4a44bd9f2964f9a6fed7d528cdcba256cfb2358d82"
+source_revision: "f77f4ed1d576932db0474a6793f3618116114ca1712e98af8892162d5ac9d665"
 layout: localized
 title: "Sletning af konto og data"
 lang: "da"
@@ -7,16 +7,21 @@ page_key: "desktop/account-and-data-deletion"
 section: "desktop"
 nav_order: 13
 permalink: "/da/desktop/account-and-data-deletion/"
+nav_group: "policies"
 ---
 
 ## Fjern computerdata
 
 Luk KGS Nova. Sikkerhedskopiér eksporterede spil, du vil beholde.
 
-- Slet `data.db` fra arbejdsbiblioteket brugt til at starte appen. Det fjerner gemte kontometadata, indstillinger, klient-id og apptilstand og nulstiller lokale indstillinger. Ved terminalstart, kontrollér dette bibliotek samt appmappen.
-- Slet `logs.txt` fra appbiblioteket. Andre logs kopieret eller gemt fra konsollen bliver på deres valgte steder.
+- Slet `data.db` og en eventuel `data-log.db` fra mappen KGS Nova under operativsystemets lokale programdata (`%LOCALAPPDATA%\KGS Nova` på Windows) for at fjerne gemte kontometadata, indstillinger, klient-id og apptilstand.
+- Slet `client.log`, `client.archive*.log` og eventuel `logs.txt` fra udviklerbyg i samme datamappe for at fjerne diagnostik. Kopier gemt andre steder bliver der.
 - Windows-adgangskoder beskyttet med DPAPI ligger i `data.db` og slettes med den. På macOS/Linux skal du særskilt slette appens Nøglering-/Secret Service-poster for tjenesten `io.github.amywarble.kgsnet.desktop.credentials` og dit KGS-brugernavn. Databasesletning fjerner ikke disse native poster.
 - Slet uønskede eksporterede spil, skærmbilleder og andre filer fra de valgte placeringer.
+
+Datamappen indeholder også arbejdsområdet `sgf`, gendannelsesfiler og sikkerhedskopier samt motor-/modelfiler i `analysis`. Gem gendannede spil, du vil beholde, før mapperne slettes. Sletning af hele KGS Nova-datamappen fjerner disse lokale data samlet.
+
+Ældre versioner brugte `data.db`, `data-log.db` og `logs.txt` i appens eller startens bibliotek. Opgradering kan efterlade dem. Sikkerhedskopiér det nødvendige, og slet også gamle kopier; ellers kan en gammel database importeres igen, når den aktuelle mangler.
 
 Afinstallation fjerner ikke nødvendigvis filer/native adgangsdata. Lokale datasletninger sletter ikke KGS-konto eller serveroptegnelser.
 

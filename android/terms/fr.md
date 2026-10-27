@@ -1,17 +1,18 @@
 ---
-source_revision: "27f67ce7fcdcfe495277fd627c8b47584c93e5f38889921759f6faba6270bfeb"
+source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
 layout: localized
 title: "Conditions d’utilisation"
 lang: "fr"
 page_key: "android/terms"
 section: "android"
-nav_order: 5
+nav_order: 11
 permalink: "/fr/terms/"
+nav_group: "policies"
 ---
 
-_En vigueur le 21 septembre 2026_
+_En vigueur le 27 octobre 2026_
 
-Ces conditions s’appliquent à Pocket KGS pour Android. Son utilisation vaut acceptation de ces conditions et des [règles de la communauté]({% include page-url.html key='android/community-guidelines' %}) ; sinon, n’utilisez pas l’application. Pocket KGS est un client indépendant, sans affiliation ni approbation de KGS. KGS définit et applique séparément ses [conditions d’utilisation](https://www.gokgs.com/tos.jsp).
+Ces conditions s’appliquent à Pocket KGS pour Android. Son utilisation vaut acceptation de ces conditions et des [règles de la communauté]({% include page-url.html key='android/community-guidelines' %}) ; sinon, n’utilisez pas l’application. Pocket KGS est officiellement approuvé par KGS. KGS définit et applique séparément ses [conditions d’utilisation](https://www.gokgs.com/tos.jsp).
 
 ## Âge et comptes
 

@@ -1,5 +1,5 @@
 ---
-source_revision: "3aa9378df5f32e6acf17ec4a44bd9f2964f9a6fed7d528cdcba256cfb2358d82"
+source_revision: "f77f4ed1d576932db0474a6793f3618116114ca1712e98af8892162d5ac9d665"
 layout: localized
 title: "Eliminación de cuentas y datos"
 lang: "es"
@@ -7,16 +7,21 @@ page_key: "desktop/account-and-data-deletion"
 section: "desktop"
 nav_order: 13
 permalink: "/es/desktop/account-and-data-deletion/"
+nav_group: "policies"
 ---
 
 ## Eliminar datos del escritorio
 
 Cierre KGS Nova y haga copia de las partidas exportadas que quiera conservar.
 
-- Borre `data.db` del directorio de trabajo usado al iniciar la aplicación: elimina metadatos de cuentas recordadas, preferencias, identificador y estado, restableciendo ajustes. Si inició desde terminal, revise ese directorio además del de la aplicación.
-- Borre `logs.txt` en el directorio de la aplicación. Los registros copiados o capturados de la consola permanecen donde los guardó.
+- Borre `data.db` y cualquier diario `data-log.db` de la carpeta KGS Nova de datos locales de aplicaciones (`%LOCALAPPDATA%\KGS Nova` en Windows) para eliminar metadatos de cuentas, preferencias, identificador y estado.
+- Para borrar diagnósticos, elimine `client.log`, `client.archive*.log` y cualquier `logs.txt` de desarrollo de la misma carpeta. Las copias guardadas en otros sitios permanecen allí.
 - En Windows, las contraseñas protegidas con DPAPI están en `data.db` y se eliminan con él. En macOS/Linux, borre aparte las entradas de Llavero/Secret Service del servicio `io.github.amywarble.kgsnet.desktop.credentials` y su usuario KGS. Borrar la base no elimina esas entradas nativas.
 - Borre partidas exportadas, capturas y otros archivos no deseados de sus ubicaciones elegidas.
+
+La carpeta contiene también el espacio `sgf`, recuperación y copias de seguridad, y los archivos de motores/modelos de `analysis`. Guarde las partidas recuperadas que quiera conservar antes de borrar esas carpetas. Borrar toda la carpeta de datos KGS Nova elimina conjuntamente estos datos locales.
+
+Versiones antiguas usaban `data.db`, `data-log.db` y `logs.txt` en el directorio de la aplicación o de inicio. Una actualización puede dejar esas copias. Tras guardar lo necesario, elimínelas también; de lo contrario, una base antigua puede volver a importarse si falta la actual.
 
 Desinstalar no elimina necesariamente archivos ni credenciales nativas. Borrar datos locales no elimina cuenta KGS ni datos del servidor.
 

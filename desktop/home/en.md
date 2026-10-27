@@ -4,14 +4,16 @@ title: "KGS Nova"
 lang: "en"
 page_key: "desktop/home"
 section: "desktop"
-nav_order: 8
+nav_order: 0
 permalink: "/desktop/"
+nav_group: "documentation"
 ---
 
-KGS Nova is an independent desktop client for the [KGS Go Server](https://www.gokgs.com/), available for Windows, macOS, and Linux. It is not affiliated with or endorsed by KGS.
+KGS Nova is a client for the [KGS Go Server](https://www.gokgs.com/) for Windows, macOS, and Linux. It is officially endorsed by KGS.
 
 These pages cover the desktop app:
 
+- [Getting started]({% include page-url.html key='desktop/help' %})
 - [Support]({% include page-url.html key='desktop/support' %})
 - [Privacy Policy]({% include page-url.html key='desktop/privacy' %})
 - [Terms of Use]({% include page-url.html key='desktop/terms' %})

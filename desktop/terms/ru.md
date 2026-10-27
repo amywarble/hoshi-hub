@@ -1,5 +1,5 @@
 ---
-source_revision: "9a0695c0e3af65c92822058810519df7dfb12fd519e95dc3e9c1915324f9739c"
+source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
 layout: localized
 title: "Условия использования"
 lang: "ru"
@@ -7,11 +7,12 @@ page_key: "desktop/terms"
 section: "desktop"
 nav_order: 11
 permalink: "/ru/desktop/terms/"
+nav_group: "policies"
 ---
 
-_Действуют с 10 октября 2026 г._
+_Действуют с 27 октября 2026 г._
 
-Условия применяются к KGS Nova для Windows, macOS и Linux. Использование означает согласие с ними и [правилами сообщества]({% include page-url.html key='desktop/community-guidelines' %}); иначе прекратите использование. Клиент независим: нет связи, одобрения, спонсорства или владения со стороны операторов KGS. Для сервиса отдельно действуют [условия KGS](https://www.gokgs.com/tos.jsp).
+Условия применяются к KGS Nova для Windows, macOS и Linux. Использование означает согласие с ними и [правилами сообщества]({% include page-url.html key='desktop/community-guidelines' %}); иначе прекратите использование. KGS Nova официально одобрен KGS. Для сервиса отдельно действуют [условия KGS](https://www.gokgs.com/tos.jsp).
 
 ## Аккаунты и допустимое использование
 

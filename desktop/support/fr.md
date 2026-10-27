@@ -5,8 +5,9 @@ title: "Assistance"
 lang: "fr"
 page_key: "desktop/support"
 section: "desktop"
-nav_order: 9
+nav_order: 2
 permalink: "/fr/desktop/support/"
+nav_group: "documentation"
 ---
 
 Pour un bogue reproductible ou une suggestion, recherchez dans les [tickets existants](https://github.com/amywarble/hoshi-hub/issues), puis [signalez un bogue](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) ou [proposez une fonction](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Indiquez version, système, architecture du processeur, résultats attendu/obtenu et étapes de reproduction.

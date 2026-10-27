@@ -1,5 +1,5 @@
 ---
-source_revision: "c0720ca8cede62afb75cc2d2bb2188cb6f42790a1a5ec1c815ee03a2934d2d54"
+source_revision: "2d36d2b70789618639852311a38a6f07a24e7e70cf3e48b416dc750ba7627c90"
 layout: localized
 title: "Política de privacidad"
 lang: "es"
@@ -7,11 +7,12 @@ page_key: "desktop/privacy"
 section: "desktop"
 nav_order: 10
 permalink: "/es/desktop/privacy/"
+nav_group: "policies"
 ---
 
-_En vigor: 10 de octubre de 2026_
+_En vigor: 27 de octubre de 2026_
 
-Esta política cubre KGS Nova para Windows, macOS y Linux, cliente independiente sin afiliación ni respaldo de KGS. KGS es un servicio separado con sus propias [condiciones y privacidad](https://www.gokgs.com/tos.jsp).
+Esta política cubre KGS Nova para Windows, macOS y Linux, cliente con el respaldo oficial de KGS. KGS es un servicio separado con sus propias [condiciones y privacidad](https://www.gokgs.com/tos.jsp).
 
 ## Información tratada
 
@@ -25,12 +26,14 @@ Sin publicidad, análisis ni subidas automáticas de fallos. El desarrollador no
 
 ## Almacenamiento y diagnóstico
 
-- **Base de datos:** `data.db` en el directorio de trabajo guarda metadatos de cuentas recordadas, identificador, preferencias y estado. No está cifrada en su totalidad.
+- **Base de datos:** `data.db`, en la carpeta KGS Nova de datos locales de aplicaciones del sistema, guarda metadatos de cuentas, identificador, preferencias y estado. En Windows es `%LOCALAPPDATA%\KGS Nova`. La base no está cifrada en su totalidad.
 - **Contraseñas:** Windows las cifra en la base con DPAPI para el usuario actual; macOS usa el Llavero y Linux Secret Service. Puede requerirse desbloqueo o permiso del sistema. Esta protección no cifra el resto de la base.
-- **Registros:** `logs.txt` en el directorio de la aplicación y salida de consola/depuración. El archivo se reemplaza al iniciar. Puede contener versiones, sistema, usuarios, identificadores de sala/partida, acciones, excepciones y datos del protocolo si falla una conexión o mensaje. No presuponga ausencia de datos personales. No se suben automáticamente.
+- **Registros:** Las versiones publicadas escriben diagnósticos de errores en `client.log` y archivos rotativos `client.archive*.log` de esa carpeta. El registro diagnóstico opcional añade eventos durante la sesión actual. Los registros de publicación conservan versión, plantillas de eventos, tipos de excepción y trazas, con un formato diseñado para omitir argumentos dinámicos, mensajes de excepción y rutas de archivos fuente. Las compilaciones de desarrollo pueden generar `logs.txt` y salida de consola/depuración más detallados. Revise los registros antes de compartirlos. No se envían automáticamente al desarrollador.
 - **Exportaciones:** partidas y otros archivos guardados expresamente permanecen en la ubicación elegida.
 
 Personas o programas con acceso a los archivos o cuenta del sistema podrían leerlos. Desinstalar o reemplazar no elimina necesariamente base, registros, exportaciones ni entradas del llavero. Consulte [eliminación de datos]({% include page-url.html key='desktop/account-and-data-deletion' %}).
+
+La carpeta contiene también el espacio `sgf`, recuperación y copias de seguridad, y los archivos de motores/modelos de `analysis`. Guarde las partidas recuperadas que quiera conservar antes de borrar esas carpetas. Borrar toda la carpeta de datos KGS Nova elimina conjuntamente estos datos locales.
 
 ## Comunicaciones y terceros
 

@@ -5,8 +5,9 @@ title: "账户与数据删除"
 lang: "zh-Hans"
 page_key: "android/account-and-data-deletion"
 section: "android"
-nav_order: 7
+nav_order: 13
 permalink: "/zh-Hans/account-and-data-deletion/"
+nav_group: "policies"
 ---
 
 _最后更新：2026年9月21日_

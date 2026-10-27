@@ -1,5 +1,5 @@
 ---
-source_revision: "c0720ca8cede62afb75cc2d2bb2188cb6f42790a1a5ec1c815ee03a2934d2d54"
+source_revision: "2d36d2b70789618639852311a38a6f07a24e7e70cf3e48b416dc750ba7627c90"
 layout: localized
 title: "Privatlivspolitik"
 lang: "da"
@@ -7,11 +7,12 @@ page_key: "desktop/privacy"
 section: "desktop"
 nav_order: 10
 permalink: "/da/desktop/privacy/"
+nav_group: "policies"
 ---
 
-_Gældende fra: 10. oktober 2026_
+_Gældende fra: 27. oktober 2026_
 
-Politikken dækker KGS Nova på Windows, macOS og Linux, en uafhængig klient uden tilknytning til eller godkendelse fra KGS. KGS er en separat tjeneste med egne [vilkår og privatlivsoplysninger](https://www.gokgs.com/tos.jsp).
+Politikken dækker KGS Nova på Windows, macOS og Linux, en klient, der er officielt anbefalet af KGS. KGS er en separat tjeneste med egne [vilkår og privatlivsoplysninger](https://www.gokgs.com/tos.jsp).
 
 ## Behandlede oplysninger
 
@@ -25,12 +26,14 @@ Ingen reklamer, analyse eller automatisk upload af nedbrud. Ingen særskilt serv
 
 ## Lokal lagring og diagnose
 
-- **Database:** `data.db` i arbejdsbiblioteket indeholder gemte kontometadata, klient-id, indstillinger og apptilstand. Hele databasen er ikke krypteret.
+- **Database:** `data.db` i mappen KGS Nova under operativsystemets lokale programdata indeholder gemte kontometadata, klient-id, indstillinger og apptilstand. På Windows er mappen `%LOCALAPPDATA%\KGS Nova`. Hele databasen er ikke krypteret.
 - **Adgangskoder:** Windows krypterer dem i databasen med DPAPI for den aktuelle bruger; macOS bruger Nøglering; Linux bruger Secret Service. Oplåsning/systemtilladelse kan være nødvendig. Resten af databasen krypteres ikke af adgangskodelagringen.
-- **Logfiler:** `logs.txt` i appbiblioteket samt konsol-/debugoutput. Filen erstattes ved start. Kan indeholde version/system, brugernavne, rum-/spil-id, handlinger, undtagelser og protokoldata ved forbindelses-/beskedfejl. Antag ikke, at logs er uden persondata. Ingen automatisk upload.
+- **Logfiler:** Udgivelser skriver fejldiagnostik til `client.log` og roterende `client.archive*.log` i samme datamappe. Valgfri diagnoselogning giver flere hændelser i den aktuelle session. Udgivelseslogs bevarer version, hændelsesskabeloner, undtagelsestyper og stakspor med et format beregnet til at udelade argumentværdier, undtagelsesbeskeder og kildefilstier. Udviklerbyg kan give mere detaljeret `logs.txt` og konsol-/debugoutput. Gennemgå logs før deling. Ingen automatisk upload til udvikleren.
 - **Eksporter:** spil og andre udtrykkeligt gemte filer bliver, hvor du valgte.
 
 Personer/software med fil- eller systemkontoadgang kan muligvis læse data. Afinstallation/udskiftning fjerner ikke nødvendigvis database, logs, eksporter eller nøgleringsposter. Se [slettevejledningen]({% include page-url.html key='desktop/account-and-data-deletion' %}).
+
+Datamappen indeholder også arbejdsområdet `sgf`, gendannelsesfiler og sikkerhedskopier samt motor-/modelfiler i `analysis`. Gem gendannede spil, du vil beholde, før mapperne slettes. Sletning af hele KGS Nova-datamappen fjerner disse lokale data samlet.
 
 ## Kommunikation og tredjeparter
 

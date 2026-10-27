@@ -1,17 +1,18 @@
 ---
-source_revision: "27f67ce7fcdcfe495277fd627c8b47584c93e5f38889921759f6faba6270bfeb"
+source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
 layout: localized
 title: "Nutzungsbedingungen"
 lang: "de"
 page_key: "android/terms"
 section: "android"
-nav_order: 5
+nav_order: 11
 permalink: "/de/terms/"
+nav_group: "policies"
 ---
 
-_Gültig ab: 21. September 2026_
+_Gültig ab: 27. Oktober 2026_
 
-Diese Nutzungsbedingungen gelten für die Android-App Pocket KGS. Mit ihrer Nutzung stimmen Sie ihnen und den [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}) zu. Ohne Zustimmung dürfen Sie die App nicht verwenden. Pocket KGS ist ein unabhängiger Client für den KGS Go Server, ohne Verbindung zu oder Unterstützung durch KGS. Für KGS gelten zusätzlich dessen eigene [Nutzungsbedingungen](https://www.gokgs.com/tos.jsp), die KGS festlegt und durchsetzt.
+Diese Nutzungsbedingungen gelten für die Android-App Pocket KGS. Mit ihrer Nutzung stimmen Sie ihnen und den [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}) zu. Ohne Zustimmung dürfen Sie die App nicht verwenden. Pocket KGS ist ein Client für den KGS Go Server und wird offiziell von KGS empfohlen. Für KGS gelten zusätzlich dessen eigene [Nutzungsbedingungen](https://www.gokgs.com/tos.jsp), die KGS festlegt und durchsetzt.
 
 ## Teilnahme und Konten
 

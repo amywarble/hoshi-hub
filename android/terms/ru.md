@@ -1,17 +1,18 @@
 ---
-source_revision: "27f67ce7fcdcfe495277fd627c8b47584c93e5f38889921759f6faba6270bfeb"
+source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
 layout: localized
 title: "Условия использования"
 lang: "ru"
 page_key: "android/terms"
 section: "android"
-nav_order: 5
+nav_order: 11
 permalink: "/ru/terms/"
+nav_group: "policies"
 ---
 
-_Действуют с 21 сентября 2026 г._
+_Действуют с 27 октября 2026 г._
 
-Условия применяются к Pocket KGS для Android. Использование означает согласие с ними и [правилами сообщества]({% include page-url.html key='android/community-guidelines' %}); иначе не используйте приложение. Это независимый клиент без связи и одобрения KGS. Использование KGS также регулируют его собственные [условия обслуживания](https://www.gokgs.com/tos.jsp), устанавливаемые и исполняемые KGS.
+Условия применяются к Pocket KGS для Android. Использование означает согласие с ними и [правилами сообщества]({% include page-url.html key='android/community-guidelines' %}); иначе не используйте приложение. Это клиент, официально одобренный KGS. Использование KGS также регулируют его собственные [условия обслуживания](https://www.gokgs.com/tos.jsp), устанавливаемые и исполняемые KGS.
 
 ## Возраст и учётные записи
 

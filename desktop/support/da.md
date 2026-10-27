@@ -5,8 +5,9 @@ title: "Support"
 lang: "da"
 page_key: "desktop/support"
 section: "desktop"
-nav_order: 9
+nav_order: 2
 permalink: "/da/desktop/support/"
+nav_group: "documentation"
 ---
 
 Ved reproducerbare fejl/ønsker, søg i [eksisterende sager](https://github.com/amywarble/hoshi-hub/issues), og [rapportér en fejl](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) eller [ønsk en funktion](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Medtag version, system, processorarkitektur, forventet/faktisk resultat og trin til genskabelse.

@@ -1,17 +1,18 @@
 ---
-source_revision: "d6af0143a1e9eaabd1ffd1cb7c13389da26853a7ce6ab3ca381060ce302d9ad0"
+source_revision: "1ea1406557dd0aedaa3365f2977f3ad59b019646d739221b9e7e12a0593d0e87"
 layout: localized
 title: "隐私政策"
 lang: "zh-Hans"
 page_key: "android/privacy"
 section: "android"
-nav_order: 4
+nav_order: 10
 permalink: "/zh-Hans/privacy/"
+nav_group: "policies"
 ---
 
-_生效日期：2026年9月23日_
+_生效日期：2026年10月27日_
 
-Pocket KGS 是 KGS Go Server（“KGS”）的独立 Android 客户端，与 KGS 无隶属关系，也未获其认可。本政策说明应用处理哪些信息、用途、去向以及您的选择，适用于 Pocket KGS 和本支持网站。KGS 是独立服务，有自己的 [服务和隐私条款](https://www.gokgs.com/tos.jsp)。
+Pocket KGS 是 KGS Go Server（“KGS”）的 Android 客户端，已获得 KGS 官方认可。本政策说明应用处理哪些信息、用途、去向以及您的选择，适用于 Pocket KGS 和本支持网站。KGS 是独立服务，有自己的 [服务和隐私条款](https://www.gokgs.com/tos.jsp)。
 
 ## 谁处理您的数据
 
@@ -29,7 +30,7 @@ Pocket KGS 是 KGS Go Server（“KGS”）的独立 Android 客户端，与 KGS
 - **设备与连接：** 持久 KGS 客户端标识、应用／协议版本、语言与地区、操作系统及版本、处理器架构、运行时供应商与版本、网络状态以及建立连接所需信息。连接时 KGS 必然收到您的 IP 地址。
 - **通知：** 本地保存的、允许触发 Android 通知的 KGS 事件选择。
 - **本地缓存：** 为高效运行保存的头像和应用设置。
-- **诊断日志：** 正式版向 Android 系统日志写入有限诊断信息。发布构建中禁用 KGS 协议层日志；正式日志的设计不记录 KGS 协议事件或消息载荷。日志限于 Android／界面信息事件，以及界面和客户端层的警告或错误。故障相关信息可能含 KGS 用户名、房间／对局／频道标识、操作、Android 状态和异常详情。不会自动上传给开发者。Android、设备管理员或您主动提供日志的人可能访问日志。
+- **诊断日志：** 正式版向 Android 系统日志写入错误诊断。可选诊断日志会在当前会话记录更多事件。日志保留版本、事件模板、异常类型和堆栈，格式设计为省略运行时参数值、异常消息和源文件路径。分享前请检查日志。Pocket KGS 不会自动上传。Android、设备管理员或您主动提供日志的人可能访问日志。
 
 ## 信息用途
 

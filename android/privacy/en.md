@@ -4,13 +4,14 @@ title: "Privacy Policy"
 lang: "en"
 page_key: "android/privacy"
 section: "android"
-nav_order: 4
+nav_order: 10
 permalink: "/privacy/"
+nav_group: "policies"
 ---
 
-_Effective: September 23, 2026_
+_Effective: October 27, 2026_
 
-Pocket KGS is an independent Android client that connects you to the KGS Go Server ("KGS"). Pocket KGS is not affiliated with or endorsed by KGS. This policy explains what information the Pocket KGS app handles, why it handles it, where it goes, and the choices available to you.
+Pocket KGS is an Android client for the KGS Go Server ("KGS") and is officially endorsed by KGS. This policy explains what information the Pocket KGS app handles, why it handles it, where it goes, and the choices available to you.
 
 This policy covers Pocket KGS and this support website. KGS is a separate service with its own [Terms of Service and privacy terms](https://www.gokgs.com/tos.jsp).
 
@@ -32,7 +33,7 @@ Depending on the features you use, Pocket KGS handles the following information:
 - **Device and connection information:** a persistent KGS client identifier, app and protocol version, language/locale, operating system and version, processor architecture, runtime vendor/version, network status, and information needed to establish a connection. KGS necessarily receives your IP address when you connect.
 - **Notification information:** locally stored choices about which KGS events may produce Android notifications.
 - **Locally cached content:** avatars and app preferences used to make the app function efficiently.
-- **Diagnostic logs:** production releases write a limited set of diagnostic information to Android's system log. KGS protocol-layer logging is disabled in release builds, and production logging is designed not to record KGS protocol events or message payloads. Logs are limited to Android/UI informational events and warnings or errors from the app's UI and client layers. They may include a KGS username, room/game/channel identifiers, app actions, Android state, and exception details when relevant to a failure. Pocket KGS does not automatically upload these logs to the developer. Android, your device administrator, or a person to whom you deliberately provide a log may be able to access them.
+- **Diagnostic logs:** Production releases write error diagnostics to Android’s system log. Optional diagnostic logging enables more detailed events for the current session. Release logs retain version information, event templates, exception types, and stack traces, with a layout designed to omit runtime argument values, exception messages, and source-file paths. Review logs before sharing them. Pocket KGS does not automatically upload logs to the developer. Android, your device administrator, or someone to whom you provide a log may be able to access them.
 
 ## How information is used
 

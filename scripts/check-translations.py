@@ -11,8 +11,8 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 LANGUAGES = json.loads((ROOT / '_data/languages.json').read_text(encoding='utf-8'))
 SECTIONS = ('global', 'android', 'desktop', 'gtp')
-PAGE_NAMES = ('home', 'support', 'privacy', 'terms', 'community-guidelines', 'account-and-data-deletion')
-LOCALIZED_KEYS = {'global/home', 'global/security-policy'} | {
+PAGE_NAMES = ('home', 'help', 'support', 'privacy', 'terms', 'community-guidelines', 'account-and-data-deletion')
+LOCALIZED_KEYS = {'global/home', 'global/security-policy', 'global/community-guidelines'} | {
     f'{section}/{name}' for section in ('android', 'desktop') for name in PAGE_NAMES
 }
 ENGLISH_ONLY_KEYS = {'gtp/home', 'gtp/user-guide', 'gtp/upgrade-guide'}
@@ -34,6 +34,7 @@ def read_page(path):
     metadata = {}
     for line in front.strip().splitlines():
         name, value = line.split(':', 1)
+        assert name not in metadata, f'{path}: duplicate front matter field {name}'
         value = value.strip()
         metadata[name] = json.loads(value) if value.startswith('"') or value.isdigit() else value
     return metadata, body.strip()
@@ -42,6 +43,10 @@ def read_page(path):
 def expected_url(key, lang):
     if key == 'global/home':
         route = '/'
+    elif key == 'global/community-guidelines':
+        route = '/shared/community-guidelines/'
+    elif key == 'android/help':
+        route = '/android/help/'
     elif key.endswith('/home'):
         route = f'/{key.split("/")[0]}/'
     elif key.startswith(('global/', 'android/')):
@@ -111,6 +116,9 @@ def check_sources():
             assert key == path.parent.relative_to(ROOT).as_posix(), f'{path}: folder does not match page key'
             assert data['section'] == section, f'{path}: incorrect section'
             assert data['layout'] == 'localized', f'{path}: incorrect layout'
+            if section in ('android', 'desktop'):
+                group = 'documentation' if path.parent.name in ('home', 'help', 'support') else 'policies'
+                assert data.get('nav_group') == group, f'{path}: incorrect navigation group'
             assert data['permalink'] == expected_url(key, lang), f'{path}: route changed'
             assert data['permalink'] not in routes, f'{path}: duplicate route'
             routes.add(data['permalink'])

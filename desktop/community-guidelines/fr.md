@@ -1,5 +1,5 @@
 ---
-source_revision: "cb652ff551192fa76b9f5d6c0dcf04a7d1229ec0b79961a67d8bc041b83c3351"
+source_revision: "2fa87852fe31f1892377c905c7727085c7b0e43261bb1b9363aeb450cf3b4982"
 layout: localized
 title: "Règles de la communauté"
 lang: "fr"
@@ -7,18 +7,17 @@ page_key: "desktop/community-guidelines"
 section: "desktop"
 nav_order: 12
 permalink: "/fr/desktop/community-guidelines/"
+nav_group: "policies"
 ---
 
-_En vigueur le 10 octobre 2026_
+_En vigueur le 27 octobre 2026_
 
-KGS Nova affiche salons publics, discussions de parties, messages privés, profils, avatars et autres contenus KGS. Respectez autrui, les [conditions KGS](https://www.gokgs.com/tos.jsp) et les [conditions de l’application]({% include page-url.html key='desktop/terms' %}).
+Respectez les [règles de la communauté partagées]({% include page-url.html key='global/community-guidelines' %}), communes à Pocket KGS et KGS Nova, ainsi que les [conditions d’utilisation]({% include page-url.html key='desktop/terms' %}) de cette application.
 
-Ne publiez ni ne promouvez harcèlement, menaces, haine, exploitation sexuelle, contenus illégaux, pornographie, escroqueries, spam, logiciels malveillants, usurpation ou données privées d’autrui. Ne trichez pas, ne manipulez pas les classements et ne perturbez pas les parties/salons. Suivez les instructions raisonnables des administrateurs.
-
-## Blocage et signalement
+## Bloquer et signaler dans KGS Nova
 
 **Censor** sur un profil bloque les interactions et masque les contenus pris en charge ; ce choix est réversible. Les préférences de messages privés limitent les nouvelles conversations.
 
-Les administrateurs KGS gèrent contenus et comptes. Contactez en privé un administrateur ou assistant ; une étoile identifie les administrateurs dans les listes. Sinon écrivez à [admin@gokgs.com](mailto:admin@gokgs.com) avec nom, heure approximative, salon/partie et description factuelle. Ne republiez pas de contenus nuisibles ou privés.
+Ouvrez **Obtenir de l’aide → Contacter les administrateurs** et envoyez un message bref et factuel à AdminBot pour les administrateurs KGS. Précisez le nom d’utilisateur, l’heure approximative, le salon ou la partie et les faits. Vous pouvez compléter la conversation avec AdminBot. Vérifiez la confirmation d’envoi ; en cas d’échec, contactez directement un administrateur ou [admin@gokgs.com](mailto:admin@gokgs.com).
 
-Questions sensibles sur l’application : [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). Réservez les tickets publics aux défauts de l’application, sans contenu personnel. Danger immédiat : contactez les secours locaux.
+[Assistance]({% include page-url.html key='desktop/support' %})

@@ -1,5 +1,5 @@
 ---
-source_revision: "9a0695c0e3af65c92822058810519df7dfb12fd519e95dc3e9c1915324f9739c"
+source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
 layout: localized
 title: "使用条款"
 lang: "zh-Hans"
@@ -7,11 +7,12 @@ page_key: "desktop/terms"
 section: "desktop"
 nav_order: 11
 permalink: "/zh-Hans/desktop/terms/"
+nav_group: "policies"
 ---
 
-_生效日期：2026年10月10日_
+_生效日期：2026年10月27日_
 
-本条款适用于 Windows、macOS 和 Linux 版 KGS Nova。使用即同意本条款和 [社区准则]({% include page-url.html key='desktop/community-guidelines' %})；否则请停止使用。应用独立，与 KGS 运营者无隶属、认可、赞助或所有权关系。服务另受 [KGS 条款](https://www.gokgs.com/tos.jsp) 管辖。
+本条款适用于 Windows、macOS 和 Linux 版 KGS Nova。使用即同意本条款和 [社区准则]({% include page-url.html key='desktop/community-guidelines' %})；否则请停止使用。KGS Nova 已获得 KGS 官方认可。服务另受 [KGS 条款](https://www.gokgs.com/tos.jsp) 管辖。
 
 ## 账户和合理使用
 

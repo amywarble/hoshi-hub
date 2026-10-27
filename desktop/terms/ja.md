@@ -1,5 +1,5 @@
 ---
-source_revision: "9a0695c0e3af65c92822058810519df7dfb12fd519e95dc3e9c1915324f9739c"
+source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
 layout: localized
 title: "利用規約"
 lang: "ja"
@@ -7,11 +7,12 @@ page_key: "desktop/terms"
 section: "desktop"
 nav_order: 11
 permalink: "/ja/desktop/terms/"
+nav_group: "policies"
 ---
 
-_施行日：2026年10月10日_
+_施行日：2026年10月27日_
 
-本規約は Windows、macOS、Linux 用 KGS Nova に適用されます。利用により本規約と [ガイドライン]({% include page-url.html key='desktop/community-guidelines' %}) に同意するものとし、同意しなければ使用を中止してください。KGS Nova は独立しており、KGS 運営者と提携せず、公認・支援・所有も受けていません。KGS 自体は別途 [KGS 規約](https://www.gokgs.com/tos.jsp) に従います。
+本規約は Windows、macOS、Linux 用 KGS Nova に適用されます。利用により本規約と [ガイドライン]({% include page-url.html key='desktop/community-guidelines' %}) に同意するものとし、同意しなければ使用を中止してください。KGS Nova は KGS の公式な承認を受けています。KGS 自体は別途 [KGS 規約](https://www.gokgs.com/tos.jsp) に従います。
 
 ## アカウントと適正な利用
 

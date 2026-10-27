@@ -1,17 +1,18 @@
 ---
-source_revision: "d6af0143a1e9eaabd1ffd1cb7c13389da26853a7ce6ab3ca381060ce302d9ad0"
+source_revision: "1ea1406557dd0aedaa3365f2977f3ad59b019646d739221b9e7e12a0593d0e87"
 layout: localized
 title: "Política de privacidad"
 lang: "es"
 page_key: "android/privacy"
 section: "android"
-nav_order: 4
+nav_order: 10
 permalink: "/es/privacy/"
+nav_group: "policies"
 ---
 
-_En vigor: 23 de septiembre de 2026_
+_En vigor: 27 de octubre de 2026_
 
-Pocket KGS es un cliente Android independiente del KGS Go Server («KGS»), sin afiliación ni respaldo de KGS. Esta política explica qué información trata, para qué, adónde se envía y sus opciones. Cubre Pocket KGS y este sitio de ayuda. KGS es un servicio separado con sus propias [condiciones de servicio y privacidad](https://www.gokgs.com/tos.jsp).
+Pocket KGS es un cliente Android del KGS Go Server («KGS»), con el respaldo oficial de KGS. Esta política explica qué información trata, para qué, adónde se envía y sus opciones. Cubre Pocket KGS y este sitio de ayuda. KGS es un servicio separado con sus propias [condiciones de servicio y privacidad](https://www.gokgs.com/tos.jsp).
 
 ## Quién trata los datos
 
@@ -29,7 +30,7 @@ Según las funciones utilizadas:
 - **Dispositivo y conexión:** identificador KGS persistente del cliente, versiones de aplicación/protocolo, idioma/región, sistema operativo y versión, arquitectura del procesador, proveedor/versión del entorno de ejecución, estado de red y datos necesarios para conectarse. KGS recibe necesariamente su dirección IP.
 - **Notificaciones:** preferencias locales sobre qué eventos KGS pueden generar notificaciones Android.
 - **Caché local:** avatares y preferencias para el funcionamiento eficiente de la aplicación.
-- **Diagnóstico:** las versiones de producción escriben información limitada en el registro del sistema Android. El registro de la capa de protocolo KGS está desactivado en las versiones publicadas; los registros de producción están diseñados para no contener eventos del protocolo ni cargas de mensajes. Se limitan a eventos informativos Android/interfaz y avisos o errores de las capas interfaz/cliente. Pueden incluir usuario KGS, identificadores de sala/partida/canal, acciones, estado Android y excepciones pertinentes a un fallo. No se suben automáticamente al desarrollador. Android, el administrador del dispositivo o quien reciba voluntariamente un registro pueden acceder a ellos.
+- **Diagnóstico:** Las versiones publicadas escriben diagnósticos de errores en el registro del sistema Android. El registro diagnóstico opcional añade eventos durante la sesión actual. Los registros conservan versión, plantillas de eventos, tipos de excepción y trazas, con un formato diseñado para omitir argumentos dinámicos, mensajes de excepción y rutas de archivos fuente. Revíselos antes de compartirlos. Pocket KGS no los sube automáticamente. Android, el administrador del dispositivo o quien reciba un registro suyo podría acceder a él.
 
 ## Uso de la información
 

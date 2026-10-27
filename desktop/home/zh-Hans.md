@@ -1,18 +1,20 @@
 ---
-source_revision: "e6bb0fa3a65a49d1ffc994c8f4447f8f9834853092ba9c17b356ea070dad2940"
+source_revision: "d1a3b3dd378f6c8213b2ccc1cd07e123ce698663f0f8d208fbb9979c2c7218f3"
 layout: localized
 title: "KGS Nova"
 lang: "zh-Hans"
 page_key: "desktop/home"
 section: "desktop"
-nav_order: 8
+nav_order: 0
 permalink: "/zh-Hans/desktop/"
+nav_group: "documentation"
 ---
 
-KGS Nova 是适用于 Windows、macOS 和 Linux 的独立 [KGS Go Server](https://www.gokgs.com/) 客户端，与 KGS 无隶属关系，也未获其认可。
+KGS Nova 是适用于 Windows、macOS 和 Linux 的 [KGS Go Server](https://www.gokgs.com/) 客户端，已获得 KGS 官方认可。
 
 以下页面适用于桌面版：
 
+- [入门指南]({% include page-url.html key='desktop/help' %})
 - [支持]({% include page-url.html key='desktop/support' %})
 - [隐私政策]({% include page-url.html key='desktop/privacy' %})
 - [使用条款]({% include page-url.html key='desktop/terms' %})

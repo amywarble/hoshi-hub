@@ -5,8 +5,9 @@ title: "支持"
 lang: "zh-Hans"
 page_key: "desktop/support"
 section: "desktop"
-nav_order: 9
+nav_order: 2
 permalink: "/zh-Hans/desktop/support/"
+nav_group: "documentation"
 ---
 
 对于可复现错误或建议，请先搜索 [已有问题](https://github.com/amywarble/hoshi-hub/issues)，再 [报告桌面错误](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) 或 [提出功能建议](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md)。包含版本、操作系统、处理器架构、预期／实际结果和复现步骤。

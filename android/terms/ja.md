@@ -1,17 +1,18 @@
 ---
-source_revision: "27f67ce7fcdcfe495277fd627c8b47584c93e5f38889921759f6faba6270bfeb"
+source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
 layout: localized
 title: "利用規約"
 lang: "ja"
 page_key: "android/terms"
 section: "android"
-nav_order: 5
+nav_order: 11
 permalink: "/ja/terms/"
+nav_group: "policies"
 ---
 
-_施行日：2026年9月21日_
+_施行日：2026年10月27日_
 
-本規約は Android 用 Pocket KGS に適用されます。利用により本規約と [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) に同意したものとします。同意しない場合は使用しないでください。Pocket KGS は独立したクライアントであり、KGS と提携せず、公認も受けていません。KGS の利用には、KGS が定め実施する独自の [利用規約](https://www.gokgs.com/tos.jsp) も適用されます。
+本規約は Android 用 Pocket KGS に適用されます。利用により本規約と [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) に同意したものとします。同意しない場合は使用しないでください。Pocket KGS は KGS の公式な承認を受けています。KGS の利用には、KGS が定め実施する独自の [利用規約](https://www.gokgs.com/tos.jsp) も適用されます。
 
 ## 年齢とアカウント
 

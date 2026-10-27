@@ -1,17 +1,18 @@
 ---
-source_revision: "27f67ce7fcdcfe495277fd627c8b47584c93e5f38889921759f6faba6270bfeb"
+source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
 layout: localized
 title: "使用条款"
 lang: "zh-Hans"
 page_key: "android/terms"
 section: "android"
-nav_order: 5
+nav_order: 11
 permalink: "/zh-Hans/terms/"
+nav_group: "policies"
 ---
 
-_生效日期：2026年9月21日_
+_生效日期：2026年10月27日_
 
-本条款适用于 Android 版 Pocket KGS。使用即表示同意本条款和 [社区准则]({% include page-url.html key='android/community-guidelines' %})；如不同意，请勿使用。Pocket KGS 为独立客户端，与 KGS 无隶属关系，也未获其认可。使用 KGS 还须遵守由 KGS 制定和执行的 [服务条款](https://www.gokgs.com/tos.jsp)。
+本条款适用于 Android 版 Pocket KGS。使用即表示同意本条款和 [社区准则]({% include page-url.html key='android/community-guidelines' %})；如不同意，请勿使用。Pocket KGS 已获得 KGS 官方认可。使用 KGS 还须遵守由 KGS 制定和执行的 [服务条款](https://www.gokgs.com/tos.jsp)。
 
 ## 资格与账户
 

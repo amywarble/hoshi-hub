@@ -1,17 +1,18 @@
 ---
-source_revision: "d6af0143a1e9eaabd1ffd1cb7c13389da26853a7ce6ab3ca381060ce302d9ad0"
+source_revision: "1ea1406557dd0aedaa3365f2977f3ad59b019646d739221b9e7e12a0593d0e87"
 layout: localized
 title: "Politique de confidentialité"
 lang: "fr"
 page_key: "android/privacy"
 section: "android"
-nav_order: 4
+nav_order: 10
 permalink: "/fr/privacy/"
+nav_group: "policies"
 ---
 
-_En vigueur le 23 septembre 2026_
+_En vigueur le 27 octobre 2026_
 
-Pocket KGS est un client Android indépendant du KGS Go Server (« KGS »), sans affiliation ni approbation de KGS. Cette politique décrit les informations traitées, leurs usages, leurs destinataires et vos choix. Elle couvre Pocket KGS et ce site d’assistance. KGS est un service distinct avec ses propres [conditions d’utilisation et de confidentialité](https://www.gokgs.com/tos.jsp).
+Pocket KGS est un client Android du KGS Go Server (« KGS »), officiellement approuvé par KGS. Cette politique décrit les informations traitées, leurs usages, leurs destinataires et vos choix. Elle couvre Pocket KGS et ce site d’assistance. KGS est un service distinct avec ses propres [conditions d’utilisation et de confidentialité](https://www.gokgs.com/tos.jsp).
 
 ## Responsabilité des données
 
@@ -29,7 +30,7 @@ Selon les fonctions utilisées :
 - **Appareil et connexion :** identifiant client KGS persistant, versions de l’application et du protocole, langue/région, système et version, architecture du processeur, fournisseur/version de l’environnement d’exécution, état réseau et données nécessaires à la connexion. KGS reçoit nécessairement votre adresse IP.
 - **Notifications :** choix locaux des événements KGS pouvant déclencher des notifications Android.
 - **Cache local :** avatars et préférences nécessaires au bon fonctionnement.
-- **Journaux de diagnostic :** les versions de production écrivent des informations limitées dans le journal système Android. La journalisation de la couche protocole KGS est désactivée dans les versions publiées ; les journaux de production sont conçus pour ne pas enregistrer d’événements du protocole KGS ni de contenus de messages. Ils se limitent aux informations Android/interface et aux avertissements ou erreurs des couches interface/client. Ils peuvent contenir nom KGS, identifiants de salon/partie/canal, actions, état Android et exceptions liés à une panne. Aucun envoi automatique au développeur. Android, l’administrateur de votre appareil ou une personne à qui vous fournissez volontairement un journal peuvent y accéder.
+- **Journaux de diagnostic :** Les versions publiées écrivent les diagnostics d’erreur dans le journal système Android. La journalisation diagnostique facultative ajoute des événements pour la session en cours. Les journaux conservent version, modèles d’événements, types d’exceptions et traces de pile, avec un format conçu pour omettre valeurs d’arguments, messages d’exceptions et chemins des fichiers source. Relisez-les avant partage. Pocket KGS ne les envoie pas automatiquement. Android, l’administrateur de l’appareil ou une personne à qui vous les fournissez peuvent y accéder.
 
 ## Utilisation
 

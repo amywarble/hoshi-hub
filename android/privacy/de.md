@@ -1,17 +1,18 @@
 ---
-source_revision: "d6af0143a1e9eaabd1ffd1cb7c13389da26853a7ce6ab3ca381060ce302d9ad0"
+source_revision: "1ea1406557dd0aedaa3365f2977f3ad59b019646d739221b9e7e12a0593d0e87"
 layout: localized
 title: "Datenschutzerklärung"
 lang: "de"
 page_key: "android/privacy"
 section: "android"
-nav_order: 4
+nav_order: 10
 permalink: "/de/privacy/"
+nav_group: "policies"
 ---
 
-_Gültig ab: 23. September 2026_
+_Gültig ab: 27. Oktober 2026_
 
-Pocket KGS ist ein unabhängiger Android-Client für den KGS Go Server („KGS“), ohne Verbindung zu oder Unterstützung durch KGS. Diese Erklärung beschreibt, welche Informationen die App verarbeitet, warum, wohin sie gelangen und welche Wahlmöglichkeiten Sie haben. Sie gilt für Pocket KGS und diese Support-Website. KGS ist ein eigenständiger Dienst mit eigenen [Nutzungs- und Datenschutzbedingungen](https://www.gokgs.com/tos.jsp).
+Pocket KGS ist ein offiziell von KGS empfohlener Android-Client für den KGS Go Server („KGS“). Diese Erklärung beschreibt, welche Informationen die App verarbeitet, warum, wohin sie gelangen und welche Wahlmöglichkeiten Sie haben. Sie gilt für Pocket KGS und diese Support-Website. KGS ist ein eigenständiger Dienst mit eigenen [Nutzungs- und Datenschutzbedingungen](https://www.gokgs.com/tos.jsp).
 
 ## Wer Ihre Daten verarbeitet
 
@@ -29,7 +30,7 @@ Je nach verwendeten Funktionen verarbeitet Pocket KGS:
 - **Geräte- und Verbindungsdaten:** dauerhafte KGS-Client-Kennung, App-/Protokollversion, Sprache/Region, Betriebssystem und Version, Prozessorarchitektur, Laufzeitanbieter und -version, Netzwerkstatus und zum Verbindungsaufbau notwendige Angaben. KGS erhält beim Verbinden zwangsläufig Ihre IP-Adresse.
 - **Benachrichtigungen:** lokal gespeicherte Auswahl der KGS-Ereignisse, die Android-Benachrichtigungen auslösen dürfen.
 - **Zwischenspeicher:** Avatare und App-Einstellungen für einen effizienten Betrieb.
-- **Diagnoseprotokolle:** Produktionsversionen schreiben begrenzte Diagnosedaten in das Android-Systemprotokoll. KGS-Protokollschicht-Logging ist in Release-Builds deaktiviert; Produktionsprotokolle sollen keine KGS-Protokollereignisse oder Nachrichteninhalte enthalten. Erfasst werden Android-/UI-Informationen sowie Warnungen und Fehler der UI-/Client-Schichten. Bei Fehlern können KGS-Nutzername, Raum-/Spiel-/Kanal-IDs, App-Aktionen, Android-Zustand und Ausnahmedetails enthalten sein. Keine automatische Übermittlung an den Entwickler. Android, Ihr Geräteadministrator oder Personen, denen Sie ein Protokoll ausdrücklich geben, können darauf zugreifen.
+- **Diagnoseprotokolle:** Veröffentlichte Builds schreiben Fehlerdiagnosen ins Android-Systemprotokoll. Optionale Diagnoseprotokollierung erfasst mehr Ereignisse für die aktuelle Sitzung. Release-Logs enthalten Version, Ereignisvorlagen, Ausnahmetypen und Stacktraces; das Format soll Laufzeitargumente, Ausnahmemeldungen und Quelldateipfade auslassen. Prüfen Sie Logs vor dem Teilen. Pocket KGS übermittelt sie nicht automatisch. Android, Geräteadministratoren oder Personen, denen Sie Logs geben, können Zugriff haben.
 
 ## Verwendungszwecke
 

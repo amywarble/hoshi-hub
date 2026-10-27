@@ -1,17 +1,18 @@
 ---
-source_revision: "27f67ce7fcdcfe495277fd627c8b47584c93e5f38889921759f6faba6270bfeb"
+source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
 layout: localized
 title: "Brugsvilkår"
 lang: "da"
 page_key: "android/terms"
 section: "android"
-nav_order: 5
+nav_order: 11
 permalink: "/da/terms/"
+nav_group: "policies"
 ---
 
-_Gældende fra: 21. september 2026_
+_Gældende fra: 27. oktober 2026_
 
-Disse vilkår gælder Pocket KGS til Android. Brug indebærer accept af dem og [fællesskabsreglerne]({% include page-url.html key='android/community-guidelines' %}); ellers må du ikke bruge appen. Pocket KGS er uafhængig uden tilknytning til eller godkendelse fra KGS. KGS fastsætter og håndhæver selv sine [servicevilkår](https://www.gokgs.com/tos.jsp), som også gælder din KGS-brug.
+Disse vilkår gælder Pocket KGS til Android. Brug indebærer accept af dem og [fællesskabsreglerne]({% include page-url.html key='android/community-guidelines' %}); ellers må du ikke bruge appen. Pocket KGS er officielt anbefalet af KGS. KGS fastsætter og håndhæver selv sine [servicevilkår](https://www.gokgs.com/tos.jsp), som også gælder din KGS-brug.
 
 ## Alder og konti
 

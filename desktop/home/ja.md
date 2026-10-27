@@ -1,18 +1,20 @@
 ---
-source_revision: "e6bb0fa3a65a49d1ffc994c8f4447f8f9834853092ba9c17b356ea070dad2940"
+source_revision: "d1a3b3dd378f6c8213b2ccc1cd07e123ce698663f0f8d208fbb9979c2c7218f3"
 layout: localized
 title: "KGS Nova"
 lang: "ja"
 page_key: "desktop/home"
 section: "desktop"
-nav_order: 8
+nav_order: 0
 permalink: "/ja/desktop/"
+nav_group: "documentation"
 ---
 
-KGS Nova は Windows、macOS、Linux 用の独立した [KGS Go Server](https://www.gokgs.com/) クライアントです。KGS との提携関係や公認はありません。
+KGS Nova は Windows、macOS、Linux 用の [KGS Go Server](https://www.gokgs.com/) クライアントです。KGS の公式な承認を受けています。
 
 デスクトップ版については次をご覧ください。
 
+- [はじめに]({% include page-url.html key='desktop/help' %})
 - [サポート]({% include page-url.html key='desktop/support' %})
 - [プライバシー]({% include page-url.html key='desktop/privacy' %})
 - [利用規約]({% include page-url.html key='desktop/terms' %})

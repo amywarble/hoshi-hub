@@ -4,15 +4,16 @@ title: "Terms of Use"
 lang: "en"
 page_key: "android/terms"
 section: "android"
-nav_order: 5
+nav_order: 11
 permalink: "/terms/"
+nav_group: "policies"
 ---
 
-_Effective: September 21, 2026_
+_Effective: October 27, 2026_
 
 These Terms of Use ("Terms") apply to the Pocket KGS Android app. By using Pocket KGS, you agree to these Terms and the [Community Guidelines]({% include page-url.html key='android/community-guidelines' %}). If you do not agree, do not use the app.
 
-Pocket KGS is an independent client for the KGS Go Server. It is not affiliated with or endorsed by KGS. Your use of KGS is also subject to the [KGS Terms of Service](https://www.gokgs.com/tos.jsp), which are controlled and enforced by KGS.
+Pocket KGS is a client for the KGS Go Server and is officially endorsed by KGS. Your use of KGS is also subject to the [KGS Terms of Service](https://www.gokgs.com/tos.jsp), which are controlled and enforced by KGS.
 
 ## Eligibility and accounts
 

@@ -5,8 +5,9 @@ title: "支持"
 lang: "zh-Hans"
 page_key: "android/support"
 section: "android"
-nav_order: 3
+nav_order: 2
 permalink: "/zh-Hans/support/"
+nav_group: "documentation"
 ---
 
 ## Pocket KGS 应用帮助

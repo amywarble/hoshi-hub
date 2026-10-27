@@ -5,8 +5,9 @@ title: "Support"
 lang: "de"
 page_key: "android/support"
 section: "android"
-nav_order: 3
+nav_order: 2
 permalink: "/de/support/"
+nav_group: "documentation"
 ---
 
 ## Hilfe zur App Pocket KGS

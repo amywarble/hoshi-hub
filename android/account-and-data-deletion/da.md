@@ -5,8 +5,9 @@ title: "Sletning af konto og data"
 lang: "da"
 page_key: "android/account-and-data-deletion"
 section: "android"
-nav_order: 7
+nav_order: 13
 permalink: "/da/account-and-data-deletion/"
+nav_group: "policies"
 ---
 
 _Senest opdateret: 21. september 2026_

@@ -1,5 +1,5 @@
 ---
-source_revision: "9a0695c0e3af65c92822058810519df7dfb12fd519e95dc3e9c1915324f9739c"
+source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
 layout: localized
 title: "Condiciones de uso"
 lang: "es"
@@ -7,11 +7,12 @@ page_key: "desktop/terms"
 section: "desktop"
 nav_order: 11
 permalink: "/es/desktop/terms/"
+nav_group: "policies"
 ---
 
-_En vigor: 10 de octubre de 2026_
+_En vigor: 27 de octubre de 2026_
 
-Estas condiciones cubren KGS Nova para Windows, macOS y Linux. Usarlo supone aceptarlas junto con las [normas comunitarias]({% include page-url.html key='desktop/community-guidelines' %}); de lo contrario, deje de usarlo. KGS Nova es independiente: no está afiliado, respaldado, patrocinado ni pertenece a operadores KGS. El servicio se rige aparte por las [condiciones KGS](https://www.gokgs.com/tos.jsp).
+Estas condiciones cubren KGS Nova para Windows, macOS y Linux. Usarlo supone aceptarlas junto con las [normas comunitarias]({% include page-url.html key='desktop/community-guidelines' %}); de lo contrario, deje de usarlo. KGS Nova cuenta con el respaldo oficial de KGS. El servicio se rige aparte por las [condiciones KGS](https://www.gokgs.com/tos.jsp).
 
 ## Cuentas y uso aceptable
 

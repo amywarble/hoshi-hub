@@ -6,18 +6,17 @@ page_key: "desktop/community-guidelines"
 section: "desktop"
 nav_order: 12
 permalink: "/desktop/community-guidelines/"
+nav_group: "policies"
 ---
 
-_Effective: October 10, 2026_
+_Effective: October 27, 2026_
 
-KGS Nova displays public rooms, game discussions, private messages, profiles, avatars, and other content from KGS users. Treat others respectfully and follow the [KGS Terms of Service](https://www.gokgs.com/tos.jsp) and [desktop Terms of Use]({% include page-url.html key='desktop/terms' %}).
+Follow the [shared Community Guidelines]({% include page-url.html key='global/community-guidelines' %}), which apply to both Pocket KGS and KGS Nova, together with this app’s [Terms of Use]({% include page-url.html key='desktop/terms' %}).
 
-Do not post or promote harassment, threats, hate speech, sexual exploitation, illegal content, pornography, scams, spam, malware, impersonation, or another person's private information. Do not cheat, manipulate ratings, or disrupt games or rooms. Follow reasonable instructions from KGS administrators.
-
-## Blocking and reporting
+## Blocking and reporting in KGS Nova
 
 Use **Censor** on a player's desktop profile to block supported interactions and hide supported content. You can reverse this later. Private-message preferences let you restrict new conversations.
 
-KGS administrators manage KGS-hosted content and accounts. To report conduct, privately contact a KGS administrator or assistant; administrators are identified by a star in user lists. If no administrator is available, email [admin@gokgs.com](mailto:admin@gokgs.com) with the username, approximate time, room or game, and a factual description. Avoid reposting harmful or private content publicly.
+Open **Get Help → Contact Administrators** and send a short factual message to AdminBot for the KGS administrators. Include the username, approximate time, room or game, and what happened. You can add more information in the conversation with AdminBot. Check the delivery feedback; if you cannot send the message, contact an administrator directly or email [admin@gokgs.com](mailto:admin@gokgs.com).
 
-For a sensitive app concern, email [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). Use the public issue tracker only for defects in the app's behavior, with personal content removed. If someone is in immediate danger, contact local emergency services.
+[Support]({% include page-url.html key='desktop/support' %})

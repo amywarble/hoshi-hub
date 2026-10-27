@@ -1,17 +1,18 @@
 ---
-source_revision: "d6af0143a1e9eaabd1ffd1cb7c13389da26853a7ce6ab3ca381060ce302d9ad0"
+source_revision: "1ea1406557dd0aedaa3365f2977f3ad59b019646d739221b9e7e12a0593d0e87"
 layout: localized
 title: "Privatlivspolitik"
 lang: "da"
 page_key: "android/privacy"
 section: "android"
-nav_order: 4
+nav_order: 10
 permalink: "/da/privacy/"
+nav_group: "policies"
 ---
 
-_Gældende fra: 23. september 2026_
+_Gældende fra: 27. oktober 2026_
 
-Pocket KGS er en uafhængig Android-klient til KGS Go Server (»KGS«), uden tilknytning til eller godkendelse fra KGS. Politikken forklarer, hvilke oplysninger appen behandler, formål, modtagere og dine valg. Den dækker Pocket KGS og dette supportwebsted. KGS er en separat tjeneste med egne [service- og privatlivsvilkår](https://www.gokgs.com/tos.jsp).
+Pocket KGS er en Android-klient til KGS Go Server (»KGS«), officielt anbefalet af KGS. Politikken forklarer, hvilke oplysninger appen behandler, formål, modtagere og dine valg. Den dækker Pocket KGS og dette supportwebsted. KGS er en separat tjeneste med egne [service- og privatlivsvilkår](https://www.gokgs.com/tos.jsp).
 
 ## Hvem håndterer data
 
@@ -29,7 +30,7 @@ Afhængigt af brugte funktioner:
 - **Enhed og forbindelse:** vedvarende KGS-klient-id, app-/protokolversion, sprog/region, operativsystem og version, processorarkitektur, kørselsmiljøets leverandør/version, netværksstatus og nødvendige forbindelsesdata. KGS modtager nødvendigvis din IP-adresse.
 - **Notifikationer:** lokale valg om KGS-hændelser, som må udløse Android-notifikationer.
 - **Cache:** avatarer og appindstillinger for effektiv drift.
-- **Diagnoselogfiler:** produktionsudgaver skriver begrænsede oplysninger i Androids systemlog. KGS-protokollagets logning er slået fra i udgivelsesversioner; produktionslogning er indrettet til ikke at gemme KGS-protokolhændelser eller beskedindhold. Loggene er begrænset til Android-/brugerfladeinformation og advarsler/fejl fra brugerflade-/klientlagene. Ved fejl kan de indeholde KGS-brugernavn, rum-/spil-/kanal-id, handlinger, Android-tilstand og undtagelsesdetaljer. Ingen automatisk upload. Android, enhedsadministrator eller personer, du bevidst deler loggen med, kan få adgang.
+- **Diagnoselogfiler:** Udgivelser skriver fejldiagnostik til Androids systemlog. Valgfri diagnoselogning giver flere hændelser i den aktuelle session. Udgivelseslogs bevarer version, hændelsesskabeloner, undtagelsestyper og stakspor med et format beregnet til at udelade argumentværdier, undtagelsesbeskeder og kildefilstier. Gennemgå logs før deling. Pocket KGS uploader dem ikke automatisk. Android, enhedsadministratoren eller en person, du giver loggen til, kan have adgang.
 
 ## Anvendelse
 

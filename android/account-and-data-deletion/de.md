@@ -5,8 +5,9 @@ title: "Konto und Daten löschen"
 lang: "de"
 page_key: "android/account-and-data-deletion"
 section: "android"
-nav_order: 7
+nav_order: 13
 permalink: "/de/account-and-data-deletion/"
+nav_group: "policies"
 ---
 
 _Zuletzt aktualisiert: 21. September 2026_

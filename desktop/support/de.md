@@ -5,8 +5,9 @@ title: "Support"
 lang: "de"
 page_key: "desktop/support"
 section: "desktop"
-nav_order: 9
+nav_order: 2
 permalink: "/de/desktop/support/"
+nav_group: "documentation"
 ---
 
 Für reproduzierbare Fehler und Funktionswünsche durchsuchen Sie den [Issue-Tracker](https://github.com/amywarble/hoshi-hub/issues), dann melden Sie einen [Desktop-Fehler](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) oder [Funktionswunsch](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Nennen Sie App-Version, Betriebssystem, Prozessorarchitektur, erwartetes/tatsächliches Verhalten und Reproduktionsschritte.

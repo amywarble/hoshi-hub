@@ -1,5 +1,5 @@
 ---
-source_revision: "9a0695c0e3af65c92822058810519df7dfb12fd519e95dc3e9c1915324f9739c"
+source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
 layout: localized
 title: "Brugsvilkår"
 lang: "da"
@@ -7,11 +7,12 @@ page_key: "desktop/terms"
 section: "desktop"
 nav_order: 11
 permalink: "/da/desktop/terms/"
+nav_group: "policies"
 ---
 
-_Gældende fra: 10. oktober 2026_
+_Gældende fra: 27. oktober 2026_
 
-Vilkårene gælder KGS Nova på Windows, macOS og Linux. Brug indebærer accept af vilkårene og [fællesskabsreglerne]({% include page-url.html key='desktop/community-guidelines' %}); ellers stop brugen. Appen er uafhængig, uden tilknytning, godkendelse, sponsorering eller ejerskab fra KGS-operatører. Tjenesten følger særskilt [KGS-vilkårene](https://www.gokgs.com/tos.jsp).
+Vilkårene gælder KGS Nova på Windows, macOS og Linux. Brug indebærer accept af vilkårene og [fællesskabsreglerne]({% include page-url.html key='desktop/community-guidelines' %}); ellers stop brugen. KGS Nova er officielt anbefalet af KGS. Tjenesten følger særskilt [KGS-vilkårene](https://www.gokgs.com/tos.jsp).
 
 ## Konti og tilladt brug
 

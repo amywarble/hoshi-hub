@@ -1,5 +1,5 @@
 ---
-source_revision: "cb652ff551192fa76b9f5d6c0dcf04a7d1229ec0b79961a67d8bc041b83c3351"
+source_revision: "2fa87852fe31f1892377c905c7727085c7b0e43261bb1b9363aeb450cf3b4982"
 layout: localized
 title: "Community-Richtlinien"
 lang: "de"
@@ -7,18 +7,17 @@ page_key: "desktop/community-guidelines"
 section: "desktop"
 nav_order: 12
 permalink: "/de/desktop/community-guidelines/"
+nav_group: "policies"
 ---
 
-_Gültig ab: 10. Oktober 2026_
+_Gültig ab: 27. Oktober 2026_
 
-KGS Nova zeigt öffentliche Räume, Spielgespräche, private Nachrichten, Profile, Avatare und weitere KGS-Nutzerinhalte. Behandeln Sie andere respektvoll und beachten Sie [KGS-Bedingungen](https://www.gokgs.com/tos.jsp) und [App-Nutzungsbedingungen]({% include page-url.html key='desktop/terms' %}).
+Befolgen Sie die [gemeinsamen Community-Richtlinien]({% include page-url.html key='global/community-guidelines' %}) für Pocket KGS und KGS Nova sowie die [Nutzungsbedingungen]({% include page-url.html key='desktop/terms' %}) dieser App.
 
-Untersagt sind Belästigung, Drohungen, Hassrede, sexuelle Ausbeutung, illegale Inhalte, Pornografie, Betrug, Spam, Schadsoftware, Identitätsvortäuschung und fremde private Informationen. Kein Schummeln, Rangmanipulation oder Stören von Spielen/Räumen. Befolgen Sie angemessene Administratoranweisungen.
-
-## Blockieren und Melden
+## Blockieren und Melden in KGS Nova
 
 **Censor** im Spielerprofil blockiert unterstützte Interaktionen und verbirgt unterstützte Inhalte; rückgängig machbar. Privatnachrichten-Einstellungen können neue Gespräche einschränken.
 
-KGS-Administratoren verwalten KGS-Inhalte und Konten. Melden Sie Verhalten privat einem Administrator oder Assistenten; Administratoren sind durch Sterne in Nutzerlisten erkennbar. Ist niemand erreichbar, senden Sie Nutzername, ungefähre Zeit, Raum/Spiel und sachliche Beschreibung an [admin@gokgs.com](mailto:admin@gokgs.com). Veröffentlichen Sie schädliche oder private Inhalte nicht erneut.
+Öffnen Sie **Hilfe erhalten → Administratoren kontaktieren** und senden Sie eine kurze sachliche Nachricht über AdminBot an die KGS-Administratoren. Nennen Sie Nutzername, ungefähre Uhrzeit, Raum oder Spiel und den Vorfall. Weitere Angaben können Sie im Gespräch mit AdminBot ergänzen. Prüfen Sie die Zustellmeldung; bei einem Fehler kontaktieren Sie einen Administrator direkt oder [admin@gokgs.com](mailto:admin@gokgs.com).
 
-Sensible App-Anliegen: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). Öffentliche Issues nur für App-Fehler, ohne persönliche Inhalte. Bei unmittelbarer Gefahr örtliche Notdienste kontaktieren.
+[Support]({% include page-url.html key='desktop/support' %})

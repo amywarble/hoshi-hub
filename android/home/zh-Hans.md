@@ -1,18 +1,20 @@
 ---
-source_revision: "75d05b9bb03fe2a20d4107fa164c7ec78eb8724eab2b24fd6fa5d454f556da83"
+source_revision: "63a6da57b6671a5bf08f86d1050e2af4753384d150e6df62ee25dc7b2d2bd503"
 layout: localized
 title: "Pocket KGS"
 lang: "zh-Hans"
 page_key: "android/home"
 section: "android"
-nav_order: 2
+nav_order: 0
 permalink: "/zh-Hans/android/"
+nav_group: "documentation"
 ---
 
-Pocket KGS 是 [KGS Go Server](https://www.gokgs.com/) 的独立 Android 客户端，与 KGS 无隶属关系，也未获其认可。
+Pocket KGS 是 [KGS Go Server](https://www.gokgs.com/) 的 Android 客户端，已获得 KGS 官方认可。
 
 以下页面介绍帮助信息、数据处理和社区功能：
 
+- [入门指南]({% include page-url.html key='android/help' %})
 - [支持]({% include page-url.html key='android/support' %})
 - [隐私政策]({% include page-url.html key='android/privacy' %})
 - [使用条款]({% include page-url.html key='android/terms' %})

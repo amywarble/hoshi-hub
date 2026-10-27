@@ -1,50 +1,25 @@
 ---
-source_revision: "16840d1bec6b552b468072b81cf3cc758c04773053f32a485bd264974715aee0"
+source_revision: "5dc8c3b5bd4e35a054f2f9ecc71bacc71268ede8b22aef86366f534c22f477da"
 layout: localized
 title: "Règles de la communauté"
 lang: "fr"
 page_key: "android/community-guidelines"
 section: "android"
-nav_order: 6
+nav_order: 12
 permalink: "/fr/community-guidelines/"
+nav_group: "policies"
 ---
 
-_En vigueur le 21 septembre 2026_
+_En vigueur le 27 octobre 2026_
 
-Pocket KGS donne accès aux salons publics, discussions de parties, messages privés, profils, avatars et autres contenus des utilisateurs KGS. Respectez chacun, quels que soient son âge, sa langue, sa culture ou son expérience du go. Ces règles complètent les [conditions Pocket KGS]({% include page-url.html key='android/terms' %}) et [KGS](https://www.gokgs.com/tos.jsp).
+Respectez les [règles de la communauté partagées]({% include page-url.html key='global/community-guidelines' %}), communes à Pocket KGS et KGS Nova, ainsi que les [conditions d’utilisation]({% include page-url.html key='android/terms' %}) de cette application.
 
-## Ne publiez ni ne promouvez
-
-- Abus ou exploitation sexuels d’enfants, manipulation à des fins sexuelles ou sexualisation de mineurs.
-- Pornographie, sollicitation sexuelle ou contenus sexuellement explicites.
-- Menaces, incitation à la violence, contenus d’automutilation ou violence graphique.
-- Discours haineux ou attaques fondées sur race, origine ethnique, nationalité, religion, handicap, âge, sexe, orientation sexuelle, identité de genre ou autre caractéristique protégée.
-- Harcèlement, intimidation, traque, divulgation de données personnelles ou contacts indésirables répétés.
-- Informations privées, messages, image ou voix d’autrui sans droit ou consentement approprié.
-- Fraude, escroqueries, spam, liens malveillants, logiciels malveillants ou usurpation trompeuse.
-- Contenus illégaux ou instructions facilitant des actes gravement répréhensibles.
-- Triche, manipulation de matchs ou classements, perturbation de parties ou salons.
-- Contenus ou conduites interdits par KGS ou Google Play.
-
-Restez dans le sujet, évitez de saturer les discussions et suivez les instructions raisonnables des administrateurs.
-
-## Bloquer les interactions indésirables
+## Bloquer et signaler dans Pocket KGS
 
 **Censor** sur un profil masque les contenus et bloque les interactions directes prises en charge ; vous pouvez annuler ce choix. Les paramètres permettent aussi de limiter les nouvelles conversations privées.
 
-## Signaler les abus
+Ouvrez **Obtenir de l’aide** et envoyez un message bref et factuel à AdminBot pour les administrateurs KGS. Précisez le nom d’utilisateur, l’heure approximative, le salon ou la partie et les faits. Vous pouvez compléter la conversation avec AdminBot. Vérifiez la confirmation d’envoi ; en cas d’échec, contactez directement un administrateur ou [admin@gokgs.com](mailto:admin@gokgs.com).
 
-Pocket KGS n’exploite actuellement aucun service de modération distinct. Les administrateurs KGS contrôlent contenus et comptes hébergés.
+Dans Pocket KGS pour Android, le contenu et les comportements doivent aussi respecter les règles de Google Play.
 
-1. Utilisez **Report this player** dans un profil ou **Report** près d’un message de salon, partie, discussion privée ou enregistré. Ajoutez une explication brève et factuelle. L’application envoie confidentiellement le signalement et le contexte pertinent à l’équipe KGS via AdminBot.
-2. Vous pouvez aussi contacter en privé un administrateur ou assistant disponible ; les administrateurs sont marqués d’une étoile dans les listes.
-3. Sinon, écrivez à [admin@gokgs.com](mailto:admin@gokgs.com), conformément aux conditions KGS.
-4. Conservez nom d’utilisateur, heure approximative, salon/partie et description factuelle. Ne republiez pas les contenus nuisibles.
-
-En cas de danger immédiat, contactez les secours locaux. Signalez aussi tout matériel d’abus sexuel d’enfants à l’autorité nationale compétente ; ne téléchargez, copiez ni joignez de matériel illégal.
-
-Réservez le suivi public aux défauts des fonctions de blocage/sécurité. N’y publiez pas messages privés, données personnelles ou contenus répréhensibles.
-
-## Application des règles
-
-KGS enquête et applique les règles de son service. Le développeur peut limiter l’accès aux espaces d’assistance propres à l’application, fermer des tickets publics, conserver des preuves et coopérer de manière appropriée avec KGS et les autorités compétentes.
+[Assistance]({% include page-url.html key='android/support' %})

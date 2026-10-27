@@ -11,7 +11,9 @@
     "search": "Search this language",
     "no_results": "No results found.",
     "search_error": "Search is unavailable. Please try again.",
-    "results": "Results"
+    "results": "Results",
+    "documentation": "Documentation",
+    "policies": "Policies"
   },
   "da": {
     "name": "Dansk",
@@ -25,7 +27,9 @@
     "search": "Søg på dette sprog",
     "no_results": "Ingen resultater.",
     "search_error": "Søgning er ikke tilgængelig. Prøv igen.",
-    "results": "Resultater"
+    "results": "Resultater",
+    "documentation": "Dokumentation",
+    "policies": "Politikker"
   },
   "de": {
     "name": "Deutsch",
@@ -39,7 +43,9 @@
     "search": "In dieser Sprache suchen",
     "no_results": "Keine Ergebnisse.",
     "search_error": "Suche nicht verfügbar. Bitte erneut versuchen.",
-    "results": "Ergebnisse"
+    "results": "Ergebnisse",
+    "documentation": "Dokumentation",
+    "policies": "Richtlinien"
   },
   "es": {
     "name": "Español",
@@ -53,7 +59,9 @@
     "search": "Buscar en este idioma",
     "no_results": "No hay resultados.",
     "search_error": "Búsqueda no disponible. Inténtelo de nuevo.",
-    "results": "Resultados"
+    "results": "Resultados",
+    "documentation": "Documentación",
+    "policies": "Políticas"
   },
   "fr": {
     "name": "Français",
@@ -67,7 +75,9 @@
     "search": "Rechercher dans cette langue",
     "no_results": "Aucun résultat.",
     "search_error": "Recherche indisponible. Veuillez réessayer.",
-    "results": "Résultats"
+    "results": "Résultats",
+    "documentation": "Documentation",
+    "policies": "Politiques"
   },
   "ja": {
     "name": "日本語",
@@ -81,7 +91,9 @@
     "search": "この言語で検索",
     "no_results": "一致するページはありません。",
     "search_error": "検索できません。もう一度お試しください。",
-    "results": "検索結果"
+    "results": "検索結果",
+    "documentation": "ドキュメント",
+    "policies": "ポリシー"
   },
   "ru": {
     "name": "Русский",
@@ -95,7 +107,9 @@
     "search": "Поиск на этом языке",
     "no_results": "Ничего не найдено.",
     "search_error": "Поиск недоступен. Попробуйте снова.",
-    "results": "Результаты"
+    "results": "Результаты",
+    "documentation": "Документация",
+    "policies": "Правила и политики"
   },
   "zh-Hans": {
     "name": "简体中文",
@@ -109,6 +123,8 @@
     "search": "搜索此语言的页面",
     "no_results": "未找到结果。",
     "search_error": "搜索暂不可用，请重试。",
-    "results": "结果"
+    "results": "结果",
+    "documentation": "文档",
+    "policies": "政策"
   }
 }

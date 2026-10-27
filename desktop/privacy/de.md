@@ -1,5 +1,5 @@
 ---
-source_revision: "c0720ca8cede62afb75cc2d2bb2188cb6f42790a1a5ec1c815ee03a2934d2d54"
+source_revision: "2d36d2b70789618639852311a38a6f07a24e7e70cf3e48b416dc750ba7627c90"
 layout: localized
 title: "Datenschutzerklärung"
 lang: "de"
@@ -7,11 +7,12 @@ page_key: "desktop/privacy"
 section: "desktop"
 nav_order: 10
 permalink: "/de/desktop/privacy/"
+nav_group: "policies"
 ---
 
-_Gültig ab: 10. Oktober 2026_
+_Gültig ab: 27. Oktober 2026_
 
-Diese Erklärung gilt für KGS Nova unter Windows, macOS und Linux. Die App ist unabhängig, ohne Verbindung zu oder Unterstützung durch KGS. KGS betreibt einen getrennten Dienst mit eigenen [Bedingungen und Datenschutzhinweisen](https://www.gokgs.com/tos.jsp).
+Diese Erklärung gilt für KGS Nova unter Windows, macOS und Linux. Die App wird offiziell von KGS empfohlen. KGS betreibt einen getrennten Dienst mit eigenen [Bedingungen und Datenschutzhinweisen](https://www.gokgs.com/tos.jsp).
 
 ## Verarbeitete Informationen
 
@@ -25,12 +26,14 @@ Keine Werbung, Analysefunktionen oder automatischen Absturz-Uploads. Der Entwick
 
 ## Lokale Speicherung und Diagnose
 
-- **Datenbank:** `data.db` im Arbeitsverzeichnis enthält gespeicherte Kontometadaten, Client-Kennung, Einstellungen und App-Zustand. Die Datenbank als Ganzes ist nicht verschlüsselt.
+- **Datenbank:** `data.db` im Ordner KGS Nova für lokale Anwendungsdaten Ihres Betriebssystems enthält gespeicherte Kontometadaten, Client-Kennung, Einstellungen und App-Zustand. Unter Windows ist dies `%LOCALAPPDATA%\KGS Nova`. Die Datenbank als Ganzes ist nicht verschlüsselt.
 - **Passwörter:** Unter Windows werden sie in der Datenbank mittels DPAPI für den aktuellen Windows-Nutzer verschlüsselt; unter macOS liegen sie im Schlüsselbund, unter Linux im Secret-Service-Schlüsselbund. Das Betriebssystem kann Entsperren oder Berechtigung verlangen. Der Passwortschutz verschlüsselt nicht die restliche Datenbank.
-- **Protokolle:** `logs.txt` im App-Verzeichnis sowie Konsolen-/Debugausgabe. Die Datei wird bei jedem Start ersetzt. Möglich sind Versions-/Systemdaten, Nutzernamen, Raum-/Spielkennungen, Aktionen, Ausnahmedetails und Protokolldaten bei Verbindungs-/Nachrichtenfehlern. Gehen Sie nicht davon aus, dass Logs frei von persönlichen Inhalten sind. Keine automatische Übermittlung.
+- **Protokolle:** Veröffentlichte Builds schreiben Fehlerdiagnosen in `client.log` und rotierende `client.archive*.log` im selben Datenordner. Optionale Diagnoseprotokollierung erfasst mehr Ereignisse für die aktuelle Sitzung. Release-Logs enthalten Version, Ereignisvorlagen, Ausnahmetypen und Stacktraces; das Format soll Laufzeitargumente, Ausnahmemeldungen und Quelldateipfade auslassen. Entwickler-Builds können ausführlichere `logs.txt` und Konsolen-/Debugausgaben erzeugen. Prüfen Sie Logs vor dem Teilen. Keine automatische Übermittlung an den Entwickler.
 - **Exportierte Dateien:** Spielaufzeichnungen und andere bewusst gespeicherte Dateien bleiben am gewählten Ort.
 
 Personen oder Software mit Datei- oder Betriebssystemkontozugriff können diese Daten möglicherweise lesen. Deinstallieren oder Ersetzen entfernt nicht unbedingt Datenbank, Logs, Exporte oder Schlüsselbundeinträge. Siehe [Löschanleitung]({% include page-url.html key='desktop/account-and-data-deletion' %}).
+
+Der Datenordner enthält auch den Arbeitsbereich `sgf`, Wiederherstellungsdateien und Sicherungen sowie Engine-/Modelldateien in `analysis`. Speichern Sie gewünschte wiederhergestellte Spiele vor dem Löschen. Das Löschen des gesamten KGS-Nova-Datenordners entfernt diese lokalen Daten gemeinsam.
 
 ## Kommunikation und Drittanbieter
 

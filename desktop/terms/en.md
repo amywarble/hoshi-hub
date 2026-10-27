@@ -6,13 +6,14 @@ page_key: "desktop/terms"
 section: "desktop"
 nav_order: 11
 permalink: "/desktop/terms/"
+nav_group: "policies"
 ---
 
-_Effective: October 10, 2026_
+_Effective: October 27, 2026_
 
 These terms apply to the KGS Nova desktop app for Windows, macOS, and Linux. By using the app, you agree to these terms and the [desktop Community Guidelines]({% include page-url.html key='desktop/community-guidelines' %}). If you do not agree, stop using the app.
 
-KGS Nova is an independent client for the KGS Go Server. It is not affiliated with, endorsed by, sponsored by, or owned by KGS's operators. Use of the KGS service is separately governed by the [KGS Terms of Service](https://www.gokgs.com/tos.jsp).
+KGS Nova is a client for the KGS Go Server and is officially endorsed by KGS. Use of the KGS service is separately governed by the [KGS Terms of Service](https://www.gokgs.com/tos.jsp).
 
 ## Accounts and acceptable use
 

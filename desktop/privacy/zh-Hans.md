@@ -1,5 +1,5 @@
 ---
-source_revision: "c0720ca8cede62afb75cc2d2bb2188cb6f42790a1a5ec1c815ee03a2934d2d54"
+source_revision: "2d36d2b70789618639852311a38a6f07a24e7e70cf3e48b416dc750ba7627c90"
 layout: localized
 title: "隐私政策"
 lang: "zh-Hans"
@@ -7,11 +7,12 @@ page_key: "desktop/privacy"
 section: "desktop"
 nav_order: 10
 permalink: "/zh-Hans/desktop/privacy/"
+nav_group: "policies"
 ---
 
-_生效日期：2026年10月10日_
+_生效日期：2026年10月27日_
 
-本政策适用于 Windows、macOS 和 Linux 版 KGS Nova。它是独立客户端，与 KGS 无隶属关系，也未获认可。KGS 为独立服务，有自己的 [条款和隐私信息](https://www.gokgs.com/tos.jsp)。
+本政策适用于 Windows、macOS 和 Linux 版 KGS Nova。它已获得 KGS 官方认可。KGS 为独立服务，有自己的 [条款和隐私信息](https://www.gokgs.com/tos.jsp)。
 
 ## 处理的信息
 
@@ -25,12 +26,14 @@ KGS 收到持久客户端标识、协议版本、语言／地区、系统、架�
 
 ## 本地存储与诊断
 
-- **数据库：** 工作目录中的 `data.db` 保存账户元数据、客户端标识、设置和应用状态。数据库并未整体加密。
+- **数据库：** 操作系统本地应用数据目录下 KGS Nova 文件夹中的 `data.db` 保存账户元数据、客户端标识、设置和应用状态。Windows 路径为 `%LOCALAPPDATA%\KGS Nova`。数据库并未整体加密。
 - **密码：** Windows 在数据库中使用当前用户的 DPAPI 加密；macOS 使用钥匙串；Linux 使用 Secret Service。可能需要系统解锁或授权。密码保护不加密数据库其余部分。
-- **日志：** 应用目录的 `logs.txt` 及控制台／调试输出。文件在启动时替换。可能包含版本、系统、用户名、房间／对局标识、操作、异常和连接／消息失败时的协议数据。不要假设没有个人内容。不会自动上传。
+- **日志：** 正式版在同一数据文件夹的 `client.log` 和轮替的 `client.archive*.log` 中记录错误诊断。可选诊断日志会在当前会话记录更多事件。正式版日志保留版本、事件模板、异常类型和堆栈，格式设计为省略运行时参数值、异常消息和源文件路径。开发版可能生成更详细的 `logs.txt` 以及控制台／调试输出。分享前请检查日志。不会自动上传给开发者。
 - **导出文件：** 您明确保存的棋谱及其他文件留在所选位置。
 
 有权访问文件或系统账户的他人／软件可能读取数据。卸载或替换不一定删除数据库、日志、导出文件或系统凭据。见 [数据删除说明]({% include page-url.html key='desktop/account-and-data-deletion' %})。
+
+同一文件夹还包含 `sgf` 工作区、恢复文件和备份，以及 `analysis` 引擎／模型文件。删除前请保存希望保留的恢复棋谱。删除整个 KGS Nova 数据文件夹可一并移除这些本地数据。
 
 ## 通信与第三方
 

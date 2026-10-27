@@ -1,50 +1,25 @@
 ---
-source_revision: "16840d1bec6b552b468072b81cf3cc758c04773053f32a485bd264974715aee0"
+source_revision: "5dc8c3b5bd4e35a054f2f9ecc71bacc71268ede8b22aef86366f534c22f477da"
 layout: localized
 title: "社区准则"
 lang: "zh-Hans"
 page_key: "android/community-guidelines"
 section: "android"
-nav_order: 6
+nav_order: 12
 permalink: "/zh-Hans/community-guidelines/"
+nav_group: "policies"
 ---
 
-_生效日期：2026年9月21日_
+_生效日期：2026年10月27日_
 
-Pocket KGS 提供公开房间、对局讨论、私信、资料、头像及其他 KGS 用户内容。请尊重他人的年龄、语言、文化和围棋经验差异。本准则补充 [应用条款]({% include page-url.html key='android/terms' %}) 及 [KGS 条款](https://www.gokgs.com/tos.jsp)。
+请遵守 Pocket KGS 和 KGS Nova 的 [共用社区准则]({% include page-url.html key='global/community-guidelines' %})，以及本应用的 [使用条款]({% include page-url.html key='android/terms' %})。
 
-## 不得发布或宣扬
-
-- 儿童性虐待或剥削、诱骗儿童或任何未成年人性化。
-- 色情、性招揽或露骨性内容。
-- 威胁、鼓励暴力、自伤内容或血腥暴力。
-- 基于种族、族裔、国籍、宗教、残疾、年龄、性别、性取向、性别认同或其他受保护特征的仇恨或攻击。
-- 骚扰、欺凌、跟踪、人肉曝光或反复的不受欢迎接触。
-- 无适当权利或同意而分享他人隐私、私信、肖像或声音。
-- 欺诈、骗局、垃圾信息、恶意链接、恶意软件或欺骗性冒充。
-- 违法内容或意在协助严重不法行为的指示。
-- 作弊、操纵比赛／等级制度或扰乱对局和房间。
-- KGS 或 Google Play 政策禁止的内容或行为。
-
-保持讨论切题，避免刷屏，遵循管理员的合理指示。
-
-## 阻止不受欢迎的互动
+## Pocket KGS 的屏蔽和举报
 
 用户资料中的 **Censor** 可隐藏受支持的内容并阻止受支持的直接互动，之后可撤销。应用设置也可限制新私信会话。
 
-## 举报不当内容或行为
+打开 **获取帮助**，向 AdminBot 发送简短、客观的消息，交由 KGS 管理员处理。请提供用户名、大致时间、房间或对局及事件经过。您可以在与 AdminBot 的对话中补充信息。请检查发送结果；如果无法发送，请直接联系管理员，或发邮件至 [admin@gokgs.com](mailto:admin@gokgs.com)。
 
-Pocket KGS 目前没有独立审核服务。KGS 管理员负责其托管内容和账户。
+Android 版 Pocket KGS 的内容和行为还须遵守 Google Play 政策。
 
-1. 使用资料中的 **Report this player**，或房间、对局、私聊、已保存消息旁的 **Report**，附简短客观说明。应用通过 AdminBot 将报告及相关上下文私密发送给 KGS 管理团队。
-2. 也可私信在线管理员或助理；管理员在用户列表中有星号标记。
-3. 若无人在线，按 KGS 条款联系 [admin@gokgs.com](mailto:admin@gokgs.com)。
-4. 保存用户名、大致时间、房间／对局和简短事实说明，不要公开转载有害资料。
-
-若有人面临即时危险，请联系当地紧急服务。涉及儿童性虐待材料也应向适当国家举报机构报告；不要下载、复制或附加违法材料。
-
-公开问题仅用于报告应用屏蔽／安全功能缺陷，不要粘贴私信、个人信息或不当资料。
-
-## 执行
-
-KGS 负责调查并执行其服务规则。开发者可适当限制应用支持空间的访问、关闭问题、保全证据或配合 KGS 及合法主管机关。
+[支持]({% include page-url.html key='android/support' %})
