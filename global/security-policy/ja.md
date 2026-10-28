@@ -1,5 +1,5 @@
 ---
-source_revision: "7e52a22050169cc284cd9a1f6d27fb77c97a090229a0f5fbfad55ddf9d56a15a"
+source_revision: "c9c50e842a457b3135e5dcdea9924c0889b7b76d5eaaa19b8f5b1eae192f5a05"
 layout: localized
 title: "セキュリティポリシー"
 lang: "ja"
@@ -13,7 +13,7 @@ permalink: "/ja/security-policy/"
 
 脆弱性の疑いを GitHub の公開 Issue で開示しないでください。
 
-[GitHub の非公開報告フォーム](https://github.com/amywarble/hoshi-hub/security/advisories/new) を使用し、対象アプリ（Pocket KGS または KGS Nova）、バージョン、影響、再現手順、考えられる対策を記載してください。画像やログから無関係な個人情報を取り除いてください。
+[GitHub の非公開報告フォーム](https://github.com/amywarble/hoshi-hub/security/advisories/new) を使用し、対象アプリ（Pocket KGS、KGS Nova、または Mobi）、バージョン、影響、再現手順、考えられる対策を記載してください。画像やログから無関係な個人情報を取り除いてください。
 
 フォームを使えない場合は [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com?subject=Hoshi%20Hub%20security%20report) へご連絡ください。報告を公開せず、KGS のパスワードは絶対に含めないでください。
 

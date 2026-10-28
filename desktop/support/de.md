@@ -1,5 +1,5 @@
 ---
-source_revision: "3a192cb8941407e29dbd19aabd5a5e33eaaf0fda5c2c869ce398799fdd40b322"
+source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
 layout: localized
 title: "Support"
 lang: "de"
@@ -22,9 +22,9 @@ Bei Audioproblemen unter macOS/Linux geben Sie an, ob Wiedergabe, Mikrofon oder 
 
 Kontowiederherstellung, Kontostatus, Serverdaten oder Moderation: KGS-Administrator oder [admin@gokgs.com](mailto:admin@gokgs.com).
 
-- [Datenschutzerklärung]({% include page-url.html key='desktop/privacy' %})
+- [Datenschutzerklärung]({% include page-url.html key='global/privacy' %})
 - [Community-Richtlinien]({% include page-url.html key='desktop/community-guidelines' %}) zum Sperren/Melden.
-- [Konto und Daten löschen]({% include page-url.html key='desktop/account-and-data-deletion' %}) für lokale und KGS-Daten.
+- [Konto und Daten löschen]({% include page-url.html key='global/account-and-data-deletion' %}) für lokale und KGS-Daten.
 - [Sicherheitslücken privat melden](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 - Private App-, Datenschutz- oder sensible Sicherheitsfragen: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 

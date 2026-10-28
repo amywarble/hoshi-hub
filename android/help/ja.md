@@ -1,5 +1,5 @@
 ---
-source_revision: "8cc02584c458d3ee81a802ddfaad4c52710c82660f4a7361cb2d63b3dffe30d2"
+source_revision: "ed29c95fad57837b4bfb0d71a53226c192370524688762fa919a747712363a99"
 layout: localized
 title: "はじめに"
 lang: "ja"
@@ -8,11 +8,10 @@ section: "android"
 nav_order: 1
 permalink: "/ja/android/help/"
 nav_group: "documentation"
+redirect_from: "/ja/android/"
 ---
 
-## インストールと更新
-
-Android 端末の Google Play から Pocket KGS をインストールまたは更新してください。
+Pocket KGS は [KGS Go Server](https://www.gokgs.com/) 用の Android クライアントです。KGS と American Go Association（AGA）の公式な承認を受けています。
 
 ## ログイン
 
@@ -24,4 +23,4 @@ Android 端末の Google Play から Pocket KGS をインストールまたは�
 
 ## ヘルプとポリシー
 
-アプリの問題は [サポート]({% include page-url.html key='android/support' %})、望まれない交流や通報は [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) をご覧ください。[プライバシーポリシー]({% include page-url.html key='android/privacy' %})、[利用規約]({% include page-url.html key='android/terms' %})、[共通コミュニティガイドライン]({% include page-url.html key='global/community-guidelines' %}) もお読みください。
+アプリの問題は [サポート]({% include page-url.html key='android/support' %})、望まれない交流や通報は [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) をご覧ください。[プライバシーポリシー]({% include page-url.html key='global/privacy' %})、[利用規約]({% include page-url.html key='android/terms' %})、[共通コミュニティガイドライン]({% include page-url.html key='global/community-guidelines' %}) もお読みください。

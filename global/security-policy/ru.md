@@ -1,5 +1,5 @@
 ---
-source_revision: "7e52a22050169cc284cd9a1f6d27fb77c97a090229a0f5fbfad55ddf9d56a15a"
+source_revision: "c9c50e842a457b3135e5dcdea9924c0889b7b76d5eaaa19b8f5b1eae192f5a05"
 layout: localized
 title: "Политика безопасности"
 lang: "ru"
@@ -13,7 +13,7 @@ permalink: "/ru/security-policy/"
 
 Не раскрывайте предполагаемые уязвимости в публичных обращениях GitHub.
 
-Используйте [закрытую форму GitHub](https://github.com/amywarble/hoshi-hub/security/advisories/new). Укажите приложение (Pocket KGS или KGS Nova), версию, последствия, шаги воспроизведения и возможные меры защиты. Удалите посторонние персональные данные из снимков экрана и журналов.
+Используйте [закрытую форму GitHub](https://github.com/amywarble/hoshi-hub/security/advisories/new). Укажите приложение (Pocket KGS, KGS Nova или Mobi), версию, последствия, шаги воспроизведения и возможные меры защиты. Удалите посторонние персональные данные из снимков экрана и журналов.
 
 Если форма недоступна, напишите на [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com?subject=Hoshi%20Hub%20security%20report). Не публикуйте отчёт и никогда не включайте пароль KGS.
 

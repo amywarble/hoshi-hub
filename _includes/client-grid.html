@@ -1,0 +1,51 @@
+{% assign client_ui = site.data.languages[page.lang] %}
+<div class="hoshi-client-grid">
+  {% assign client_sections = 'android,desktop,mobi' | split: ',' %}
+  {% assign start_page = site.pages | where: 'page_key', 'android/help' | where: 'lang', page.lang | first %}
+  {% for client_section in client_sections %}
+    {% assign client_pages = site.pages | where: 'section', client_section | where: 'lang', page.lang | sort: 'nav_order' %}
+    {% assign guide_key = client_section | append: '/help' %}
+    {% if client_section == 'mobi' %}{% assign guide_key = 'mobi/home' %}{% endif %}
+    <section class="hoshi-client" aria-labelledby="client-{{ client_section }}">
+      <div class="hoshi-client-heading">
+        {% case client_section %}
+          {% when 'android' %}
+            <img src="{{ '/assets/images/pocket-kgs.png' | relative_url }}" width="56" height="56" alt="">
+          {% when 'desktop' %}
+            <img src="{{ '/assets/images/kgs-nova.png' | relative_url }}" width="56" height="56" alt="">
+          {% when 'mobi' %}
+            <img src="{{ '/assets/images/mobi.png' | relative_url }}?v=4f1d86b01426" width="56" height="56" alt="">
+        {% endcase %}
+        <div>
+          <h2 id="client-{{ client_section }}">{% case client_section %}{% when 'android' %}Pocket KGS{% when 'desktop' %}KGS Nova{% when 'mobi' %}Mobi{% endcase %}</h2>
+          <p class="hoshi-client-platform">{% case client_section %}{% when 'android' %}Android{% when 'desktop' %}Windows · macOS · Linux{% when 'mobi' %}Windows · Linux{% endcase %}</p>
+        </div>
+      </div>
+      <a class="btn btn-primary hoshi-client-start" href="{% include page-url.html key=guide_key %}">{{ start_page.title }}</a>
+      <ul class="hoshi-client-links">
+        {% unless client_section == 'android' %}
+          <li><a href="https://github.com/amywarble/hoshi-hub/releases">{{ client_ui.download }}</a></li>
+        {% endunless %}
+        {% if client_section == 'mobi' %}
+          <li><a href="{% include page-url.html key='mobi/user-guide' %}" hreflang="{{ page.lang }}">{{ client_ui.user_guide }}</a></li>
+          <li><a href="{% include page-url.html key='mobi/upgrade-guide' %}" hreflang="{{ page.lang }}">{{ client_ui.upgrade_from_java }}</a></li>
+        {% else %}
+          {% assign support_key = client_section | append: '/support' %}
+          {% assign support_page = client_pages | where: 'page_key', support_key | first %}
+          <li><a href="{{ support_page.url | relative_url }}">{{ support_page.title }}</a></li>
+        {% endif %}
+        {% case client_section %}
+          {% when 'android' %}{% assign bug_template = 'bug_report.yml' %}
+          {% when 'desktop' %}{% assign bug_template = 'desktop_bug_report.md' %}
+          {% when 'mobi' %}{% assign bug_template = 'mobi_bug_report.md' %}
+        {% endcase %}
+        <li>
+          <a href="https://github.com/amywarble/hoshi-hub/issues/new?template={{ bug_template }}"
+             aria-label="{{ client_ui.report_a_bug | escape }} · {{ client_ui[client_section] | escape }}">{{ client_ui.report_a_bug }}</a>
+        </li>
+      </ul>
+    </section>
+  {% endfor %}
+</div>
+
+{% include home-policies.html %}

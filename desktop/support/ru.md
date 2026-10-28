@@ -1,5 +1,5 @@
 ---
-source_revision: "3a192cb8941407e29dbd19aabd5a5e33eaaf0fda5c2c869ce398799fdd40b322"
+source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
 layout: localized
 title: "Поддержка"
 lang: "ru"
@@ -22,9 +22,9 @@ nav_group: "documentation"
 
 Восстановление/статус аккаунта, серверные данные и модерация: администратор KGS или [admin@gokgs.com](mailto:admin@gokgs.com).
 
-- [Конфиденциальность]({% include page-url.html key='desktop/privacy' %})
+- [Конфиденциальность]({% include page-url.html key='global/privacy' %})
 - [Правила сообщества]({% include page-url.html key='desktop/community-guidelines' %}) о блокировке/жалобах.
-- [Удаление аккаунта и данных]({% include page-url.html key='desktop/account-and-data-deletion' %}).
+- [Удаление аккаунта и данных]({% include page-url.html key='global/account-and-data-deletion' %}).
 - [Закрытый отчёт об уязвимости](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 - Частные вопросы приложения, конфиденциальности и деликатной безопасности: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 

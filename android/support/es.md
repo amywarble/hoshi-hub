@@ -1,5 +1,5 @@
 ---
-source_revision: "3be6904ed41ef2335225a38a2bc5653ee989449596fbe824aae571dfc7efaaa2"
+source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
 layout: localized
 title: "Ayuda"
 lang: "es"
@@ -22,14 +22,14 @@ Nunca publique contraseñas, datos de recuperación, tokens o credenciales; corr
 
 Pocket KGS es independiente. Para recuperar contraseñas, consultar el estado de la cuenta, datos del servidor o moderación, contacte con un administrador KGS o [admin@gokgs.com](mailto:admin@gokgs.com).
 
-Para borrar una cuenta y sus datos del servidor, siga las [instrucciones de eliminación]({% include page-url.html key='android/account-and-data-deletion' %}). No publique datos de cuenta en GitHub. Las [normas de la comunidad]({% include page-url.html key='android/community-guidelines' %}) explican bloqueo y denuncias.
+Para borrar una cuenta y sus datos del servidor, siga las [instrucciones de eliminación]({% include page-url.html key='global/account-and-data-deletion' %}). No publique datos de cuenta en GitHub. Las [normas de la comunidad]({% include page-url.html key='android/community-guidelines' %}) explican bloqueo y denuncias.
 
 ## Privacidad y seguridad
 
 No use incidencias públicas para solicitudes de privacidad o eliminación, denuncias sensibles o vulnerabilidades.
 
-- [Política de privacidad]({% include page-url.html key='android/privacy' %})
-- [Eliminación de cuentas y datos]({% include page-url.html key='android/account-and-data-deletion' %})
+- [Política de privacidad]({% include page-url.html key='global/privacy' %})
+- [Eliminación de cuentas y datos]({% include page-url.html key='global/account-and-data-deletion' %})
 - [Notificar una vulnerabilidad en privado](https://github.com/amywarble/hoshi-hub/security/advisories/new)
 - Consultas privadas sobre aplicación, privacidad o seguridad sensible: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 

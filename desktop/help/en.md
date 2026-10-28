@@ -7,7 +7,10 @@ section: "desktop"
 nav_order: 1
 permalink: "/desktop/help/"
 nav_group: "documentation"
+redirect_from: "/desktop/"
 ---
+
+KGS Nova is a client for the [KGS Go Server](https://www.gokgs.com/) for Windows, macOS, and Linux. It is officially endorsed by KGS and the American Go Association (AGA).
 
 ## Install and update
 
@@ -25,4 +28,4 @@ In About, update-enabled installations offer Check for updates, Download update,
 
 ## Help and policies
 
-For app problems, use [Support]({% include page-url.html key='desktop/support' %}). For unwanted interactions and conduct reports, see [Community Guidelines]({% include page-url.html key='desktop/community-guidelines' %}). Read this app’s [Privacy Policy]({% include page-url.html key='desktop/privacy' %}) and [Terms of Use]({% include page-url.html key='desktop/terms' %}), and the [shared Community Guidelines]({% include page-url.html key='global/community-guidelines' %}).
+For app problems, use [Support]({% include page-url.html key='desktop/support' %}). For unwanted interactions and conduct reports, see [Community Guidelines]({% include page-url.html key='desktop/community-guidelines' %}). Read this app’s [Privacy Policy]({% include page-url.html key='global/privacy' %}) and [Terms of Use]({% include page-url.html key='desktop/terms' %}), and the [shared Community Guidelines]({% include page-url.html key='global/community-guidelines' %}).

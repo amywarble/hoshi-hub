@@ -1,5 +1,5 @@
 ---
-source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
+source_revision: "1a9deb8302d64d580561b319b87a4ddc651d2e2bf1fc308e44a5841ce1a9174f"
 layout: localized
 title: "使用条款"
 lang: "zh-Hans"
@@ -12,13 +12,13 @@ nav_group: "policies"
 
 _生效日期：2026年10月27日_
 
-本条款适用于 Android 版 Pocket KGS。使用即表示同意本条款和 [社区准则]({% include page-url.html key='android/community-guidelines' %})；如不同意，请勿使用。Pocket KGS 已获得 KGS 官方认可。使用 KGS 还须遵守由 KGS 制定和执行的 [服务条款](https://www.gokgs.com/tos.jsp)。
+本条款适用于 Android 版 Pocket KGS。使用即表示同意本条款和 [社区准则]({% include page-url.html key='android/community-guidelines' %})；如不同意，请勿使用。Pocket KGS 已获得 KGS 和美国围棋协会（AGA）的官方认可。使用 KGS 还须遵守由 KGS 制定和执行的 [服务条款](https://www.gokgs.com/tos.jsp)。
 
 ## 资格与账户
 
 须年满13岁。若您依法不能独立同意，须由家长或法定监护人代为审阅并同意。
 
-您对账户、凭据及账户活动负责。不要共享密码或冒充他人。Pocket KGS 不拥有或运营 KGS 账户。注册、找回、暂停以及经核实的删除请求由 KGS 管理员另行处理。见 [账户与数据删除]({% include page-url.html key='android/account-and-data-deletion' %})。
+您对账户、凭据及账户活动负责。不要共享密码或冒充他人。Pocket KGS 不拥有或运营 KGS 账户。注册、找回、暂停以及经核实的删除请求由 KGS 管理员另行处理。见 [账户与数据删除]({% include page-url.html key='global/account-and-data-deletion' %})。
 
 ## 合理使用
 

@@ -1,5 +1,5 @@
 ---
-source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
+source_revision: "a4c875a474ca72a8ff6bf2b3363ac31e0422b38da2a3ee1e26cbbd42213ce61e"
 layout: localized
 title: "Conditions d’utilisation"
 lang: "fr"
@@ -12,7 +12,7 @@ nav_group: "policies"
 
 _En vigueur le 27 octobre 2026_
 
-Ces conditions couvrent KGS Nova pour Windows, macOS et Linux. Utiliser l’application vaut acceptation de ces conditions et des [règles communautaires]({% include page-url.html key='desktop/community-guidelines' %}) ; sinon, cessez l’utilisation. KGS Nova est officiellement approuvé par KGS. Le service relève séparément des [conditions KGS](https://www.gokgs.com/tos.jsp).
+Ces conditions couvrent KGS Nova pour Windows, macOS et Linux. Utiliser l’application vaut acceptation de ces conditions et des [règles communautaires]({% include page-url.html key='desktop/community-guidelines' %}) ; sinon, cessez l’utilisation. KGS Nova est officiellement approuvé par KGS et l’American Go Association (AGA). Le service relève séparément des [conditions KGS](https://www.gokgs.com/tos.jsp).
 
 ## Comptes et usage autorisé
 
@@ -34,6 +34,6 @@ Comme indiqué dans la licence, le logiciel est fourni en l’état, sans garant
 
 ## Confidentialité, modifications et contact
 
-La [politique de confidentialité]({% include page-url.html key='desktop/privacy' %}) décrit stockage, protection des identifiants, diagnostics et communications. Vous pouvez cesser l’utilisation à tout moment ; désinstaller ne supprime pas le compte KGS. Ces conditions peuvent évoluer ; la date identifie la version publiée.
+La [politique de confidentialité]({% include page-url.html key='global/privacy' %}) décrit stockage, protection des identifiants, diagnostics et communications. Vous pouvez cesser l’utilisation à tout moment ; désinstaller ne supprime pas le compte KGS. Ces conditions peuvent évoluer ; la date identifie la version publiée.
 
 Questions privées : [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). Comptes, service et modération KGS : [admin@gokgs.com](mailto:admin@gokgs.com).

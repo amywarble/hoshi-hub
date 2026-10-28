@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: "/gtp/bot.example.toml"
+---
+{%- include_relative bot.example.toml -%}

@@ -1,5 +1,5 @@
 ---
-source_revision: "7e52a22050169cc284cd9a1f6d27fb77c97a090229a0f5fbfad55ddf9d56a15a"
+source_revision: "c9c50e842a457b3135e5dcdea9924c0889b7b76d5eaaa19b8f5b1eae192f5a05"
 layout: localized
 title: "安全政策"
 lang: "zh-Hans"
@@ -13,7 +13,7 @@ permalink: "/zh-Hans/security-policy/"
 
 不要在公开 GitHub 问题中披露疑似漏洞。
 
-请使用 [GitHub 私密漏洞报告表单](https://github.com/amywarble/hoshi-hub/security/advisories/new)，注明受影响的应用（Pocket KGS 或 KGS Nova）、版本、影响、复现步骤和建议的缓解措施。请从截图和日志中删除无关个人信息。
+请使用 [GitHub 私密漏洞报告表单](https://github.com/amywarble/hoshi-hub/security/advisories/new)，注明受影响的应用（Pocket KGS、KGS Nova 或 Mobi）、版本、影响、复现步骤和建议的缓解措施。请从截图和日志中删除无关个人信息。
 
 表单不可用时，请联系 [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com?subject=Hoshi%20Hub%20security%20report)。不要公开报告，也绝不要提供 KGS 密码。
 

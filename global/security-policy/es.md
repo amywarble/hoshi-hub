@@ -1,5 +1,5 @@
 ---
-source_revision: "7e52a22050169cc284cd9a1f6d27fb77c97a090229a0f5fbfad55ddf9d56a15a"
+source_revision: "c9c50e842a457b3135e5dcdea9924c0889b7b76d5eaaa19b8f5b1eae192f5a05"
 layout: localized
 title: "Política de seguridad"
 lang: "es"
@@ -13,7 +13,7 @@ permalink: "/es/security-policy/"
 
 No divulgue posibles vulnerabilidades en incidencias públicas de GitHub.
 
-Use el [formulario privado de GitHub](https://github.com/amywarble/hoshi-hub/security/advisories/new). Indique la aplicación afectada (Pocket KGS o KGS Nova), versión, impacto, pasos de reproducción y posibles medidas de mitigación. Quite los datos personales ajenos al problema de capturas y registros.
+Use el [formulario privado de GitHub](https://github.com/amywarble/hoshi-hub/security/advisories/new). Indique la aplicación afectada (Pocket KGS, KGS Nova o Mobi), versión, impacto, pasos de reproducción y posibles medidas de mitigación. Quite los datos personales ajenos al problema de capturas y registros.
 
 Si el formulario no está disponible, escriba a [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com?subject=Hoshi%20Hub%20security%20report). No publique el informe ni incluya nunca una contraseña de KGS.
 

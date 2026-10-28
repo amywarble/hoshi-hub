@@ -39,6 +39,71 @@
   justify-content: center;
 }
 
+.hoshi-body-home {
+  grid-template-columns: minmax(0, 72rem);
+}
+
+.hoshi-client-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.hoshi-client {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: 0.5rem;
+  background: $sidebar-color;
+
+  .hoshi-client-start {
+    display: block;
+    margin: 1.25rem 0 0.75rem;
+    white-space: normal;
+    text-align: center;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li::before {
+      content: none;
+    }
+  }
+
+  .hoshi-client-links a {
+    display: block;
+    padding: 0.4rem 0;
+  }
+
+}
+
+.hoshi-client-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 4.5rem;
+
+  img {
+    flex: 0 0 56px;
+    border-radius: 0.65rem;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .hoshi-client-platform {
+    margin: 0.25rem 0 0;
+    font-size: 0.875rem;
+  }
+}
+
 .hoshi-sidebar {
   padding: 1rem 1.5rem;
   border-right: 1px solid $border-color;
@@ -48,12 +113,8 @@
     font-size: 1rem;
   }
 
-  h3 {
-    margin: 0.75rem 0 0.25rem;
-    font-size: 0.875rem;
-  }
-
   ul {
+    margin: 0;
     padding: 0;
     list-style: none;
   }
@@ -61,6 +122,19 @@
   a {
     display: inline-block;
     padding: 0.3rem 0;
+  }
+}
+
+.hoshi-policies {
+  margin-top: 0.25rem;
+
+  summary {
+    padding: 0.3rem 0;
+    cursor: pointer;
+  }
+
+  ul {
+    padding-left: 1rem;
   }
 }
 
@@ -81,6 +155,62 @@
       cursor: pointer;
     }
   }
+}
+
+.hoshi-policy-section {
+  margin: 2rem 0;
+
+  > h2 {
+    font-size: 2rem !important;
+    font-weight: 300;
+  }
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li::before {
+      content: none;
+    }
+  }
+
+  a {
+    display: inline-block;
+    padding: 0.4rem 0;
+  }
+}
+
+.hoshi-policy-panel {
+  padding: 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: 0.5rem;
+  background: $sidebar-color;
+}
+
+.hoshi-policy-section .hoshi-shared-policy-links {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+
+.hoshi-client-policy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid $border-color;
+}
+
+.hoshi-client-policies {
+  min-width: 0;
 }
 
 .hoshi-search-controls {
@@ -117,12 +247,22 @@
   }
 }
 
-.hoshi-site a:focus-visible {
+.hoshi-site a:focus-visible,
+.hoshi-site summary:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
 
 @media (max-width: 50rem) {
+  .hoshi-client-grid,
+  .hoshi-client-policy-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hoshi-policy-section .hoshi-shared-policy-links {
+    flex-direction: column;
+  }
+
   .hoshi-body {
     display: flex;
     flex-direction: column;

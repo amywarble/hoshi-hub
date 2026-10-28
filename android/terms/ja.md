@@ -1,5 +1,5 @@
 ---
-source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
+source_revision: "1a9deb8302d64d580561b319b87a4ddc651d2e2bf1fc308e44a5841ce1a9174f"
 layout: localized
 title: "利用規約"
 lang: "ja"
@@ -12,13 +12,13 @@ nav_group: "policies"
 
 _施行日：2026年10月27日_
 
-本規約は Android 用 Pocket KGS に適用されます。利用により本規約と [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) に同意したものとします。同意しない場合は使用しないでください。Pocket KGS は KGS の公式な承認を受けています。KGS の利用には、KGS が定め実施する独自の [利用規約](https://www.gokgs.com/tos.jsp) も適用されます。
+本規約は Android 用 Pocket KGS に適用されます。利用により本規約と [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) に同意したものとします。同意しない場合は使用しないでください。Pocket KGS は KGS と American Go Association（AGA）の公式な承認を受けています。KGS の利用には、KGS が定め実施する独自の [利用規約](https://www.gokgs.com/tos.jsp) も適用されます。
 
 ## 年齢とアカウント
 
 13歳以上である必要があります。法的に単独で同意できない場合、保護者または法定後見人が確認して同意してください。
 
-アカウント、認証情報、アカウント上の行為は利用者の責任です。パスワード共有やなりすましは禁止です。Pocket KGS は KGS アカウントを所有・運営しません。作成、復旧、停止、本人確認済みの削除依頼は KGS 管理者が別途扱います。[アカウントとデータの削除]({% include page-url.html key='android/account-and-data-deletion' %}) をご覧ください。
+アカウント、認証情報、アカウント上の行為は利用者の責任です。パスワード共有やなりすましは禁止です。Pocket KGS は KGS アカウントを所有・運営しません。作成、復旧、停止、本人確認済みの削除依頼は KGS 管理者が別途扱います。[アカウントとデータの削除]({% include page-url.html key='global/account-and-data-deletion' %}) をご覧ください。
 
 ## 適正な利用
 

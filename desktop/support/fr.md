@@ -1,5 +1,5 @@
 ---
-source_revision: "3a192cb8941407e29dbd19aabd5a5e33eaaf0fda5c2c869ce398799fdd40b322"
+source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
 layout: localized
 title: "Assistance"
 lang: "fr"
@@ -22,9 +22,9 @@ Pour le son sous macOS/Linux, précisez si lecture, microphone ou les deux sont 
 
 Récupération/statut du compte, données serveur ou modération : administrateur KGS ou [admin@gokgs.com](mailto:admin@gokgs.com).
 
-- [Confidentialité]({% include page-url.html key='desktop/privacy' %})
+- [Confidentialité]({% include page-url.html key='global/privacy' %})
 - [Règles de la communauté]({% include page-url.html key='desktop/community-guidelines' %}) pour bloquer et signaler.
-- [Suppression du compte et des données]({% include page-url.html key='desktop/account-and-data-deletion' %}) pour fichiers locaux et compte KGS.
+- [Suppression du compte et des données]({% include page-url.html key='global/account-and-data-deletion' %}) pour fichiers locaux et compte KGS.
 - [Signalement privé de vulnérabilités](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 - Questions privées sur l’application, la confidentialité ou la sécurité sensible : [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 

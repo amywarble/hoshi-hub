@@ -1,5 +1,5 @@
 ---
-source_revision: "8cc02584c458d3ee81a802ddfaad4c52710c82660f4a7361cb2d63b3dffe30d2"
+source_revision: "ed29c95fad57837b4bfb0d71a53226c192370524688762fa919a747712363a99"
 layout: localized
 title: "Начало работы"
 lang: "ru"
@@ -8,11 +8,10 @@ section: "android"
 nav_order: 1
 permalink: "/ru/android/help/"
 nav_group: "documentation"
+redirect_from: "/ru/android/"
 ---
 
-## Установка и обновление
-
-Установите или обновите Pocket KGS через Google Play на Android-устройстве.
+Pocket KGS — Android-клиент [KGS Go Server](https://www.gokgs.com/), официально одобренный KGS и Американской ассоциацией го (AGA).
 
 ## Вход
 
@@ -24,4 +23,4 @@ nav_group: "documentation"
 
 ## Помощь и правила
 
-При проблемах с приложением см. [Поддержка]({% include page-url.html key='android/support' %}). О нежелательных контактах и жалобах см. [Правила сообщества]({% include page-url.html key='android/community-guidelines' %}). Прочитайте [Политика конфиденциальности]({% include page-url.html key='android/privacy' %}), [условия использования]({% include page-url.html key='android/terms' %}) и [общие правила сообщества]({% include page-url.html key='global/community-guidelines' %}).
+При проблемах с приложением см. [Поддержка]({% include page-url.html key='android/support' %}). О нежелательных контактах и жалобах см. [Правила сообщества]({% include page-url.html key='android/community-guidelines' %}). Прочитайте [Политика конфиденциальности]({% include page-url.html key='global/privacy' %}), [условия использования]({% include page-url.html key='android/terms' %}) и [общие правила сообщества]({% include page-url.html key='global/community-guidelines' %}).

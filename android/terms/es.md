@@ -1,5 +1,5 @@
 ---
-source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
+source_revision: "1a9deb8302d64d580561b319b87a4ddc651d2e2bf1fc308e44a5841ce1a9174f"
 layout: localized
 title: "Condiciones de uso"
 lang: "es"
@@ -12,13 +12,13 @@ nav_group: "policies"
 
 _En vigor: 27 de octubre de 2026_
 
-Estas condiciones se aplican a Pocket KGS para Android. Usarlo supone aceptarlas junto con las [normas de la comunidad]({% include page-url.html key='android/community-guidelines' %}); si no acepta, no use la aplicación. Pocket KGS cuenta con el respaldo oficial de KGS. KGS establece y aplica sus propias [condiciones de servicio](https://www.gokgs.com/tos.jsp), que también rigen su uso de KGS.
+Estas condiciones se aplican a Pocket KGS para Android. Usarlo supone aceptarlas junto con las [normas de la comunidad]({% include page-url.html key='android/community-guidelines' %}); si no acepta, no use la aplicación. Pocket KGS cuenta con el respaldo oficial de KGS y de la American Go Association (AGA). KGS establece y aplica sus propias [condiciones de servicio](https://www.gokgs.com/tos.jsp), que también rigen su uso de KGS.
 
 ## Requisitos y cuentas
 
 Debe tener al menos 13 años. Si no puede aceptar legalmente por sí mismo, su padre, madre o tutor legal debe revisar y aceptar por usted.
 
-Usted responde de su cuenta, credenciales y actividad. No comparta contraseñas ni suplante a otros. Pocket KGS no posee ni opera las cuentas KGS. Sus administradores gestionan aparte creación, recuperación, suspensión y solicitudes verificadas de eliminación. Consulte [Eliminación de cuentas y datos]({% include page-url.html key='android/account-and-data-deletion' %}).
+Usted responde de su cuenta, credenciales y actividad. No comparta contraseñas ni suplante a otros. Pocket KGS no posee ni opera las cuentas KGS. Sus administradores gestionan aparte creación, recuperación, suspensión y solicitudes verificadas de eliminación. Consulte [Eliminación de cuentas y datos]({% include page-url.html key='global/account-and-data-deletion' %}).
 
 ## Uso aceptable
 

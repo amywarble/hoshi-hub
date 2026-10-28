@@ -7,11 +7,10 @@ section: "android"
 nav_order: 1
 permalink: "/android/help/"
 nav_group: "documentation"
+redirect_from: "/android/"
 ---
 
-## Install and update
-
-Install or update Pocket KGS through Google Play on your Android device.
+Pocket KGS is an Android client for the [KGS Go Server](https://www.gokgs.com/). It is officially endorsed by KGS and the American Go Association (AGA).
 
 ## Sign in
 
@@ -23,4 +22,4 @@ Open the navigation menu to browse rooms, find games to observe, start automatch
 
 ## Help and policies
 
-For app problems, use [Support]({% include page-url.html key='android/support' %}). For unwanted interactions and conduct reports, see [Community Guidelines]({% include page-url.html key='android/community-guidelines' %}). Read this app’s [Privacy Policy]({% include page-url.html key='android/privacy' %}) and [Terms of Use]({% include page-url.html key='android/terms' %}), and the [shared Community Guidelines]({% include page-url.html key='global/community-guidelines' %}).
+For app problems, use [Support]({% include page-url.html key='android/support' %}). For unwanted interactions and conduct reports, see [Community Guidelines]({% include page-url.html key='android/community-guidelines' %}). Read this app’s [Privacy Policy]({% include page-url.html key='global/privacy' %}) and [Terms of Use]({% include page-url.html key='android/terms' %}), and the [shared Community Guidelines]({% include page-url.html key='global/community-guidelines' %}).

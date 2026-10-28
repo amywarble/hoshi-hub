@@ -1,5 +1,5 @@
 ---
-source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
+source_revision: "1a9deb8302d64d580561b319b87a4ddc651d2e2bf1fc308e44a5841ce1a9174f"
 layout: localized
 title: "Nutzungsbedingungen"
 lang: "de"
@@ -12,13 +12,13 @@ nav_group: "policies"
 
 _Gültig ab: 27. Oktober 2026_
 
-Diese Nutzungsbedingungen gelten für die Android-App Pocket KGS. Mit ihrer Nutzung stimmen Sie ihnen und den [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}) zu. Ohne Zustimmung dürfen Sie die App nicht verwenden. Pocket KGS ist ein Client für den KGS Go Server und wird offiziell von KGS empfohlen. Für KGS gelten zusätzlich dessen eigene [Nutzungsbedingungen](https://www.gokgs.com/tos.jsp), die KGS festlegt und durchsetzt.
+Diese Nutzungsbedingungen gelten für die Android-App Pocket KGS. Mit ihrer Nutzung stimmen Sie ihnen und den [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}) zu. Ohne Zustimmung dürfen Sie die App nicht verwenden. Pocket KGS ist ein Client für den KGS Go Server und wird offiziell von KGS und der American Go Association (AGA) empfohlen. Für KGS gelten zusätzlich dessen eigene [Nutzungsbedingungen](https://www.gokgs.com/tos.jsp), die KGS festlegt und durchsetzt.
 
 ## Teilnahme und Konten
 
 Sie müssen mindestens 13 Jahre alt sein. Können Sie rechtlich nicht selbst zustimmen, muss ein Elternteil oder gesetzlicher Vormund die Bedingungen für Sie prüfen und ihnen zustimmen.
 
-Sie sind für Ihr Konto, Zugangsdaten und Kontoaktivitäten verantwortlich. Teilen Sie keine Passwörter und geben Sie sich nicht als andere Person aus. Pocket KGS besitzt oder betreibt keine KGS-Konten. Erstellung, Wiederherstellung, Sperrung und geprüfte Löschanfragen bearbeiten KGS-Administratoren separat. Siehe [Konto und Daten löschen]({% include page-url.html key='android/account-and-data-deletion' %}).
+Sie sind für Ihr Konto, Zugangsdaten und Kontoaktivitäten verantwortlich. Teilen Sie keine Passwörter und geben Sie sich nicht als andere Person aus. Pocket KGS besitzt oder betreibt keine KGS-Konten. Erstellung, Wiederherstellung, Sperrung und geprüfte Löschanfragen bearbeiten KGS-Administratoren separat. Siehe [Konto und Daten löschen]({% include page-url.html key='global/account-and-data-deletion' %}).
 
 ## Zulässige Nutzung
 

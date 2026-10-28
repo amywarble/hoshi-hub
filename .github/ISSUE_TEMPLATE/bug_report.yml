@@ -1,6 +1,6 @@
-name: App bug
+name: Pocket KGS bug
 description: Report a reproducible problem in Pocket KGS without sharing sensitive data.
-title: "[Bug]: "
+title: "[Pocket KGS bug] "
 labels:
   - bug
 body:

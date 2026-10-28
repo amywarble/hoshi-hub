@@ -1,5 +1,5 @@
 ---
-source_revision: "e6bdd361cb2c536f764bfb8ab2db4064c2e4aac2acfea797d410560a638489ee"
+source_revision: "b4b3453dc652f7e59f091f180f0eabc3323052a2f18e27e41912ec326306632d"
 layout: localized
 title: "Primeros pasos"
 lang: "es"
@@ -8,7 +8,10 @@ section: "desktop"
 nav_order: 1
 permalink: "/es/desktop/help/"
 nav_group: "documentation"
+redirect_from: "/es/desktop/"
 ---
+
+KGS Nova es un cliente del [KGS Go Server](https://www.gokgs.com/) para Windows, macOS y Linux. Cuenta con el respaldo oficial de KGS y de la American Go Association (AGA).
 
 ## Instalar y actualizar
 
@@ -26,4 +29,4 @@ En Acerca de, las instalaciones compatibles permiten buscar y descargar actualiz
 
 ## Ayuda y políticas
 
-Para problemas de la aplicación, consulte [Ayuda]({% include page-url.html key='desktop/support' %}). Para contactos no deseados y denuncias, vea [Normas de la comunidad]({% include page-url.html key='desktop/community-guidelines' %}). Lea la [Política de privacidad]({% include page-url.html key='desktop/privacy' %}), las [condiciones de uso]({% include page-url.html key='desktop/terms' %}) y las [normas comunitarias compartidas]({% include page-url.html key='global/community-guidelines' %}).
+Para problemas de la aplicación, consulte [Ayuda]({% include page-url.html key='desktop/support' %}). Para contactos no deseados y denuncias, vea [Normas de la comunidad]({% include page-url.html key='desktop/community-guidelines' %}). Lea la [Política de privacidad]({% include page-url.html key='global/privacy' %}), las [condiciones de uso]({% include page-url.html key='desktop/terms' %}) y las [normas comunitarias compartidas]({% include page-url.html key='global/community-guidelines' %}).

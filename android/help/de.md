@@ -1,5 +1,5 @@
 ---
-source_revision: "8cc02584c458d3ee81a802ddfaad4c52710c82660f4a7361cb2d63b3dffe30d2"
+source_revision: "ed29c95fad57837b4bfb0d71a53226c192370524688762fa919a747712363a99"
 layout: localized
 title: "Erste Schritte"
 lang: "de"
@@ -8,11 +8,10 @@ section: "android"
 nav_order: 1
 permalink: "/de/android/help/"
 nav_group: "documentation"
+redirect_from: "/de/android/"
 ---
 
-## Installieren und aktualisieren
-
-Installieren oder aktualisieren Sie Pocket KGS über Google Play auf Ihrem Android-Gerät.
+Pocket KGS ist ein Android-Client für den [KGS Go Server](https://www.gokgs.com/). Die App wird offiziell von KGS und der American Go Association (AGA) empfohlen.
 
 ## Anmelden
 
@@ -24,4 +23,4 @@ Melden Sie sich mit Ihrem KGS-Nutzernamen und Passwort an oder fahren Sie als Ga
 
 ## Hilfe und Richtlinien
 
-Bei App-Problemen hilft [Support]({% include page-url.html key='android/support' %}). Bei unerwünschtem Kontakt und Regelverstößen siehe [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}). Lesen Sie die [Datenschutzerklärung]({% include page-url.html key='android/privacy' %}) und [Nutzungsbedingungen]({% include page-url.html key='android/terms' %}) der App sowie die [gemeinsamen Community-Richtlinien]({% include page-url.html key='global/community-guidelines' %}).
+Bei App-Problemen hilft [Support]({% include page-url.html key='android/support' %}). Bei unerwünschtem Kontakt und Regelverstößen siehe [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}). Lesen Sie die [Datenschutzerklärung]({% include page-url.html key='global/privacy' %}) und [Nutzungsbedingungen]({% include page-url.html key='android/terms' %}) der App sowie die [gemeinsamen Community-Richtlinien]({% include page-url.html key='global/community-guidelines' %}).

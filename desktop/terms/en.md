@@ -13,7 +13,7 @@ _Effective: October 27, 2026_
 
 These terms apply to the KGS Nova desktop app for Windows, macOS, and Linux. By using the app, you agree to these terms and the [desktop Community Guidelines]({% include page-url.html key='desktop/community-guidelines' %}). If you do not agree, stop using the app.
 
-KGS Nova is a client for the KGS Go Server and is officially endorsed by KGS. Use of the KGS service is separately governed by the [KGS Terms of Service](https://www.gokgs.com/tos.jsp).
+KGS Nova is a client for the KGS Go Server and is officially endorsed by KGS and the American Go Association (AGA). Use of the KGS service is separately governed by the [KGS Terms of Service](https://www.gokgs.com/tos.jsp).
 
 ## Accounts and acceptable use
 
@@ -35,7 +35,7 @@ As stated in the software's license notice, the software is provided as is witho
 
 ## Privacy, changes, and contact
 
-Read the [desktop Privacy Policy]({% include page-url.html key='desktop/privacy' %}) for local storage, credential protection, diagnostics, and communications. You may stop using the app at any time; uninstalling does not delete a KGS account.
+Read the [desktop Privacy Policy]({% include page-url.html key='global/privacy' %}) for local storage, credential protection, diagnostics, and communications. You may stop using the app at any time; uninstalling does not delete a KGS account.
 
 These terms may be updated as the app changes. The effective date identifies the published revision.
 

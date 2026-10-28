@@ -12,7 +12,7 @@ permalink: "/security-policy/"
 
 Do not disclose a suspected vulnerability in a public GitHub issue.
 
-Use [GitHub's private vulnerability-reporting form](https://github.com/amywarble/hoshi-hub/security/advisories/new). Include the affected app (Pocket KGS or KGS Nova) and version, impact, reproduction steps, and any suggested mitigation. Remove unrelated personal data from screenshots and logs.
+Use [GitHub's private vulnerability-reporting form](https://github.com/amywarble/hoshi-hub/security/advisories/new). Include the affected app (Pocket KGS, KGS Nova, or Mobi) and version, impact, reproduction steps, and any suggested mitigation. Remove unrelated personal data from screenshots and logs.
 
 If the private reporting form is unavailable, email the app developer at [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com?subject=Hoshi%20Hub%20security%20report). Do not disclose the report in a public issue, and never include a KGS password.
 

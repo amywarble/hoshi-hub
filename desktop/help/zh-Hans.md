@@ -1,5 +1,5 @@
 ---
-source_revision: "e6bdd361cb2c536f764bfb8ab2db4064c2e4aac2acfea797d410560a638489ee"
+source_revision: "b4b3453dc652f7e59f091f180f0eabc3323052a2f18e27e41912ec326306632d"
 layout: localized
 title: "入门指南"
 lang: "zh-Hans"
@@ -8,7 +8,10 @@ section: "desktop"
 nav_order: 1
 permalink: "/zh-Hans/desktop/help/"
 nav_group: "documentation"
+redirect_from: "/zh-Hans/desktop/"
 ---
+
+KGS Nova 是适用于 Windows、macOS 和 Linux 的 [KGS Go Server](https://www.gokgs.com/) 客户端，已获得 KGS 和美国围棋协会（AGA）的官方认可。
 
 ## 安装和更新
 
@@ -26,4 +29,4 @@ nav_group: "documentation"
 
 ## 帮助和政策
 
-应用问题请参阅 [支持]({% include page-url.html key='desktop/support' %})。不受欢迎的互动和举报请参阅 [社区准则]({% include page-url.html key='desktop/community-guidelines' %})。另请阅读 [隐私政策]({% include page-url.html key='desktop/privacy' %})、[使用条款]({% include page-url.html key='desktop/terms' %}) 和 [共用社区准则]({% include page-url.html key='global/community-guidelines' %})。
+应用问题请参阅 [支持]({% include page-url.html key='desktop/support' %})。不受欢迎的互动和举报请参阅 [社区准则]({% include page-url.html key='desktop/community-guidelines' %})。另请阅读 [隐私政策]({% include page-url.html key='global/privacy' %})、[使用条款]({% include page-url.html key='desktop/terms' %}) 和 [共用社区准则]({% include page-url.html key='global/community-guidelines' %})。

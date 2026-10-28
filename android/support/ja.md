@@ -1,5 +1,5 @@
 ---
-source_revision: "3be6904ed41ef2335225a38a2bc5653ee989449596fbe824aae571dfc7efaaa2"
+source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
 layout: localized
 title: "サポート"
 lang: "ja"
@@ -22,14 +22,14 @@ Pocket KGS と Android のバージョン、期待した動作、実際の動作
 
 Pocket KGS は独立したクライアントです。パスワードの復旧、アカウント状態、サーバーデータ、モデレーションは KGS 管理者または [admin@gokgs.com](mailto:admin@gokgs.com) にお問い合わせください。
 
-アカウントと関連サーバーデータの削除は [削除手順]({% include page-url.html key='android/account-and-data-deletion' %}) に従ってください。公開 Issue にアカウント情報を載せないでください。ブロックや通報は [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) をご覧ください。
+アカウントと関連サーバーデータの削除は [削除手順]({% include page-url.html key='global/account-and-data-deletion' %}) に従ってください。公開 Issue にアカウント情報を載せないでください。ブロックや通報は [コミュニティガイドライン]({% include page-url.html key='android/community-guidelines' %}) をご覧ください。
 
 ## プライバシーと安全
 
 プライバシー・削除の依頼、機微な安全上の報告、脆弱性の連絡に公開 Issue を使わないでください。
 
-- [プライバシーポリシー]({% include page-url.html key='android/privacy' %})
-- [アカウントとデータの削除]({% include page-url.html key='android/account-and-data-deletion' %})
+- [プライバシーポリシー]({% include page-url.html key='global/privacy' %})
+- [アカウントとデータの削除]({% include page-url.html key='global/account-and-data-deletion' %})
 - [脆弱性の非公開報告](https://github.com/amywarble/hoshi-hub/security/advisories/new)
 - アプリ、プライバシー、機微な安全問題の個別相談：[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com)。
 

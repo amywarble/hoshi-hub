@@ -13,13 +13,13 @@ _Effective: October 27, 2026_
 
 These Terms of Use ("Terms") apply to the Pocket KGS Android app. By using Pocket KGS, you agree to these Terms and the [Community Guidelines]({% include page-url.html key='android/community-guidelines' %}). If you do not agree, do not use the app.
 
-Pocket KGS is a client for the KGS Go Server and is officially endorsed by KGS. Your use of KGS is also subject to the [KGS Terms of Service](https://www.gokgs.com/tos.jsp), which are controlled and enforced by KGS.
+Pocket KGS is a client for the KGS Go Server and is officially endorsed by KGS and the American Go Association (AGA). Your use of KGS is also subject to the [KGS Terms of Service](https://www.gokgs.com/tos.jsp), which are controlled and enforced by KGS.
 
 ## Eligibility and accounts
 
 You must be at least 13 years old to use Pocket KGS. If you are not legally able to agree to these Terms by yourself, a parent or legal guardian must review and agree to them for you.
 
-You are responsible for your KGS account, your credentials, and activity performed through your account. Do not share a password or impersonate another person. Pocket KGS does not own or operate KGS accounts. KGS administrators separately handle account creation, recovery, suspension, and verified deletion requests. See [Account and Data Deletion]({% include page-url.html key='android/account-and-data-deletion' %}).
+You are responsible for your KGS account, your credentials, and activity performed through your account. Do not share a password or impersonate another person. Pocket KGS does not own or operate KGS accounts. KGS administrators separately handle account creation, recovery, suspension, and verified deletion requests. See [Account and Data Deletion]({% include page-url.html key='global/account-and-data-deletion' %}).
 
 ## Acceptable use
 

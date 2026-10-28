@@ -1,0 +1,42 @@
+{% assign policy_ui = site.data.languages[page.lang] %}
+<section class="hoshi-policy-section" aria-labelledby="home-policies">
+  <h2 id="home-policies">{{ policy_ui.policies }}</h2>
+  <div class="hoshi-policy-panel">
+    <section class="hoshi-shared-policies" aria-labelledby="policies-shared">
+      <h3 id="policies-shared">{{ policy_ui.all_clients }}</h3>
+      <ul class="hoshi-shared-policy-links">
+        {% assign shared_policy_keys = 'global/privacy,global/account-and-data-deletion,global/security-policy' | split: ',' %}
+        {% for policy_key in shared_policy_keys %}
+          {% assign policy = site.pages | where: 'page_key', policy_key | where: 'lang', page.lang | first %}
+          <li><a href="{{ policy.url | relative_url }}">{{ policy.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    <div class="hoshi-client-policy-grid">
+      {% assign client_sections = 'android,desktop,mobi' | split: ',' %}
+      {% for client_section in client_sections %}
+        {% capture client_name %}{% case client_section %}{% when 'android' %}Pocket KGS{% when 'desktop' %}KGS Nova{% when 'mobi' %}Mobi{% endcase %}{% endcapture %}
+        {% assign terms_key = client_section | append: '/terms' %}
+        {% assign terms = site.pages | where: 'page_key', terms_key | where: 'lang', page.lang | first %}
+        {% assign guidelines_key = 'global/community-guidelines' %}
+        {% if client_section == 'mobi' %}{% assign guidelines_key = 'mobi/community-guidelines' %}{% endif %}
+        {% assign guidelines = site.pages | where: 'page_key', guidelines_key | where: 'lang', page.lang | first %}
+        <section class="hoshi-client-policies" aria-labelledby="policies-{{ client_section }}">
+          <h3 id="policies-{{ client_section }}">{{ client_name }}</h3>
+          <ul>
+            <li>
+              <a href="{{ terms.url | relative_url }}" hreflang="{{ terms.lang }}">{{ terms.title }}</a>
+            </li>
+            <li>
+              <a href="{{ guidelines.url | relative_url }}" hreflang="{{ guidelines.lang }}">{{ guidelines.title }}</a>
+            </li>
+            {% unless client_section == 'mobi' %}
+              {% assign controls_key = client_section | append: '/community-guidelines' %}
+              <li><a href="{% include page-url.html key=controls_key %}">{{ policy_ui.blocking_and_reporting }}</a></li>
+            {% endunless %}
+          </ul>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>

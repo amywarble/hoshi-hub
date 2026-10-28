@@ -1,5 +1,5 @@
 ---
-source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
+source_revision: "a4c875a474ca72a8ff6bf2b3363ac31e0422b38da2a3ee1e26cbbd42213ce61e"
 layout: localized
 title: "利用規約"
 lang: "ja"
@@ -12,7 +12,7 @@ nav_group: "policies"
 
 _施行日：2026年10月27日_
 
-本規約は Windows、macOS、Linux 用 KGS Nova に適用されます。利用により本規約と [ガイドライン]({% include page-url.html key='desktop/community-guidelines' %}) に同意するものとし、同意しなければ使用を中止してください。KGS Nova は KGS の公式な承認を受けています。KGS 自体は別途 [KGS 規約](https://www.gokgs.com/tos.jsp) に従います。
+本規約は Windows、macOS、Linux 用 KGS Nova に適用されます。利用により本規約と [ガイドライン]({% include page-url.html key='desktop/community-guidelines' %}) に同意するものとし、同意しなければ使用を中止してください。KGS Nova は KGS と American Go Association（AGA）の公式な承認を受けています。KGS 自体は別途 [KGS 規約](https://www.gokgs.com/tos.jsp) に従います。
 
 ## アカウントと適正な利用
 
@@ -34,6 +34,6 @@ KGS Nova と独自のソフトウェア、文書、画像等の著作権は © 2
 
 ## プライバシー、変更、連絡
 
-[プライバシーポリシー]({% include page-url.html key='desktop/privacy' %}) は保存、認証情報保護、診断、通信を説明します。いつでも利用を終了できますが、アンインストールで KGS アカウントは消えません。規約は変更でき、施行日が公開版を示します。
+[プライバシーポリシー]({% include page-url.html key='global/privacy' %}) は保存、認証情報保護、診断、通信を説明します。いつでも利用を終了できますが、アンインストールで KGS アカウントは消えません。規約は変更でき、施行日が公開版を示します。
 
 アプリの個別相談：[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com)。KGS アカウント、サービス、管理：[admin@gokgs.com](mailto:admin@gokgs.com)。

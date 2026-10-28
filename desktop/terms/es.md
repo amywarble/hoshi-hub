@@ -1,5 +1,5 @@
 ---
-source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
+source_revision: "a4c875a474ca72a8ff6bf2b3363ac31e0422b38da2a3ee1e26cbbd42213ce61e"
 layout: localized
 title: "Condiciones de uso"
 lang: "es"
@@ -12,7 +12,7 @@ nav_group: "policies"
 
 _En vigor: 27 de octubre de 2026_
 
-Estas condiciones cubren KGS Nova para Windows, macOS y Linux. Usarlo supone aceptarlas junto con las [normas comunitarias]({% include page-url.html key='desktop/community-guidelines' %}); de lo contrario, deje de usarlo. KGS Nova cuenta con el respaldo oficial de KGS. El servicio se rige aparte por las [condiciones KGS](https://www.gokgs.com/tos.jsp).
+Estas condiciones cubren KGS Nova para Windows, macOS y Linux. Usarlo supone aceptarlas junto con las [normas comunitarias]({% include page-url.html key='desktop/community-guidelines' %}); de lo contrario, deje de usarlo. KGS Nova cuenta con el respaldo oficial de KGS y de la American Go Association (AGA). El servicio se rige aparte por las [condiciones KGS](https://www.gokgs.com/tos.jsp).
 
 ## Cuentas y uso aceptable
 
@@ -34,6 +34,6 @@ Según el aviso de licencia, el software se ofrece tal cual y sin garantías, in
 
 ## Privacidad, cambios y contacto
 
-La [política de privacidad]({% include page-url.html key='desktop/privacy' %}) describe almacenamiento, protección de credenciales, diagnóstico y comunicaciones. Puede dejar de usarlo cuando quiera; desinstalar no borra la cuenta KGS. Las condiciones pueden actualizarse; la fecha identifica la versión publicada.
+La [política de privacidad]({% include page-url.html key='global/privacy' %}) describe almacenamiento, protección de credenciales, diagnóstico y comunicaciones. Puede dejar de usarlo cuando quiera; desinstalar no borra la cuenta KGS. Las condiciones pueden actualizarse; la fecha identifica la versión publicada.
 
 Consultas privadas: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). Cuenta, servicio y moderación KGS: [admin@gokgs.com](mailto:admin@gokgs.com).

@@ -5,9 +5,9 @@ Documentation, downloads, support, and policies for clients of the
 
 - [Pocket KGS for Android](https://amywarble.github.io/hoshi-hub/android/)
 - [KGS Nova for Windows, macOS, and Linux](https://amywarble.github.io/hoshi-hub/desktop/)
-- [KGS GTP for Windows and Linux](https://amywarble.github.io/hoshi-hub/gtp/)
+- [Mobi GTP bridge for Windows and Linux](https://amywarble.github.io/hoshi-hub/gtp/)
 
-Pocket KGS and KGS Nova are officially endorsed by KGS.
+Pocket KGS, KGS Nova, and Mobi are officially endorsed by KGS and the American Go Association (AGA).
 
 Visit [Hoshi Hub](https://amywarble.github.io/hoshi-hub/) for guides and policies,
 or [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases) for downloads.

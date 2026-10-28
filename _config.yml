@@ -1,5 +1,5 @@
 title: Hoshi Hub
-description: Downloads, documentation, privacy, safety, and support for Pocket KGS, KGS Nova, and KGS GTP.
+description: Downloads, documentation, privacy, safety, and support for Pocket KGS, KGS Nova, and the Mobi GTP bridge.
 remote_theme: just-the-docs/just-the-docs@v0.12.0
 url: "https://amywarble.github.io"
 baseurl: "/hoshi-hub"
@@ -10,8 +10,13 @@ search_enabled: false
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-redirect-from
 
 exclude:
+  - .cache
+  - .codex-temp
+  - .jekyll-cache
+  - .sass-cache
   - README.md
   - AGENTS.md
   - SECURITY.md

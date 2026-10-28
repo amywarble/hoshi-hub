@@ -1,5 +1,5 @@
 ---
-source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
+source_revision: "a4c875a474ca72a8ff6bf2b3363ac31e0422b38da2a3ee1e26cbbd42213ce61e"
 layout: localized
 title: "使用条款"
 lang: "zh-Hans"
@@ -12,7 +12,7 @@ nav_group: "policies"
 
 _生效日期：2026年10月27日_
 
-本条款适用于 Windows、macOS 和 Linux 版 KGS Nova。使用即同意本条款和 [社区准则]({% include page-url.html key='desktop/community-guidelines' %})；否则请停止使用。KGS Nova 已获得 KGS 官方认可。服务另受 [KGS 条款](https://www.gokgs.com/tos.jsp) 管辖。
+本条款适用于 Windows、macOS 和 Linux 版 KGS Nova。使用即同意本条款和 [社区准则]({% include page-url.html key='desktop/community-guidelines' %})；否则请停止使用。KGS Nova 已获得 KGS 和美国围棋协会（AGA）的官方认可。服务另受 [KGS 条款](https://www.gokgs.com/tos.jsp) 管辖。
 
 ## 账户和合理使用
 
@@ -34,6 +34,6 @@ KGS Nova 及其原创软件、文档、图像和其他资料版权所有 © 2026
 
 ## 隐私、变更与联系
 
-[隐私政策]({% include page-url.html key='desktop/privacy' %}) 说明存储、凭据保护、诊断和通信。您可随时停止使用；卸载不删除 KGS 账户。条款可能更新，生效日期标示已发布版本。
+[隐私政策]({% include page-url.html key='global/privacy' %}) 说明存储、凭据保护、诊断和通信。您可随时停止使用；卸载不删除 KGS 账户。条款可能更新，生效日期标示已发布版本。
 
 私下应用咨询：[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com)。KGS 账户、服务和管理：[admin@gokgs.com](mailto:admin@gokgs.com)。

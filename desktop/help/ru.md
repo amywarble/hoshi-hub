@@ -1,5 +1,5 @@
 ---
-source_revision: "e6bdd361cb2c536f764bfb8ab2db4064c2e4aac2acfea797d410560a638489ee"
+source_revision: "b4b3453dc652f7e59f091f180f0eabc3323052a2f18e27e41912ec326306632d"
 layout: localized
 title: "Начало работы"
 lang: "ru"
@@ -8,7 +8,10 @@ section: "desktop"
 nav_order: 1
 permalink: "/ru/desktop/help/"
 nav_group: "documentation"
+redirect_from: "/ru/desktop/"
 ---
+
+KGS Nova — клиент [KGS Go Server](https://www.gokgs.com/) для Windows, macOS и Linux, официально одобренный KGS и Американской ассоциацией го (AGA).
 
 ## Установка и обновление
 
@@ -26,4 +29,4 @@ nav_group: "documentation"
 
 ## Помощь и правила
 
-При проблемах с приложением см. [Поддержка]({% include page-url.html key='desktop/support' %}). О нежелательных контактах и жалобах см. [Правила сообщества]({% include page-url.html key='desktop/community-guidelines' %}). Прочитайте [Политика конфиденциальности]({% include page-url.html key='desktop/privacy' %}), [условия использования]({% include page-url.html key='desktop/terms' %}) и [общие правила сообщества]({% include page-url.html key='global/community-guidelines' %}).
+При проблемах с приложением см. [Поддержка]({% include page-url.html key='desktop/support' %}). О нежелательных контактах и жалобах см. [Правила сообщества]({% include page-url.html key='desktop/community-guidelines' %}). Прочитайте [Политика конфиденциальности]({% include page-url.html key='global/privacy' %}), [условия использования]({% include page-url.html key='desktop/terms' %}) и [общие правила сообщества]({% include page-url.html key='global/community-guidelines' %}).

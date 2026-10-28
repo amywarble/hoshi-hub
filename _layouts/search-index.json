@@ -2,13 +2,14 @@
 layout: null
 ---
 [
+{%- capture client_grid_include -%}{% raw %}{% include client-grid.html %}{% endraw %}{%- endcapture -%}
 {%- assign documents = site.pages | where: 'lang', page.lang | where_exp: 'document', 'document.page_key != nil' -%}
 {%- for document in documents -%}
   {
     "title": {{ document.title | jsonify }},
     "section": {{ site.data.languages[page.lang][document.section] | jsonify }},
     "url": {{ document.url | relative_url | jsonify }},
-    "text": {{ document.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+    "text": {{ document.content | remove: client_grid_include | markdownify | strip_html | normalize_whitespace | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {%- endfor -%}
 ]

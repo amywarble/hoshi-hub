@@ -1,5 +1,5 @@
 ---
-source_revision: "3be6904ed41ef2335225a38a2bc5653ee989449596fbe824aae571dfc7efaaa2"
+source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
 layout: localized
 title: "支持"
 lang: "zh-Hans"
@@ -22,14 +22,14 @@ nav_group: "documentation"
 
 Pocket KGS 是独立客户端。密码找回、账户状态、服务器数据或内容管理问题，请联系 KGS 管理员或 [admin@gokgs.com](mailto:admin@gokgs.com)。
 
-删除 KGS 账户及相关服务器数据，请遵循 [删除说明]({% include page-url.html key='android/account-and-data-deletion' %})。不要在公开问题中提供账户详情。屏蔽和举报请参阅 [社区准则]({% include page-url.html key='android/community-guidelines' %})。
+删除 KGS 账户及相关服务器数据，请遵循 [删除说明]({% include page-url.html key='global/account-and-data-deletion' %})。不要在公开问题中提供账户详情。屏蔽和举报请参阅 [社区准则]({% include page-url.html key='android/community-guidelines' %})。
 
 ## 隐私与安全
 
 不要通过公开问题提交隐私或删除请求、敏感安全报告或漏洞。
 
-- [隐私政策]({% include page-url.html key='android/privacy' %})
-- [账户与数据删除]({% include page-url.html key='android/account-and-data-deletion' %})
+- [隐私政策]({% include page-url.html key='global/privacy' %})
+- [账户与数据删除]({% include page-url.html key='global/account-and-data-deletion' %})
 - [私密报告漏洞](https://github.com/amywarble/hoshi-hub/security/advisories/new)
 - 应用、隐私或敏感安全问题的私下咨询：[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com)。
 

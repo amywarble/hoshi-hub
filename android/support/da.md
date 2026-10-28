@@ -1,5 +1,5 @@
 ---
-source_revision: "3be6904ed41ef2335225a38a2bc5653ee989449596fbe824aae571dfc7efaaa2"
+source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
 layout: localized
 title: "Support"
 lang: "da"
@@ -22,14 +22,14 @@ Offentliggør aldrig adgangskoder, gendannelsesoplysninger, tokens eller legitim
 
 Pocket KGS er uafhængig. Kontakt en KGS-administrator eller [admin@gokgs.com](mailto:admin@gokgs.com) om adgangskodegendannelse, kontostatus, serverdata eller moderation.
 
-For kontosletning og tilknyttede serverdata, følg [slettevejledningen]({% include page-url.html key='android/account-and-data-deletion' %}). Læg ikke kontooplysninger i offentlige sager. Se [fællesskabsreglerne]({% include page-url.html key='android/community-guidelines' %}) om blokering og rapportering.
+For kontosletning og tilknyttede serverdata, følg [slettevejledningen]({% include page-url.html key='global/account-and-data-deletion' %}). Læg ikke kontooplysninger i offentlige sager. Se [fællesskabsreglerne]({% include page-url.html key='android/community-guidelines' %}) om blokering og rapportering.
 
 ## Privatliv og sikkerhed
 
 Brug ikke offentlige sager til privatlivs- eller sletteanmodninger, følsomme sikkerhedsrapporter eller sårbarheder.
 
-- [Privatlivspolitik]({% include page-url.html key='android/privacy' %})
-- [Sletning af konto og data]({% include page-url.html key='android/account-and-data-deletion' %})
+- [Privatlivspolitik]({% include page-url.html key='global/privacy' %})
+- [Sletning af konto og data]({% include page-url.html key='global/account-and-data-deletion' %})
 - [Rapportér sårbarheder privat](https://github.com/amywarble/hoshi-hub/security/advisories/new)
 - Private app-, privatlivs- og følsomme sikkerhedsspørgsmål: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 

@@ -1,5 +1,5 @@
 ---
-source_revision: "3a192cb8941407e29dbd19aabd5a5e33eaaf0fda5c2c869ce398799fdd40b322"
+source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
 layout: localized
 title: "Support"
 lang: "da"
@@ -22,9 +22,9 @@ Ved lydproblemer på macOS/Linux, angiv om afspilning, mikrofon eller begge er r
 
 Kontogendannelse/-status, serverdata og moderation: KGS-administrator eller [admin@gokgs.com](mailto:admin@gokgs.com).
 
-- [Privatlivspolitik]({% include page-url.html key='desktop/privacy' %})
+- [Privatlivspolitik]({% include page-url.html key='global/privacy' %})
 - [Fællesskabsregler]({% include page-url.html key='desktop/community-guidelines' %}) om blokering/rapportering.
-- [Sletning af konto og data]({% include page-url.html key='desktop/account-and-data-deletion' %}).
+- [Sletning af konto og data]({% include page-url.html key='global/account-and-data-deletion' %}).
 - [Private sårbarhedsrapporter](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 - Private app-, privatlivs- og følsomme sikkerhedsspørgsmål: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 

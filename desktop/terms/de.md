@@ -1,5 +1,5 @@
 ---
-source_revision: "65ce7d581bb1a10830c953845adc4ea024d553fc92bc87b9a1676116c1ff144a"
+source_revision: "a4c875a474ca72a8ff6bf2b3363ac31e0422b38da2a3ee1e26cbbd42213ce61e"
 layout: localized
 title: "Nutzungsbedingungen"
 lang: "de"
@@ -12,7 +12,7 @@ nav_group: "policies"
 
 _Gültig ab: 27. Oktober 2026_
 
-Diese Bedingungen gelten für KGS Nova unter Windows, macOS und Linux. Durch Nutzung stimmen Sie ihnen und den [Community-Richtlinien]({% include page-url.html key='desktop/community-guidelines' %}) zu; andernfalls beenden Sie die Nutzung. KGS Nova wird offiziell von KGS empfohlen. Für KGS gelten separat die [KGS-Nutzungsbedingungen](https://www.gokgs.com/tos.jsp).
+Diese Bedingungen gelten für KGS Nova unter Windows, macOS und Linux. Durch Nutzung stimmen Sie ihnen und den [Community-Richtlinien]({% include page-url.html key='desktop/community-guidelines' %}) zu; andernfalls beenden Sie die Nutzung. KGS Nova wird offiziell von KGS und der American Go Association (AGA) empfohlen. Für KGS gelten separat die [KGS-Nutzungsbedingungen](https://www.gokgs.com/tos.jsp).
 
 ## Konten und zulässige Nutzung
 
@@ -34,6 +34,6 @@ Gemäß Lizenzhinweis wird die Software „wie besehen“ ohne Gewährleistung e
 
 ## Datenschutz, Änderungen und Kontakt
 
-Die [Datenschutzerklärung]({% include page-url.html key='desktop/privacy' %}) beschreibt Speicherung, Passwortschutz, Diagnose und Kommunikation. Sie können die Nutzung jederzeit beenden; Deinstallation löscht kein KGS-Konto. Bedingungen können sich mit der App ändern; das Gültigkeitsdatum bezeichnet die veröffentlichte Fassung.
+Die [Datenschutzerklärung]({% include page-url.html key='global/privacy' %}) beschreibt Speicherung, Passwortschutz, Diagnose und Kommunikation. Sie können die Nutzung jederzeit beenden; Deinstallation löscht kein KGS-Konto. Bedingungen können sich mit der App ändern; das Gültigkeitsdatum bezeichnet die veröffentlichte Fassung.
 
 Private App-Fragen: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). KGS-Konto, Dienst und Moderation: [admin@gokgs.com](mailto:admin@gokgs.com).

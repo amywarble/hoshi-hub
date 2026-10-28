@@ -1,5 +1,5 @@
 ---
-source_revision: "3a192cb8941407e29dbd19aabd5a5e33eaaf0fda5c2c869ce398799fdd40b322"
+source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
 layout: localized
 title: "支持"
 lang: "zh-Hans"
@@ -22,9 +22,9 @@ macOS／Linux 音频问题请说明播放、麦克风或两者受影响，检查
 
 账户找回／状态、服务器数据或内容管理：KGS 管理员或 [admin@gokgs.com](mailto:admin@gokgs.com)。
 
-- [隐私政策]({% include page-url.html key='desktop/privacy' %})
+- [隐私政策]({% include page-url.html key='global/privacy' %})
 - 关于屏蔽和举报的 [社区准则]({% include page-url.html key='desktop/community-guidelines' %})。
-- [账户与数据删除]({% include page-url.html key='desktop/account-and-data-deletion' %})。
+- [账户与数据删除]({% include page-url.html key='global/account-and-data-deletion' %})。
 - [私密报告漏洞](https://github.com/amywarble/hoshi-hub/security/advisories/new)。
 - 应用、隐私和敏感安全事项：[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com)。
 

@@ -1,7 +1,7 @@
 ---
-source_revision: "10c59b7b090a6ff6abc228d34ec55d93a0c868b8a6c986f490ec7c247f429425"
+source_revision: "bc33d9a7b2e56676af5e577b11b50c8aab2c30f55f764afd4fb9d5ce44c57e02"
 layout: localized
-title: "Inicio"
+title: "Documentación y ayuda"
 lang: "es"
 page_key: "global/home"
 section: "global"
@@ -9,12 +9,8 @@ nav_order: 0
 permalink: "/es/"
 ---
 
-Hoshi Hub ofrece documentación, descargas, ayuda y políticas para clientes del [KGS Go Server](https://www.gokgs.com/). Pocket KGS y KGS Nova cuentan con el respaldo oficial de KGS.
+Hoshi Hub ofrece documentación, descargas, ayuda y políticas para clientes del [KGS Go Server](https://www.gokgs.com/). Pocket KGS, KGS Nova y Mobi cuentan con el respaldo oficial de KGS y de la American Go Association (AGA).
 
-- [Pocket KGS para Android]({% include page-url.html key='android/home' %})
-- [KGS Nova para Windows, macOS y Linux]({% include page-url.html key='desktop/home' %})
-- [KGS GTP para Windows y Linux (en inglés)]({% include page-url.html key='gtp/home' %})
-- [normas comunitarias compartidas]({% include page-url.html key='global/community-guidelines' %})
-- [Política de seguridad]({% include page-url.html key='global/security-policy' %})
+{% include client-grid.html %}
 
-Descargue KGS Nova en [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases). Para errores y sugerencias, [abra una incidencia pública](https://github.com/amywarble/hoshi-hub/issues/new/choose), sin contraseñas, correos electrónicos, mensajes privados, tokens de acceso ni otros datos sensibles.
+Para errores y sugerencias, [abra una incidencia pública](https://github.com/amywarble/hoshi-hub/issues/new/choose), sin contraseñas, correos electrónicos, mensajes privados, tokens de acceso ni otros datos sensibles.

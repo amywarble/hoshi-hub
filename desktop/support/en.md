@@ -21,9 +21,9 @@ For audio problems on macOS or Linux, include whether playback, microphone captu
 
 For account recovery, account status, server-side data, or moderation, contact a KGS administrator or [admin@gokgs.com](mailto:admin@gokgs.com).
 
-- Read the [desktop Privacy Policy]({% include page-url.html key='desktop/privacy' %}).
+- Read the [desktop Privacy Policy]({% include page-url.html key='global/privacy' %}).
 - Follow the [desktop Community Guidelines]({% include page-url.html key='desktop/community-guidelines' %}) for blocking and reporting.
-- See [Account and Data Deletion]({% include page-url.html key='desktop/account-and-data-deletion' %}) for removing local data or requesting KGS account deletion.
+- See [Account and Data Deletion]({% include page-url.html key='global/account-and-data-deletion' %}) for removing local data or requesting KGS account deletion.
 - Report vulnerabilities through the [private security-reporting form](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 - Email the developer at [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) for private app, privacy, or sensitive safety concerns.
 

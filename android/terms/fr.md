@@ -1,5 +1,5 @@
 ---
-source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
+source_revision: "1a9deb8302d64d580561b319b87a4ddc651d2e2bf1fc308e44a5841ce1a9174f"
 layout: localized
 title: "Conditions d’utilisation"
 lang: "fr"
@@ -12,13 +12,13 @@ nav_group: "policies"
 
 _En vigueur le 27 octobre 2026_
 
-Ces conditions s’appliquent à Pocket KGS pour Android. Son utilisation vaut acceptation de ces conditions et des [règles de la communauté]({% include page-url.html key='android/community-guidelines' %}) ; sinon, n’utilisez pas l’application. Pocket KGS est officiellement approuvé par KGS. KGS définit et applique séparément ses [conditions d’utilisation](https://www.gokgs.com/tos.jsp).
+Ces conditions s’appliquent à Pocket KGS pour Android. Son utilisation vaut acceptation de ces conditions et des [règles de la communauté]({% include page-url.html key='android/community-guidelines' %}) ; sinon, n’utilisez pas l’application. Pocket KGS est officiellement approuvé par KGS et l’American Go Association (AGA). KGS définit et applique séparément ses [conditions d’utilisation](https://www.gokgs.com/tos.jsp).
 
 ## Âge et comptes
 
 Vous devez avoir au moins 13 ans. Si vous ne pouvez pas juridiquement consentir seul, un parent ou représentant légal doit examiner et accepter ces conditions pour vous.
 
-Vous êtes responsable de votre compte, de vos identifiants et des activités effectuées. Ne partagez pas votre mot de passe et n’usurpez pas d’identité. Pocket KGS ne possède ni n’exploite les comptes KGS. Les administrateurs KGS gèrent séparément création, récupération, suspension et suppression vérifiée. Voir [Suppression du compte et des données]({% include page-url.html key='android/account-and-data-deletion' %}).
+Vous êtes responsable de votre compte, de vos identifiants et des activités effectuées. Ne partagez pas votre mot de passe et n’usurpez pas d’identité. Pocket KGS ne possède ni n’exploite les comptes KGS. Les administrateurs KGS gèrent séparément création, récupération, suspension et suppression vérifiée. Voir [Suppression du compte et des données]({% include page-url.html key='global/account-and-data-deletion' %}).
 
 ## Usage autorisé
 

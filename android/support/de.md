@@ -1,5 +1,5 @@
 ---
-source_revision: "3be6904ed41ef2335225a38a2bc5653ee989449596fbe824aae571dfc7efaaa2"
+source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
 layout: localized
 title: "Support"
 lang: "de"
@@ -22,14 +22,14 @@ Veröffentlichen Sie niemals Passwörter, Wiederherstellungsdaten, Zugriffstoken
 
 Pocket KGS ist ein unabhängiger Client. Für Passwortwiederherstellung, Kontostatus, serverseitige Daten oder Moderation kontaktieren Sie einen KGS-Administrator oder [admin@gokgs.com](mailto:admin@gokgs.com).
 
-Für Kontolöschung beachten Sie [Konto und Daten löschen]({% include page-url.html key='android/account-and-data-deletion' %}). Kontodaten gehören nicht in öffentliche Issues. Hinweise zum Sperren und Melden finden Sie in den [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}).
+Für Kontolöschung beachten Sie [Konto und Daten löschen]({% include page-url.html key='global/account-and-data-deletion' %}). Kontodaten gehören nicht in öffentliche Issues. Hinweise zum Sperren und Melden finden Sie in den [Community-Richtlinien]({% include page-url.html key='android/community-guidelines' %}).
 
 ## Datenschutz und Sicherheit
 
 Verwenden Sie öffentliche Issues nicht für Datenschutz- oder Löschanfragen, sensible Sicherheitsmeldungen oder Sicherheitslücken.
 
-- [Datenschutzerklärung]({% include page-url.html key='android/privacy' %})
-- [Konto und Daten löschen]({% include page-url.html key='android/account-and-data-deletion' %})
+- [Datenschutzerklärung]({% include page-url.html key='global/privacy' %})
+- [Konto und Daten löschen]({% include page-url.html key='global/account-and-data-deletion' %})
 - [Sicherheitslücke privat melden](https://github.com/amywarble/hoshi-hub/security/advisories/new)
 - Private Fragen zur App, zum Datenschutz oder zu sensiblen Sicherheitsproblemen: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 

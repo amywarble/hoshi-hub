@@ -1,5 +1,5 @@
 <ul>
   {% for item in include.pages %}
-    <li><a href="{{ item.url | relative_url }}"{% if item.page_key == page.page_key %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+    <li><a href="{{ item.url | relative_url }}"{% if item.page_key == page.page_key %} aria-current="page"{% endif %}>{{ item.nav_title | default: item.title }}</a></li>
   {% endfor %}
 </ul>

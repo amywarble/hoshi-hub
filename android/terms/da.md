@@ -1,5 +1,5 @@
 ---
-source_revision: "933a4b1ab43945541c9922f1db73d6d1b216be00fbe698318f1967e81cd13ed0"
+source_revision: "1a9deb8302d64d580561b319b87a4ddc651d2e2bf1fc308e44a5841ce1a9174f"
 layout: localized
 title: "Brugsvilkår"
 lang: "da"
@@ -12,13 +12,13 @@ nav_group: "policies"
 
 _Gældende fra: 27. oktober 2026_
 
-Disse vilkår gælder Pocket KGS til Android. Brug indebærer accept af dem og [fællesskabsreglerne]({% include page-url.html key='android/community-guidelines' %}); ellers må du ikke bruge appen. Pocket KGS er officielt anbefalet af KGS. KGS fastsætter og håndhæver selv sine [servicevilkår](https://www.gokgs.com/tos.jsp), som også gælder din KGS-brug.
+Disse vilkår gælder Pocket KGS til Android. Brug indebærer accept af dem og [fællesskabsreglerne]({% include page-url.html key='android/community-guidelines' %}); ellers må du ikke bruge appen. Pocket KGS er officielt anbefalet af KGS og American Go Association (AGA). KGS fastsætter og håndhæver selv sine [servicevilkår](https://www.gokgs.com/tos.jsp), som også gælder din KGS-brug.
 
 ## Alder og konti
 
 Du skal være mindst 13 år. Kan du ikke juridisk acceptere selv, skal en forælder/værge gennemgå og acceptere for dig.
 
-Du er ansvarlig for konto, legitimationsoplysninger og kontoaktivitet. Del ikke adgangskoder, og udgiv dig ikke for andre. Pocket KGS ejer/driver ikke KGS-konti. KGS-administratorer håndterer særskilt oprettelse, gendannelse, suspension og verificerede sletteanmodninger. Se [Sletning af konto og data]({% include page-url.html key='android/account-and-data-deletion' %}).
+Du er ansvarlig for konto, legitimationsoplysninger og kontoaktivitet. Del ikke adgangskoder, og udgiv dig ikke for andre. Pocket KGS ejer/driver ikke KGS-konti. KGS-administratorer håndterer særskilt oprettelse, gendannelse, suspension og verificerede sletteanmodninger. Se [Sletning af konto og data]({% include page-url.html key='global/account-and-data-deletion' %}).
 
 ## Tilladt brug
 

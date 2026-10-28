@@ -1,5 +1,5 @@
 ---
-source_revision: "8cc02584c458d3ee81a802ddfaad4c52710c82660f4a7361cb2d63b3dffe30d2"
+source_revision: "ed29c95fad57837b4bfb0d71a53226c192370524688762fa919a747712363a99"
 layout: localized
 title: "入门指南"
 lang: "zh-Hans"
@@ -8,11 +8,10 @@ section: "android"
 nav_order: 1
 permalink: "/zh-Hans/android/help/"
 nav_group: "documentation"
+redirect_from: "/zh-Hans/android/"
 ---
 
-## 安装和更新
-
-请在 Android 设备上通过 Google Play 安装或更新 Pocket KGS。
+Pocket KGS 是 [KGS Go Server](https://www.gokgs.com/) 的 Android 客户端，已获得 KGS 和美国围棋协会（AGA）的官方认可。
 
 ## 登录
 
@@ -24,4 +23,4 @@ nav_group: "documentation"
 
 ## 帮助和政策
 
-应用问题请参阅 [支持]({% include page-url.html key='android/support' %})。不受欢迎的互动和举报请参阅 [社区准则]({% include page-url.html key='android/community-guidelines' %})。另请阅读 [隐私政策]({% include page-url.html key='android/privacy' %})、[使用条款]({% include page-url.html key='android/terms' %}) 和 [共用社区准则]({% include page-url.html key='global/community-guidelines' %})。
+应用问题请参阅 [支持]({% include page-url.html key='android/support' %})。不受欢迎的互动和举报请参阅 [社区准则]({% include page-url.html key='android/community-guidelines' %})。另请阅读 [隐私政策]({% include page-url.html key='global/privacy' %})、[使用条款]({% include page-url.html key='android/terms' %}) 和 [共用社区准则]({% include page-url.html key='global/community-guidelines' %})。

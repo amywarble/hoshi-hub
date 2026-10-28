@@ -31,21 +31,23 @@
         {% endfor %}
       </nav>
     </header>
-    <div class="hoshi-body">
+    <div class="hoshi-body{% if page.page_key == 'global/home' %} hoshi-body-home{% endif %}">
+      {% unless page.page_key == 'global/home' %}
       <aside class="hoshi-sidebar">
         <nav aria-label="{{ ui.navigation | escape }}">
-          {% assign sections = 'global,android,desktop,gtp' | split: ',' %}
+          {% assign sections = 'global,android,desktop,mobi' | split: ',' %}
           {% for section in sections %}
             {% assign section_pages = site.pages | where: 'lang', page.lang | where: 'section', section | sort: 'nav_order' %}
             {% if section_pages.size > 0 %}
-            <h2>{{ ui[section] }}</h2>
+            {% unless section == 'global' %}<h2>{{ ui[section] }}</h2>{% endunless %}
             {% if section == 'android' or section == 'desktop' %}
-              {% assign groups = 'documentation,policies' | split: ',' %}
-              {% for group in groups %}
-                {% assign group_pages = section_pages | where: 'nav_group', group %}
-                <h3>{{ ui[group] }}</h3>
-                {% include navigation-links.html pages=group_pages %}
-              {% endfor %}
+              {% assign documentation_pages = section_pages | where: 'nav_group', 'documentation' %}
+              {% include navigation-links.html pages=documentation_pages %}
+              {% assign policy_pages = section_pages | where: 'nav_group', 'policies' %}
+              <details class="hoshi-policies"{% if page.section == section and page.nav_group == 'policies' %} open{% endif %}>
+                <summary>{{ ui.policies }}</summary>
+                {% include navigation-links.html pages=policy_pages %}
+              </details>
             {% else %}
               {% include navigation-links.html pages=section_pages %}
             {% endif %}
@@ -53,6 +55,7 @@
           {% endfor %}
         </nav>
       </aside>
+      {% endunless %}
       <main id="main-content" class="main-content hoshi-content" tabindex="-1">
         <div class="hoshi-search" hidden data-search-url="{{ '/assets/search/' | append: page.lang | append: '.json' | relative_url }}">
           <form role="search">

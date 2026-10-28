@@ -1,5 +1,5 @@
 ---
-source_revision: "3a192cb8941407e29dbd19aabd5a5e33eaaf0fda5c2c869ce398799fdd40b322"
+source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
 layout: localized
 title: "サポート"
 lang: "ja"
@@ -22,9 +22,9 @@ macOS／Linux の音声問題では、再生、マイク、両方のどれが影
 
 アカウント復旧・状態、サーバーデータ、管理は KGS 管理者または [admin@gokgs.com](mailto:admin@gokgs.com) へ。
 
-- [プライバシーポリシー]({% include page-url.html key='desktop/privacy' %})
+- [プライバシーポリシー]({% include page-url.html key='global/privacy' %})
 - ブロック・通報の [ガイドライン]({% include page-url.html key='desktop/community-guidelines' %})。
-- [アカウントとデータの削除]({% include page-url.html key='desktop/account-and-data-deletion' %})。
+- [アカウントとデータの削除]({% include page-url.html key='global/account-and-data-deletion' %})。
 - [脆弱性の非公開報告](https://github.com/amywarble/hoshi-hub/security/advisories/new)。
 - アプリ、プライバシー、機微な安全相談：[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com)。
 
