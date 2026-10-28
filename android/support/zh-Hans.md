@@ -1,5 +1,5 @@
 ---
-source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
+source_revision: "1f68a0babc4341e4d3f3445910684c3caa5db66990d6328df1259fca2f7b6cec"
 layout: localized
 title: "支持"
 lang: "zh-Hans"
@@ -12,9 +12,11 @@ nav_group: "documentation"
 
 ## Pocket KGS 应用帮助
 
-对于可复现的错误或功能建议，请 [选择公开问题表单](https://github.com/amywarble/hoshi-hub/issues/new/choose)。条件允许时，请先搜索已有问题。
+[报告 Pocket KGS 的问题](https://github.com/amywarble/hoshi-hub/issues/new?template=bug_report.yml)或[提出功能建议](https://github.com/amywarble/hoshi-hub/issues/new?template=feature_request.yml)。如果方便，请先查看[已有报告](https://github.com/amywarble/hoshi-hub/issues)。
 
-注明 Pocket KGS 和 Android 版本、预期结果、实际结果以及最少复现步骤。提供截图前请删除用户名、消息、电子邮箱及其他个人信息。
+报告问题不需要技术知识。即使只发生过一次，也请用自己的话描述发生了什么。填写您知道的内容即可；如有需要，我们会进一步询问。版本、操作步骤和截图均为选填。分享截图前，请遮盖个人信息和非公开内容。
+
+不使用 GitHub？您也可以发送邮件至 [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) 报告应用问题。
 
 绝不要公开密码、找回信息、令牌或登录凭据；电子邮箱、真实姓名、IP 地址或私密标识；私信或非公开的对局／房间内容；未经检查和删去敏感信息的诊断日志；以及虐待、色情、违法或涉及儿童安全的材料。
 

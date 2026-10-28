@@ -7,8 +7,6 @@ Documentation, downloads, support, and policies for clients of the
 - [KGS Nova for Windows, macOS, and Linux](https://amywarble.github.io/hoshi-hub/desktop/)
 - [Mobi GTP bridge for Windows and Linux](https://amywarble.github.io/hoshi-hub/gtp/)
 
-Pocket KGS, KGS Nova, and Mobi are officially endorsed by KGS and the American Go Association (AGA).
-
 Visit [Hoshi Hub](https://amywarble.github.io/hoshi-hub/) for guides and policies,
 or [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases) for downloads.
 

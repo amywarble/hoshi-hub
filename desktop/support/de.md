@@ -1,5 +1,5 @@
 ---
-source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
+source_revision: "2505463072f38f6f2426f4735db307c75edb4f0522c870371f6d4fd4adc64a54"
 layout: localized
 title: "Support"
 lang: "de"
@@ -10,7 +10,11 @@ permalink: "/de/desktop/support/"
 nav_group: "documentation"
 ---
 
-Für reproduzierbare Fehler und Funktionswünsche durchsuchen Sie den [Issue-Tracker](https://github.com/amywarble/hoshi-hub/issues), dann melden Sie einen [Desktop-Fehler](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) oder [Funktionswunsch](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Nennen Sie App-Version, Betriebssystem, Prozessorarchitektur, erwartetes/tatsächliches Verhalten und Reproduktionsschritte.
+[Melden Sie ein Problem mit KGS Nova](https://github.com/amywarble/hoshi-hub/issues/new?template=nova_bug_report.yml) oder [schlagen Sie eine Funktion vor](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Prüfen Sie nach Möglichkeit zuerst die [vorhandenen Meldungen](https://github.com/amywarble/hoshi-hub/issues).
+
+Sie brauchen kein technisches Wissen, um ein Problem zu melden. Beschreiben Sie in eigenen Worten, was passiert ist, auch wenn es nur einmal aufgetreten ist. Geben Sie an, was Sie wissen; wir können Rückfragen stellen. Versionen, Schritte und Bildschirmfotos sind freiwillig. Machen Sie private Informationen in Bildschirmfotos vor dem Teilen unkenntlich.
+
+Sie nutzen GitHub nicht? Sie können App-Probleme auch per E-Mail an [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) melden.
 
 **About → Report an app issue** öffnet einen Entwurf mit Version, Betriebssystem, Architektur und Laufzeitdetails. Sie können diese Angaben vor dem Absenden ändern oder entfernen. Der Knopf sendet selbst nichts ab.
 

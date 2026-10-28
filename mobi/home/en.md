@@ -75,7 +75,8 @@ printf '\n'
 Press Ctrl+C to stop. Use the user guide to choose continuous play, retain logs,
 and preserve the client identity across upgrades.
 
-For bugs and documentation corrections,
-[open a public GitHub issue](https://github.com/amywarble/hoshi-hub/issues/new/choose)
-and identify the client as **Mobi**. Include the client and engine versions
-and relevant diagnostics. Omit passwords and other sensitive information.
+[Report a problem with Mobi](https://github.com/amywarble/hoshi-hub/issues/new?template=mobi_problem_report.yml). For documentation corrections, [open a public GitHub issue](https://github.com/amywarble/hoshi-hub/issues/new/choose) and mention **Mobi**. Never include passwords or other sensitive information.
+
+You don't need technical knowledge to report a problem. Describe what happened in your own words, even if it only happened once. Fill in whatever you know; we can ask follow-up questions. Versions, steps, and screenshots are optional. Hide private information in screenshots before sharing them.
+
+Don't use GitHub? You can also report app problems by email to [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).

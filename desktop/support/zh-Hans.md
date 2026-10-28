@@ -1,5 +1,5 @@
 ---
-source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
+source_revision: "2505463072f38f6f2426f4735db307c75edb4f0522c870371f6d4fd4adc64a54"
 layout: localized
 title: "支持"
 lang: "zh-Hans"
@@ -10,7 +10,11 @@ permalink: "/zh-Hans/desktop/support/"
 nav_group: "documentation"
 ---
 
-对于可复现错误或建议，请先搜索 [已有问题](https://github.com/amywarble/hoshi-hub/issues)，再 [报告桌面错误](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) 或 [提出功能建议](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md)。包含版本、操作系统、处理器架构、预期／实际结果和复现步骤。
+[报告 KGS Nova 的问题](https://github.com/amywarble/hoshi-hub/issues/new?template=nova_bug_report.yml)或[提出功能建议](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md)。如果方便，请先查看[已有报告](https://github.com/amywarble/hoshi-hub/issues)。
+
+报告问题不需要技术知识。即使只发生过一次，也请用自己的话描述发生了什么。填写您知道的内容即可；如有需要，我们会进一步询问。版本、操作步骤和截图均为选填。分享截图前，请遮盖个人信息和非公开内容。
+
+不使用 GitHub？您也可以发送邮件至 [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) 报告应用问题。
 
 **About → Report an app issue** 打开含版本、系统、架构和运行时信息的草稿。提交前可修改或删除这些详情。按钮不会替您提交。
 

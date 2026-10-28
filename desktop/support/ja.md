@@ -1,5 +1,5 @@
 ---
-source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
+source_revision: "2505463072f38f6f2426f4735db307c75edb4f0522c870371f6d4fd4adc64a54"
 layout: localized
 title: "サポート"
 lang: "ja"
@@ -10,7 +10,11 @@ permalink: "/ja/desktop/support/"
 nav_group: "documentation"
 ---
 
-再現できる不具合や機能要望は [既存 Issue](https://github.com/amywarble/hoshi-hub/issues) を検索し、[不具合報告](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) または [機能要望](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md) を作成してください。バージョン、OS、CPU アーキテクチャ、期待／実際の動作、再現手順を記載します。
+[KGS Nova の問題を報告](https://github.com/amywarble/hoshi-hub/issues/new?template=nova_bug_report.yml)するか、[機能を提案](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md)してください。可能であれば、先に[既存の報告](https://github.com/amywarble/hoshi-hub/issues)をご確認ください。
+
+問題の報告に技術的な知識は必要ありません。一度しか起きていなくても、何が起きたかをご自身の言葉でお知らせください。分かる範囲で記入していただければ、必要に応じて追加でお尋ねします。バージョン、操作手順、スクリーンショットは任意です。画像を共有する前に、個人情報や非公開の内容を隠してください。
+
+GitHub を使っていない場合は、[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) へのメールでもアプリの問題を報告できます。
 
 **About → Report an app issue** はバージョン、OS、アーキテクチャ、ランタイム情報を含む下書きを開きます。送信前に編集・削除できます。ボタン自体は送信しません。
 

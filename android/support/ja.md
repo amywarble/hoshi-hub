@@ -1,5 +1,5 @@
 ---
-source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
+source_revision: "1f68a0babc4341e4d3f3445910684c3caa5db66990d6328df1259fca2f7b6cec"
 layout: localized
 title: "サポート"
 lang: "ja"
@@ -12,9 +12,11 @@ nav_group: "documentation"
 
 ## Pocket KGS のヘルプ
 
-再現可能な不具合や機能要望は [公開 Issue フォーム](https://github.com/amywarble/hoshi-hub/issues/new/choose) へお寄せください。可能なら先に既存の Issue を検索してください。
+[Pocket KGS の問題を報告](https://github.com/amywarble/hoshi-hub/issues/new?template=bug_report.yml)するか、[機能を提案](https://github.com/amywarble/hoshi-hub/issues/new?template=feature_request.yml)してください。可能であれば、先に[既存の報告](https://github.com/amywarble/hoshi-hub/issues)をご確認ください。
 
-Pocket KGS と Android のバージョン、期待した動作、実際の動作、最小限の再現手順を記載してください。スクリーンショットからは利用者名、メッセージ、メールアドレスなどの個人情報を削除してください。
+問題の報告に技術的な知識は必要ありません。一度しか起きていなくても、何が起きたかをご自身の言葉でお知らせください。分かる範囲で記入していただければ、必要に応じて追加でお尋ねします。バージョン、操作手順、スクリーンショットは任意です。画像を共有する前に、個人情報や非公開の内容を隠してください。
+
+GitHub を使っていない場合は、[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) へのメールでもアプリの問題を報告できます。
 
 公開 Issue に、パスワード・復旧情報・トークン・認証情報、メールアドレス・本名・IP アドレス・非公開の識別子、私信や非公開の対局／部屋の内容、未確認または機密情報を除去していないログ、虐待的・性的・違法な資料や子どもの安全に関わる資料を投稿しないでください。
 

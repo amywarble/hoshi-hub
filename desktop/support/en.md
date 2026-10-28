@@ -9,7 +9,11 @@ permalink: "/desktop/support/"
 nav_group: "documentation"
 ---
 
-For a reproducible bug or a feature request, search the [public issue tracker](https://github.com/amywarble/hoshi-hub/issues), then [report a desktop bug](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) or [request a desktop feature](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Include the app version, your operating system and processor architecture, what you expected, what happened, and steps to reproduce the problem.
+[Report a problem with KGS Nova](https://github.com/amywarble/hoshi-hub/issues/new?template=nova_bug_report.yml) or [request a feature](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). If practical, check the [existing reports](https://github.com/amywarble/hoshi-hub/issues) first.
+
+You don't need technical knowledge to report a problem. Describe what happened in your own words, even if it only happened once. Fill in whatever you know; we can ask follow-up questions. Versions, steps, and screenshots are optional. Hide private information in screenshots before sharing them.
+
+Don't use GitHub? You can also report app problems by email to [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 
 The desktop **About → Report an app issue** button opens a draft with version, operating system, architecture, and runtime details. You can edit or remove those details before submitting. The button does not submit the report for you.
 

@@ -1,0 +1,54 @@
+name: Report a problem with Mobi
+description: Tell us what went wrong with your Go bot on Windows or Linux.
+title: "[Mobi bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You don't need technical knowledge to report a problem. Describe it in your own words, even if it happened only once. Fill in whatever you know; we can ask follow-up questions.
+
+        **Reports are public.** Please hide passwords, email addresses, and private conversations in screenshots. Only attach logs or configuration after checking them and removing private information, including KGS_PASSWORD and other credentials.
+
+        Prefer email? You can also report app problems to [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For account recovery or moderation, contact [KGS support](mailto:admin@gokgs.com). Report [security vulnerabilities privately](https://github.com/amywarble/hoshi-hub/security/advisories/new).
+  - type: textarea
+    id: description
+    attributes:
+      label: What went wrong?
+      description: What were you trying to do, and what happened instead?
+      placeholder: My bot joined the room, but it stopped responding when a game started.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What were you doing before this happened?
+      description: Optional. It's okay if you don't remember or can't make it happen again.
+      placeholder: I started Mobi and accepted a challenge from another player.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Optional. Skip this if you already explained it above.
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does this happen?
+      options:
+        - It happened once
+        - Sometimes
+        - Every time I try
+        - I'm not sure
+      default: 3
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else? Screenshots are welcome.
+      description: Optional. You can paste or drag screenshots here. Hide private information first. Logs and configuration files are not required.
+  - type: textarea
+    id: app-info
+    attributes:
+      label: About your bot setup
+      description: Optional. Include the Mobi version, Windows or Linux version, Go engine, and how your bot finds games, if you know. Do not include passwords.
+      placeholder: For example, Mobi 0.1.0 on Windows 11, using KataGo and accepting challenges

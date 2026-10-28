@@ -1,26 +1,25 @@
 ---
-name: KGS Nova bug
-about: Report a reproducible problem in KGS Nova for Windows, macOS, or Linux.
+name: KGS Nova problem (text version)
+about: For older app report links. You can use the guided KGS Nova form above instead.
 title: '[KGS Nova bug] '
 labels: bug
 ---
 
-<!-- This issue is public. Remove passwords, private messages, personal information, and unreviewed logs. For account or moderation help, contact KGS. -->
+You don't need technical knowledge to report a problem. Describe it in your own words, even if it happened only once. Fill in whatever you know; we can ask follow-up questions.
 
-## What happened?
+**Reports are public.** Hide passwords, email addresses, and private conversations in screenshots. Only attach logs after checking them and removing private information.
 
-## Steps to reproduce
-1.
-2.
-3.
+Prefer a guided form? [Report a problem with KGS Nova](https://github.com/amywarble/hoshi-hub/issues/new?template=nova_bug_report.yml). You can also email [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For account recovery or moderation, contact [KGS support](https://amywarble.github.io/hoshi-hub/desktop/support/#kgs-help-and-private-concerns). Report [security vulnerabilities privately](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 
-## Expected behavior
+## What went wrong?
 
-## App information
-- App: KGS Nova desktop
-- Version (from About):
-- Operating system and version:
-- Processor architecture:
+## What were you doing before this happened? (optional)
+It's okay if you don't remember or can't make it happen again.
 
-## Additional context
-<!-- Attach only screenshots or logs you have reviewed and redacted. -->
+## What did you expect to happen? (optional)
+
+## Anything else? Screenshots are welcome. (optional)
+Hide private information before sharing screenshots. Logs are not required.
+
+## App and computer information (optional)
+Include the Nova version from About and whether you use Windows, macOS, or Linux, if you know. You may edit or remove any details already filled in.

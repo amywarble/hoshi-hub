@@ -36,8 +36,8 @@
         {% endif %}
         {% case client_section %}
           {% when 'android' %}{% assign bug_template = 'bug_report.yml' %}
-          {% when 'desktop' %}{% assign bug_template = 'desktop_bug_report.md' %}
-          {% when 'mobi' %}{% assign bug_template = 'mobi_bug_report.md' %}
+          {% when 'desktop' %}{% assign bug_template = 'nova_bug_report.yml' %}
+          {% when 'mobi' %}{% assign bug_template = 'mobi_problem_report.yml' %}
         {% endcase %}
         <li>
           <a href="https://github.com/amywarble/hoshi-hub/issues/new?template={{ bug_template }}"

@@ -1,5 +1,5 @@
-name: Pocket KGS bug
-description: Report a reproducible problem in Pocket KGS without sharing sensitive data.
+name: Report a problem with Pocket KGS
+description: Tell us what went wrong, even if it only happened once.
 title: "[Pocket KGS bug] "
 labels:
   - bug
@@ -7,73 +7,54 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve Pocket KGS. This report will be public.
+        You don't need technical knowledge to report a problem. Describe it in your own words, even if it happened only once. Fill in whatever you know; we can ask follow-up questions.
 
-        **Do not include passwords, email addresses, private messages, unredacted logs, access tokens, or other personal information.** Contact KGS—not this tracker—for KGS account or moderation matters.
-  - type: input
-    id: app-version
-    attributes:
-      label: Pocket KGS version
-      description: Find this on the About screen or in Android app information.
-      placeholder: 0.1.0
-    validations:
-      required: true
-  - type: input
-    id: android-version
-    attributes:
-      label: Android version and device model
-      placeholder: Android 16 on Pixel 9
-    validations:
-      required: true
-  - type: dropdown
-    id: area
-    attributes:
-      label: Area
-      options:
-        - Sign-in or connection
-        - Rooms or chat
-        - Games or board
-        - Profiles or settings
-        - Notifications
-        - Teacher audio
-        - Accessibility or display
-        - Other
-    validations:
-      required: true
+        **Reports are public.** Please hide passwords, email addresses, and private conversations in screenshots. Only attach logs after checking them and removing private information.
+
+        Prefer email? You can also report app problems to [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For account recovery or moderation, contact [KGS support](https://amywarble.github.io/hoshi-hub/support/#kgs-account-server-or-moderation-help). Report [security vulnerabilities privately](https://github.com/amywarble/hoshi-hub/security/advisories/new).
   - type: textarea
     id: description
     attributes:
-      label: What happened?
-      description: Describe the problem without including private account or message content.
+      label: What went wrong?
+      description: What were you trying to do, and what happened instead?
+      placeholder: I was watching a game. When I turned my phone sideways, the board disappeared.
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      placeholder: |
-        1. Open ...
-        2. Tap ...
-        3. Observe ...
-    validations:
-      required: true
+      label: What were you doing before this happened?
+      description: Optional. It's okay if you don't remember or can't make it happen again.
+      placeholder: I opened a game from the game list, then turned my phone sideways.
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
-    validations:
-      required: true
+      label: What did you expect to happen?
+      description: Optional. Skip this if you already explained it above.
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does this happen?
+      options:
+        - It happened once
+        - Sometimes
+        - Every time I try
+        - I'm not sure
+      default: 3
   - type: textarea
     id: additional
     attributes:
-      label: Additional context
-      description: Attach only screenshots or logs that you have carefully reviewed and redacted.
-  - type: checkboxes
-    id: privacy
+      label: Anything else? Screenshots are welcome.
+      description: Optional. You can paste or drag screenshots here. Hide private information first. Logs are not required.
+  - type: input
+    id: app-version
     attributes:
-      label: Privacy check
-      options:
-        - label: I have not included credentials, private messages, personal information, or unredacted logs.
-          required: true
-        - label: This is an app defect, not a KGS account, server, or moderation request.
-          required: true
+      label: Pocket KGS version
+      description: Optional. Find this on the About screen or in Android app information. Leave it blank if you can't find it.
+      placeholder: For example, 0.1.0
+  - type: input
+    id: android-version
+    attributes:
+      label: What phone or tablet are you using?
+      description: Optional. Include the Android version if you know it.
+      placeholder: For example, a Google Pixel 9 running Android 16

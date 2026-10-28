@@ -7,7 +7,7 @@ page_key: "mobi/home"
 section: "mobi"
 nav_order: 0
 permalink: "/da/gtp/"
-source_revision: "b9d339585b5a920216045e5e3c1e6b45997754a2b3e257c811c18c8f9c33e4ca"
+source_revision: "874054b8ddaecac1e59dd93fb146bb94e87a23f895e0f2763c1c7f0413376a1a"
 ---
 
 Mobi forbinder en Go-motor, der understøtter Go Text Protocol (GTP) version 2, med [KGS Go Server](https://www.gokgs.com/). Den håndterer login, matchmaking, træk, ure, optælling og gendannelse. Installer og konfigurer din Go-motor separat.
@@ -59,4 +59,8 @@ printf '\n'
 
 Tryk på Ctrl+C for at stoppe. Brug brugervejledningen til at vælge kontinuerlig afspilning, bevare logfiler og bevare klientidentiteten på tværs af opgraderinger.
 
-For fejl og dokumentationsrettelser, [åbn et offentligt GitHub-problem](https://github.com/amywarble/hoshi-hub/issues/new/choose) og identificer klienten som **Mobi**. Inkluder klient- og motorversionerne og relevant diagnostik. Udelad adgangskoder og andre følsomme oplysninger.
+[Rapportér et problem med Mobi](https://github.com/amywarble/hoshi-hub/issues/new?template=mobi_problem_report.yml). Ved rettelser til dokumentationen, [opret en offentlig GitHub-sag](https://github.com/amywarble/hoshi-hub/issues/new/choose) og nævn **Mobi**. Medtag aldrig adgangskoder eller andre følsomme oplysninger.
+
+Du behøver ikke teknisk viden for at rapportere et problem. Beskriv med dine egne ord, hvad der skete, også selv om det kun skete én gang. Udfyld det, du ved; vi kan stille opfølgende spørgsmål. Versioner, trin og skærmbilleder er valgfrie. Skjul private oplysninger i skærmbilleder, før du deler dem.
+
+Bruger du ikke GitHub? Du kan også rapportere app-problemer via mail til [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).

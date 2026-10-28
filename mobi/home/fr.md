@@ -7,7 +7,7 @@ page_key: "mobi/home"
 section: "mobi"
 nav_order: 0
 permalink: "/fr/gtp/"
-source_revision: "b9d339585b5a920216045e5e3c1e6b45997754a2b3e257c811c18c8f9c33e4ca"
+source_revision: "874054b8ddaecac1e59dd93fb146bb94e87a23f895e0f2763c1c7f0413376a1a"
 ---
 
 Mobi relie un moteur de Go compatible avec Go Text Protocol (GTP) version 2 au [KGS Go Server](https://www.gokgs.com/). Il gère la connexion, l’appariement, les coups, les pendules, le décompte et la récupération. Installez et configurez votre moteur de Go séparément.
@@ -59,4 +59,8 @@ printf '\n'
 
 Appuyez sur Ctrl+C pour arrêter. Utilisez le guide de l'utilisateur pour choisir la lecture continue, conserver les journaux et préserver l'identité du client lors des mises à niveau.
 
-Pour les bogues et les corrections de documentation, [ouvrez un numéro public GitHub](https://github.com/amywarble/hoshi-hub/issues/new/choose) et identifiez le client comme **Mobi**. Incluez les versions du client et du moteur ainsi que les diagnostics pertinents. Omettez les mots de passe et autres informations sensibles.
+[Signalez un problème avec Mobi](https://github.com/amywarble/hoshi-hub/issues/new?template=mobi_problem_report.yml). Pour corriger la documentation, [ouvrez un ticket public sur GitHub](https://github.com/amywarble/hoshi-hub/issues/new/choose) et mentionnez **Mobi**. N’incluez jamais de mots de passe ni d’autres informations sensibles.
+
+Aucune connaissance technique n’est nécessaire pour signaler un problème. Décrivez avec vos propres mots ce qui s’est passé, même si cela n’est arrivé qu’une fois. Indiquez ce que vous savez ; nous pourrons poser des questions ensuite. Les versions, les étapes et les captures d’écran sont facultatives. Masquez les informations privées dans les captures avant de les partager.
+
+Vous n’utilisez pas GitHub ? Vous pouvez aussi signaler les problèmes de l’application par e-mail à [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).

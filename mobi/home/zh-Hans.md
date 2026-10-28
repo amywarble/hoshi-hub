@@ -7,7 +7,7 @@ page_key: "mobi/home"
 section: "mobi"
 nav_order: 0
 permalink: "/zh-Hans/gtp/"
-source_revision: "b9d339585b5a920216045e5e3c1e6b45997754a2b3e257c811c18c8f9c33e4ca"
+source_revision: "874054b8ddaecac1e59dd93fb146bb94e87a23f895e0f2763c1c7f0413376a1a"
 ---
 
 Mobi 将支持 Go Text Protocol（GTP）版本 2 的围棋引擎连接到 [KGS Go Server](https://www.gokgs.com/)。它负责登录、匹配、着手、用时、终局计分和恢复。请单独安装并配置围棋引擎。
@@ -59,4 +59,8 @@ printf '\n'
 
 按 Ctrl+C 停止。使用用户指南选择连续播放、保留日志并在升级过程中保留客户端身份。
 
-对于错误和文档更正，请[打开公开的 GitHub 问题](https://github.com/amywarble/hoshi-hub/issues/new/choose) 并将客户端标识为 **Mobi**。包括客户端和引擎版本以及相关诊断。省略密码和其他敏感信息。
+您可以[报告 Mobi 的问题](https://github.com/amywarble/hoshi-hub/issues/new?template=mobi_problem_report.yml)。如需更正文档，请[创建公开 GitHub 问题](https://github.com/amywarble/hoshi-hub/issues/new/choose)并注明与 **Mobi** 有关。切勿包含密码或其他敏感信息。
+
+报告问题不需要技术知识。即使只发生过一次，也请用自己的话描述发生了什么。填写您知道的内容即可；如有需要，我们会进一步询问。版本、操作步骤和截图均为选填。分享截图前，请遮盖个人信息和非公开内容。
+
+不使用 GitHub？您也可以发送邮件至 [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) 报告应用问题。

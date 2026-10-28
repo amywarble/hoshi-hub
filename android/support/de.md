@@ -1,5 +1,5 @@
 ---
-source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
+source_revision: "1f68a0babc4341e4d3f3445910684c3caa5db66990d6328df1259fca2f7b6cec"
 layout: localized
 title: "Support"
 lang: "de"
@@ -12,9 +12,11 @@ nav_group: "documentation"
 
 ## Hilfe zur App Pocket KGS
 
-Für reproduzierbare Fehler oder Funktionswünsche [wählen Sie ein öffentliches Issue-Formular](https://github.com/amywarble/hoshi-hub/issues/new/choose). Suchen Sie nach Möglichkeit zuerst nach vorhandenen Meldungen.
+[Melden Sie ein Problem mit Pocket KGS](https://github.com/amywarble/hoshi-hub/issues/new?template=bug_report.yml) oder [schlagen Sie eine Funktion vor](https://github.com/amywarble/hoshi-hub/issues/new?template=feature_request.yml). Prüfen Sie nach Möglichkeit zuerst die [vorhandenen Meldungen](https://github.com/amywarble/hoshi-hub/issues).
 
-Nennen Sie die Pocket-KGS- und Android-Version, erwartetes und tatsächliches Verhalten sowie die notwendigen Schritte zur Reproduktion. Entfernen Sie vor dem Hochladen von Bildschirmfotos Nutzernamen, Nachrichten, E-Mail-Adressen und andere persönliche Angaben.
+Sie brauchen kein technisches Wissen, um ein Problem zu melden. Beschreiben Sie in eigenen Worten, was passiert ist, auch wenn es nur einmal aufgetreten ist. Geben Sie an, was Sie wissen; wir können Rückfragen stellen. Versionen, Schritte und Bildschirmfotos sind freiwillig. Machen Sie private Informationen in Bildschirmfotos vor dem Teilen unkenntlich.
+
+Sie nutzen GitHub nicht? Sie können App-Probleme auch per E-Mail an [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) melden.
 
 Veröffentlichen Sie niemals Passwörter, Wiederherstellungsdaten, Zugriffstoken oder Zugangsdaten; E-Mail-Adressen, bürgerliche Namen, IP-Adressen oder private Kennungen; private Nachrichten oder nicht öffentliche Spiel-/Rauminhalte; ungeprüfte oder nicht bereinigte Diagnoseprotokolle; missbräuchliches, sexuelles, illegales oder die Kindersicherheit betreffendes Material.
 

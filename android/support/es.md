@@ -1,5 +1,5 @@
 ---
-source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
+source_revision: "1f68a0babc4341e4d3f3445910684c3caa5db66990d6328df1259fca2f7b6cec"
 layout: localized
 title: "Ayuda"
 lang: "es"
@@ -12,9 +12,11 @@ nav_group: "documentation"
 
 ## Ayuda de Pocket KGS
 
-Para errores reproducibles o sugerencias, [elija un formulario público](https://github.com/amywarble/hoshi-hub/issues/new/choose). Busque primero incidencias existentes cuando sea posible.
+[Notifique un problema con Pocket KGS](https://github.com/amywarble/hoshi-hub/issues/new?template=bug_report.yml) o [solicite una función](https://github.com/amywarble/hoshi-hub/issues/new?template=feature_request.yml). Si es posible, consulte primero los [informes existentes](https://github.com/amywarble/hoshi-hub/issues).
 
-Incluya versiones de Pocket KGS y Android, resultado esperado y obtenido y pasos mínimos para reproducirlo. Antes de adjuntar capturas, quite nombres de usuario, mensajes, correos y otros datos personales.
+No necesita conocimientos técnicos para notificar un problema. Describa con sus propias palabras lo que ocurrió, aunque solo haya pasado una vez. Indique lo que sepa; podemos hacer preguntas después. Las versiones, los pasos y las capturas son opcionales. Oculte la información privada en las capturas antes de compartirlas.
+
+¿No utiliza GitHub? También puede notificar problemas de la aplicación por correo a [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 
 Nunca publique contraseñas, datos de recuperación, tokens o credenciales; correos, nombres legales, direcciones IP o identificadores privados; mensajes privados o contenido no público de partidas/salas; registros sin revisar y expurgar; ni material abusivo, sexual, ilegal o relacionado con la seguridad infantil.
 

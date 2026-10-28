@@ -7,7 +7,7 @@ page_key: "mobi/home"
 section: "mobi"
 nav_order: 0
 permalink: "/ja/gtp/"
-source_revision: "b9d339585b5a920216045e5e3c1e6b45997754a2b3e257c811c18c8f9c33e4ca"
+source_revision: "874054b8ddaecac1e59dd93fb146bb94e87a23f895e0f2763c1c7f0413376a1a"
 ---
 
 Mobi は Go Text Protocol（GTP）バージョン 2 に対応した囲碁エンジンを [KGS Go Server](https://www.gokgs.com/) に接続します。ログイン、対局相手の検索、着手、持ち時間、整地、復旧を処理します。囲碁エンジンは別途インストールして設定してください。
@@ -59,4 +59,8 @@ printf '\n'
 
 Ctrl+C を押して停止します。ユーザー ガイドを使用して、継続プレイを選択し、ログを保持し、アップグレード後もクライアント ID を保持します。
 
-バグとドキュメントの修正については、[公開 GitHub 問題を開き](https://github.com/amywarble/hoshi-hub/issues/new/choose)、クライアントを **Mobi** として特定してください。クライアントとエンジンのバージョン、および関連する診断を含めます。パスワードやその他の機密情報は省略します。
+[Mobi の問題を報告](https://github.com/amywarble/hoshi-hub/issues/new?template=mobi_problem_report.yml)できます。ドキュメントの修正は[公開 GitHub Issue を作成](https://github.com/amywarble/hoshi-hub/issues/new/choose)し、**Mobi** に関する内容であることを明記してください。パスワードなどの機密情報は絶対に含めないでください。
+
+問題の報告に技術的な知識は必要ありません。一度しか起きていなくても、何が起きたかをご自身の言葉でお知らせください。分かる範囲で記入していただければ、必要に応じて追加でお尋ねします。バージョン、操作手順、スクリーンショットは任意です。画像を共有する前に、個人情報や非公開の内容を隠してください。
+
+GitHub を使っていない場合は、[hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com) へのメールでもアプリの問題を報告できます。

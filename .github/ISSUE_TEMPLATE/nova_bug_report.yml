@@ -1,0 +1,54 @@
+name: Report a problem with KGS Nova
+description: Tell us what went wrong on Windows, macOS, or Linux, even if it only happened once.
+title: "[KGS Nova bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You don't need technical knowledge to report a problem. Describe it in your own words, even if it happened only once. Fill in whatever you know; we can ask follow-up questions.
+
+        **Reports are public.** Please hide passwords, email addresses, and private conversations in screenshots. Only attach logs after checking them and removing private information.
+
+        Prefer email? You can also report app problems to [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For account recovery or moderation, contact [KGS support](https://amywarble.github.io/hoshi-hub/desktop/support/#kgs-help-and-private-concerns). Report [security vulnerabilities privately](https://github.com/amywarble/hoshi-hub/security/advisories/new).
+  - type: textarea
+    id: description
+    attributes:
+      label: What went wrong?
+      description: What were you trying to do, and what happened instead?
+      placeholder: I opened a game to watch, but the board stayed blank.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What were you doing before this happened?
+      description: Optional. It's okay if you don't remember or can't make it happen again.
+      placeholder: I opened the game list and double-clicked a game.
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Optional. Skip this if you already explained it above.
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does this happen?
+      options:
+        - It happened once
+        - Sometimes
+        - Every time I try
+        - I'm not sure
+      default: 3
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else? Screenshots are welcome.
+      description: Optional. You can paste or drag screenshots here. Hide private information first. Logs are not required.
+  - type: textarea
+    id: app-info
+    attributes:
+      label: App and computer information
+      description: Optional. If details are already filled in, you may edit or remove them. Otherwise, include the Nova version from About and whether you use Windows, macOS, or Linux, if you know.
+      placeholder: For example, KGS Nova 0.1.0 on Windows 11

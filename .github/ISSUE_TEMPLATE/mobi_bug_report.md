@@ -1,28 +1,25 @@
 ---
-name: Mobi bug
-about: Report a reproducible problem in the Mobi GTP bridge for Windows or Linux.
+name: Mobi problem (text version)
+about: For older report links. You can use the guided Mobi form above instead.
 title: '[Mobi bug] '
 labels: bug
 ---
 
-<!-- This issue is public. Remove passwords, private messages, personal information, and unreviewed logs. For account or moderation help, contact KGS. -->
+Describe the problem in your own words, even if it happened only once. Fill in whatever you know; we can ask follow-up questions.
 
-## What happened?
+**Reports are public.** Hide passwords, email addresses, and private conversations in screenshots. Only attach logs or configuration after checking them and removing private information, including KGS_PASSWORD and other credentials.
 
-## Steps to reproduce
-1.
-2.
-3.
+Prefer a guided form? [Report a problem with Mobi](https://github.com/amywarble/hoshi-hub/issues/new?template=mobi_problem_report.yml). You can also email [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com). For account recovery or moderation, contact [KGS support](mailto:admin@gokgs.com). Report [security vulnerabilities privately](https://github.com/amywarble/hoshi-hub/security/advisories/new).
 
-## Expected behavior
+## What went wrong?
 
-## App information
-- App: Mobi GTP bridge
-- Mobi version:
-- Operating system and version:
-- Processor architecture:
-- Go engine and version:
-- Matchmaking mode (automatch, custom game, or accepting challenges):
+## What were you doing before this happened? (optional)
+It's okay if you don't remember or can't make it happen again.
 
-## Additional context
-<!-- Attach only configuration, screenshots, or logs you have reviewed and redacted. Never include KGS_PASSWORD or other credentials. -->
+## What did you expect to happen? (optional)
+
+## Anything else? Screenshots are welcome. (optional)
+Hide private information before sharing screenshots. Logs and configuration files are not required.
+
+## About your bot setup (optional)
+Include the Mobi version, Windows or Linux version, Go engine, and how your bot finds games, if you know. Do not include passwords.

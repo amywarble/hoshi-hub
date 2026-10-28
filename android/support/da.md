@@ -1,5 +1,5 @@
 ---
-source_revision: "d7c2810a7dec0e48dc174b7d06fcc287a280066197e9e9761ed520fb422ae60c"
+source_revision: "1f68a0babc4341e4d3f3445910684c3caa5db66990d6328df1259fca2f7b6cec"
 layout: localized
 title: "Support"
 lang: "da"
@@ -12,9 +12,11 @@ nav_group: "documentation"
 
 ## Hjælp til Pocket KGS
 
-Ved reproducerbare fejl eller funktionsønsker, [vælg en offentlig formular](https://github.com/amywarble/hoshi-hub/issues/new/choose). Søg først efter eksisterende sager, hvis muligt.
+[Rapportér et problem med Pocket KGS](https://github.com/amywarble/hoshi-hub/issues/new?template=bug_report.yml) eller [ønsk en funktion](https://github.com/amywarble/hoshi-hub/issues/new?template=feature_request.yml). Se først de [eksisterende rapporter](https://github.com/amywarble/hoshi-hub/issues), hvis det er praktisk muligt.
 
-Angiv Pocket KGS- og Android-version, forventet og faktisk resultat samt de nødvendige trin til at genskabe fejlen. Fjern brugernavne, beskeder, mailadresser og andre personoplysninger fra skærmbilleder.
+Du behøver ikke teknisk viden for at rapportere et problem. Beskriv med dine egne ord, hvad der skete, også selv om det kun skete én gang. Udfyld det, du ved; vi kan stille opfølgende spørgsmål. Versioner, trin og skærmbilleder er valgfrie. Skjul private oplysninger i skærmbilleder, før du deler dem.
+
+Bruger du ikke GitHub? Du kan også rapportere app-problemer via mail til [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 
 Offentliggør aldrig adgangskoder, gendannelsesoplysninger, tokens eller legitimationsoplysninger; mailadresser, juridiske navne, IP-adresser eller private identifikatorer; private beskeder eller ikke-offentligt spil-/rumindhold; ikke-gennemsete og ikke-rensede logfiler; eller krænkende, seksuelt, ulovligt eller børnesikkerhedsrelateret materiale.
 

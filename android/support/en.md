@@ -11,9 +11,11 @@ nav_group: "documentation"
 
 ## Pocket KGS app help
 
-For a reproducible app bug or a feature request, [choose a public issue form](https://github.com/amywarble/hoshi-hub/issues/new/choose). Search existing issues first when practical.
+[Report a problem with Pocket KGS](https://github.com/amywarble/hoshi-hub/issues/new?template=bug_report.yml) or [request a feature](https://github.com/amywarble/hoshi-hub/issues/new?template=feature_request.yml). If practical, check the [existing reports](https://github.com/amywarble/hoshi-hub/issues) first.
 
-Include the Pocket KGS version, Android version, what you expected, what happened, and minimal steps to reproduce the problem. Screenshots are useful only after you remove usernames, messages, email addresses, and other personal information.
+You don't need technical knowledge to report a problem. Describe what happened in your own words, even if it only happened once. Fill in whatever you know; we can ask follow-up questions. Versions, steps, and screenshots are optional. Hide private information in screenshots before sharing them.
+
+Don't use GitHub? You can also report app problems by email to [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 
 Never post any of the following in a public issue:
 

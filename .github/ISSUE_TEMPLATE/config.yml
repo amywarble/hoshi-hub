@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: KGS account, server, or moderation help
-    url: https://www.gokgs.com/tos.jsp
+    url: https://amywarble.github.io/hoshi-hub/support/#kgs-account-server-or-moderation-help
     about: Contact KGS for account access, server-side data, or conduct on the KGS service.
   - name: Report a security vulnerability privately
     url: https://github.com/amywarble/hoshi-hub/security/advisories/new
@@ -9,6 +9,6 @@ contact_links:
   - name: Privacy and deletion information
     url: https://amywarble.github.io/hoshi-hub/account-and-data-deletion/
     about: Read what can be removed locally and what is controlled by KGS.
-  - name: KGS Nova privacy and deletion information
-    url: https://amywarble.github.io/hoshi-hub/desktop/account-and-data-deletion/
-    about: Remove KGS Nova desktop files and saved credentials or request KGS account deletion.
+  - name: Report an app problem by email
+    url: https://amywarble.github.io/hoshi-hub/desktop/support/
+    about: Find the developer's email address if you prefer email or do not use GitHub.

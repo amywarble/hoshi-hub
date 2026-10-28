@@ -97,6 +97,12 @@ general issue reporting follows the policy section. The app-specific conduct
 links are labeled "Blocking and reporting" to distinguish them from the shared
 conduct rules.
 
+Bug-report links use `bug_report.yml` for Pocket KGS, `nova_bug_report.yml` for
+Nova, and `mobi_problem_report.yml` for Mobi. Keep the older
+`desktop_bug_report.md` and `mobi_bug_report.md` text templates available for
+released app links and bookmarks. Nova prefills the `app-info` field by URL;
+coordinate changes to that field ID or template filename with the app source.
+
 Each app has one getting-started page, combining its introduction and guide, at
 `/android/help/` or `/desktop/help/`. Nova already opens `/desktop/help/` from its
 online help menu. Keep these entry points stable as more task guides are added.

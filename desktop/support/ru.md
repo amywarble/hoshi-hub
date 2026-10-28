@@ -1,5 +1,5 @@
 ---
-source_revision: "d3cdbb109dab24ae15c93ad5fb68ea11d4fd098f5547f870e24ea89b431f124c"
+source_revision: "2505463072f38f6f2426f4735db307c75edb4f0522c870371f6d4fd4adc64a54"
 layout: localized
 title: "Поддержка"
 lang: "ru"
@@ -10,7 +10,11 @@ permalink: "/ru/desktop/support/"
 nav_group: "documentation"
 ---
 
-Для ошибки/пожелания просмотрите [существующие обращения](https://github.com/amywarble/hoshi-hub/issues), затем [сообщите об ошибке](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_bug_report.md) или [предложите функцию](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). Укажите версию, ОС, архитектуру процессора, ожидаемый/фактический результат и воспроизведение.
+[Сообщите о проблеме с KGS Nova](https://github.com/amywarble/hoshi-hub/issues/new?template=nova_bug_report.yml) или [предложите функцию](https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md). По возможности сначала просмотрите [существующие сообщения](https://github.com/amywarble/hoshi-hub/issues).
+
+Для сообщения о проблеме не нужны технические знания. Опишите своими словами, что произошло, даже если это случилось только один раз. Укажите то, что знаете; при необходимости мы зададим уточняющие вопросы. Версии, шаги и снимки экрана необязательны. Перед отправкой снимков скройте личную и непубличную информацию.
+
+Не пользуетесь GitHub? О проблемах приложения также можно сообщить по электронной почте: [hoshihatchery@gmail.com](mailto:hoshihatchery@gmail.com).
 
 **About → Report an app issue** открывает черновик с версией, ОС, архитектурой и средой выполнения. До отправки сведения можно изменить/удалить. Кнопка не отправляет обращение сама.
 
