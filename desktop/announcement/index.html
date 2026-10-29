@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Meet KGS Nova, a modern desktop client for Windows, macOS, and Linux.">
+  <title>Introducing KGS Nova · Hoshi Hub · Draft preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #27262b;
+      --panel: #302f35;
+      --text: #dedde2;
+      --muted: #b9b6c2;
+      --heading: #f5f4f7;
+      --link: #c4b5ff;
+      --border: #47454e;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--text); background: var(--background);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px; line-height: 1.75; overflow-wrap: anywhere; }
+    a { color: var(--link); text-underline-offset: .2em; }
+    a:hover { color: #e5deff; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
+    header { border-bottom: 1px solid var(--border); }
+    .header-inner { max-width: 1060px; margin: auto; padding: 20px 32px;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { font-size: 24px; font-weight: 600; text-decoration: none; }
+    .preview-label { color: var(--muted); font-size: 13px; text-align: right; }
+    main { max-width: 916px; padding: 60px 36px 32px; margin: auto; }
+    .hero { display: grid; grid-template-columns: minmax(0, 1fr) 112px; gap: 32px;
+      align-items: center; }
+    .eyebrow { margin: 0 0 10px; color: var(--muted); font-size: 13px;
+      font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(32px, 5vw, 48px); line-height: 1.18;
+      font-weight: 400; letter-spacing: -.035em; color: var(--heading); }
+    .hero img { width: 112px; height: 112px; border-radius: 24px; }
+    .intro { margin: 24px 0; font-size: 19px; max-width: 720px; }
+    .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; }
+    .button { display: inline-block; padding: 11px 22px; border-radius: 5px;
+      background: #7253d6; color: white; font-size: 16px; font-weight: 600; text-decoration: none; }
+    .button:hover { background: #8264e0; color: white; }
+    article { max-width: 740px; margin-top: 44px; }
+    section { margin: 36px 0; }
+    h2 { margin: 0 0 14px; color: var(--heading); font-size: 27px; line-height: 1.35;
+      font-weight: 400; letter-spacing: -.02em; }
+    p { margin: 14px 0; }
+    .testing-note { border-left: 3px solid #c4a36a; background: var(--panel);
+      padding: 4px 20px; margin: 22px 0; }
+    .testing-note strong { color: var(--heading); }
+    .comparison { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.5;
+      table-layout: fixed; }
+    .comparison th, .comparison td { padding: 12px 14px; border-bottom: 1px solid var(--border);
+      text-align: center; vertical-align: middle; }
+    .comparison thead th { color: var(--heading); font-weight: 600; }
+    .comparison th:first-child { width: 58%; text-align: left; }
+    .comparison tbody th { font-weight: 400; }
+    .comparison th:last-child, .comparison td:last-child { background: #c4b5ff0b; }
+    .comparison .yes { color: #a8d5bb; }
+    .comparison .no { color: var(--muted); }
+    .comparison .pending { color: #ddbc83; }
+    .comparison-note { color: var(--muted); font-size: 13px; }
+    .theme-gallery { display: flex; flex-wrap: wrap; gap: 8px; position: relative;
+      min-width: 0; border: 0; padding: 0; margin: 24px 0 32px; }
+    .theme-gallery legend, .goban-heading { padding: 0; margin-bottom: 12px;
+      color: var(--heading); font-size: 18px; font-weight: 500; }
+    .goban-heading { margin-top: 28px; }
+    .theme-choice { position: absolute; width: 1px; height: 1px; overflow: hidden;
+      clip-path: inset(50%); white-space: nowrap; }
+    .theme-gallery label { padding: 6px 12px; border: 1px solid var(--border);
+      border-radius: 4px; font-size: 13px; cursor: pointer; }
+    .theme-choice:checked + label { color: var(--heading); border-color: var(--link); background: #c4b5ff18; }
+    .theme-choice:focus-visible + label { outline: 2px solid var(--link); outline-offset: 3px; }
+    .theme-stage { flex: 0 0 100%; min-width: 0; margin-top: 8px; }
+    .theme-stage figure { display: none; margin: 0; }
+    #theme-dark-nova:checked ~ .theme-stage #screenshot-dark-nova,
+    #theme-light-nova:checked ~ .theme-stage #screenshot-light-nova,
+    #theme-dark-hoshi:checked ~ .theme-stage #screenshot-dark-hoshi,
+    #theme-light-hoshi:checked ~ .theme-stage #screenshot-light-hoshi,
+    #theme-dark-tsuki:checked ~ .theme-stage #screenshot-dark-tsuki,
+    #theme-light-tsuki:checked ~ .theme-stage #screenshot-light-tsuki,
+    #theme-classic:checked ~ .theme-stage #screenshot-classic { display: block; }
+    .theme-stage img { display: block; width: 100%; height: auto; border: 1px solid var(--border);
+      border-radius: 6px; }
+    figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); }
+    .goban-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 14px; }
+    .goban-grid figure { margin: 0; min-width: 0; }
+    .goban-grid img { display: block; width: 100%; height: auto; border-radius: 4px; }
+    footer { max-width: 916px; margin: auto; padding: 16px 36px 40px; color: var(--muted); font-size: 13px; }
+    footer a { color: var(--muted); }
+    .skip { position: absolute; left: 16px; top: -100px; background: var(--panel); padding: 8px; }
+    .skip:focus { top: 12px; }
+    @media (max-width: 540px) {
+      body { font-size: 16px; }
+      .header-inner { padding: 16px 22px; }
+      .brand { font-size: 21px; }
+      .preview-label { max-width: 125px; }
+      main { padding: 36px 22px 24px; }
+      .hero { grid-template-columns: minmax(0, 1fr) 64px; gap: 14px; align-items: start; }
+      .hero img { width: 64px; height: 64px; border-radius: 14px; }
+      .intro { font-size: 17px; }
+      h2 { font-size: 24px; }
+      article { margin-top: 36px; }
+      .comparison { font-size: 13px; }
+      .comparison th, .comparison td { padding: 10px 8px; }
+      .comparison th:first-child { width: 50%; }
+      .goban-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      footer { padding: 12px 22px 32px; }
+    }
+    @media print {
+      :root { --background: white; --text: #222; --heading: black; --muted: #555; --link: #47338a; }
+      .preview-label, .skip { display: none; }
+      main { padding-top: 24px; }
+      .button { color: black; background: transparent; border: 1px solid #555; }
+      .testing-note { background: transparent; }
+      .theme-choice, .theme-gallery label { display: none; }
+      .theme-stage figure { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to content</a>
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="https://amywarble.github.io/hoshi-hub/">Hoshi Hub</a>
+      <span class="preview-label">Announcement preview · English draft</span>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">KGS Nova · Desktop</p>
+        <h1>Introducing KGS Nova</h1>
+      </div>
+      <img src="kgs-nova.png" alt="" width="112" height="112">
+    </div>
+    <p class="intro">KGS Nova is a modern desktop client for Windows, macOS, and Linux.</p>
+    <p>With support from the American Go Foundation (AGF), Nova will become KGS's new
+      official client. The goal is to do everything the legacy client can do, and more, while
+      preparing KGS for future features such as Fischer time.</p>
+    <div class="actions">
+      <a class="button" href="https://github.com/amywarble/hoshi-hub/releases">Download KGS Nova</a>
+      <a href="https://amywarble.github.io/hoshi-hub/desktop/help/">Getting started →</a>
+    </div>
+    <article aria-label="About KGS Nova">
+      <section aria-labelledby="updates">
+        <h2 id="updates">Updates, built in</h2>
+        <p>Nova checks for updates automatically. When a new version is available,
+          download it in the app and restart when you're ready.</p>
+      </section>
+      <section aria-labelledby="customization">
+        <h2 id="customization">Highly customizable</h2>
+        <p>Seven interface themes, six goban materials, and controls for the details:
+          stones, grid contrast, coordinates, and move markers. Theme and goban
+          choices are independent.</p>
+        <fieldset class="theme-gallery">
+          <legend>Interface themes</legend>
+          <input class="theme-choice" type="radio" id="theme-dark-nova" name="theme" checked>
+          <label for="theme-dark-nova">Dark Nova</label>
+          <input class="theme-choice" type="radio" id="theme-light-nova" name="theme">
+          <label for="theme-light-nova">Light Nova</label>
+          <input class="theme-choice" type="radio" id="theme-dark-hoshi" name="theme">
+          <label for="theme-dark-hoshi">Dark Hoshi</label>
+          <input class="theme-choice" type="radio" id="theme-light-hoshi" name="theme">
+          <label for="theme-light-hoshi">Light Hoshi</label>
+          <input class="theme-choice" type="radio" id="theme-dark-tsuki" name="theme">
+          <label for="theme-dark-tsuki">Dark Tsuki</label>
+          <input class="theme-choice" type="radio" id="theme-light-tsuki" name="theme">
+          <label for="theme-light-tsuki">Light Tsuki</label>
+          <input class="theme-choice" type="radio" id="theme-classic" name="theme">
+          <label for="theme-classic">Classic</label>
+          <div class="theme-stage">
+            <figure id="screenshot-dark-nova">
+              <a href="images/theme-dark-nova.png?v=392d54dca0" aria-label="Open full-size Dark Nova screenshot">
+                <img src="images/theme-dark-nova.png?v=392d54dca0" width="1120" height="760" alt="Nova's SGF editor in Dark Nova, with a charcoal interface and blue accents.">
+              </a>
+              <figcaption>Dark Nova · SGF editor. Select an image to view it full size.</figcaption>
+            </figure>
+            <figure id="screenshot-light-nova">
+              <a href="images/theme-light-nova.png?v=ed43664195" aria-label="Open full-size Light Nova screenshot">
+                <img src="images/theme-light-nova.png?v=ed43664195" width="1120" height="760" loading="lazy" alt="The same SGF editor in Light Nova, with a light interface and blue accents.">
+              </a>
+              <figcaption>Light Nova · SGF editor. Select an image to view it full size.</figcaption>
+            </figure>
+            <figure id="screenshot-dark-hoshi">
+              <a href="images/theme-dark-hoshi.png?v=4086d6263c" aria-label="Open full-size Dark Hoshi screenshot">
+                <img src="images/theme-dark-hoshi.png?v=4086d6263c" width="1120" height="760" loading="lazy" alt="The same SGF editor using the Dark Hoshi interface theme.">
+              </a>
+              <figcaption>Dark Hoshi · SGF editor. Select an image to view it full size.</figcaption>
+            </figure>
+            <figure id="screenshot-light-hoshi">
+              <a href="images/theme-light-hoshi.png?v=9e51f21ace" aria-label="Open full-size Light Hoshi screenshot">
+                <img src="images/theme-light-hoshi.png?v=9e51f21ace" width="1120" height="760" loading="lazy" alt="The same SGF editor using the Light Hoshi interface theme.">
+              </a>
+              <figcaption>Light Hoshi · SGF editor. Select an image to view it full size.</figcaption>
+            </figure>
+            <figure id="screenshot-dark-tsuki">
+              <a href="images/theme-dark-tsuki.png?v=e283970444" aria-label="Open full-size Dark Tsuki screenshot">
+                <img src="images/theme-dark-tsuki.png?v=e283970444" width="1120" height="760" loading="lazy" alt="The same SGF editor in Dark Tsuki, with a dark interface and purple accents.">
+              </a>
+              <figcaption>Dark Tsuki · SGF editor. Select an image to view it full size.</figcaption>
+            </figure>
+            <figure id="screenshot-light-tsuki">
+              <a href="images/theme-light-tsuki.png?v=76f356d009" aria-label="Open full-size Light Tsuki screenshot">
+                <img src="images/theme-light-tsuki.png?v=76f356d009" width="1120" height="760" loading="lazy" alt="The same SGF editor using the Light Tsuki interface theme.">
+              </a>
+              <figcaption>Light Tsuki · SGF editor. Select an image to view it full size.</figcaption>
+            </figure>
+            <figure id="screenshot-classic">
+              <a href="images/theme-classic.png?v=749ffd77f9" aria-label="Open full-size Classic screenshot">
+                <img src="images/theme-classic.png?v=749ffd77f9" width="1120" height="760" loading="lazy" alt="The same SGF editor in Classic, using the familiar CGoban color palette.">
+              </a>
+              <figcaption>Classic · SGF editor. Select an image to view it full size.</figcaption>
+            </figure>
+          </div>
+        </fieldset>
+        <h3 class="goban-heading">Goban styles</h3>
+        <div class="goban-grid">
+          <figure><a href="images/goban-classic.png?v=9bb4c012c8"><img src="images/goban-classic.png?v=9bb4c012c8" width="440" height="440" loading="lazy" alt="The sample position on a Classic goban."></a><figcaption>Classic</figcaption></figure>
+          <figure><a href="images/goban-kayagolden.png?v=4a0bbca72a"><img src="images/goban-kayagolden.png?v=4a0bbca72a" width="440" height="440" loading="lazy" alt="The same position on a golden kaya goban."></a><figcaption>Golden kaya</figcaption></figure>
+          <figure><a href="images/goban-kayapale.png?v=599b37bfab"><img src="images/goban-kayapale.png?v=599b37bfab" width="440" height="440" loading="lazy" alt="The same position on a pale kaya goban."></a><figcaption>Pale kaya</figcaption></figure>
+          <figure><a href="images/goban-kayaamber.png?v=36fb601af4"><img src="images/goban-kayaamber.png?v=36fb601af4" width="440" height="440" loading="lazy" alt="The same position on an amber kaya goban."></a><figcaption>Amber kaya</figcaption></figure>
+          <figure><a href="images/goban-kayared.png?v=58a81c187d"><img src="images/goban-kayared.png?v=58a81c187d" width="440" height="440" loading="lazy" alt="The same position on a red kaya goban."></a><figcaption>Red kaya</figcaption></figure>
+          <figure><a href="images/goban-walnut.png?v=c3294dca86"><img src="images/goban-walnut.png?v=c3294dca86" width="440" height="440" loading="lazy" alt="The same position on a walnut goban."></a><figcaption>Walnut</figcaption></figure>
+        </div>
+        <h3 class="goban-heading">Choose your stones and markings</h3>
+        <div class="goban-grid">
+          <figure>
+            <a href="images/goban-stones-shaded.png?v=dcf1eac6e4"><img src="images/goban-stones-shaded.png?v=dcf1eac6e4" width="440" height="440" loading="lazy" alt="A nine-by-nine goban with larger shaded stones, coordinates, and a ring marking the last move."></a>
+            <figcaption>Shaded · larger stones · ring marker</figcaption>
+          </figure>
+          <figure>
+            <a href="images/goban-stones-flat.png?v=2e91a48e0d"><img src="images/goban-stones-flat.png?v=2e91a48e0d" width="440" height="440" loading="lazy" alt="The same position with smaller flat stones and a dot marking the last move."></a>
+            <figcaption>Flat · smaller stones · dot marker</figcaption>
+          </figure>
+          <figure>
+            <a href="images/goban-grid-strong.png?v=cdd19ac508"><img src="images/goban-grid-strong.png?v=cdd19ac508" width="440" height="440" loading="lazy" alt="The same position with a stronger grid, flat stones, and no coordinates or move marker."></a>
+            <figcaption>Strong grid · no coordinates or marker</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section aria-labelledby="comparison">
+        <h2 id="comparison">How Nova compares</h2>
+        <p>Use your existing KGS account, rank, and game history.</p>
+        <table class="comparison" aria-labelledby="comparison" aria-describedby="comparison-note">
+          <thead>
+            <tr><th scope="col">Feature</th><th scope="col">CGoban</th><th scope="col">Nova</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Rated and casual games</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Automatch and custom games</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Watch live games</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Rooms and private chat</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Teaching and shared reviews</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">View and edit SGF files</th><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Local AI analysis</th><td class="no">No</td><td class="yes">Yes*</td></tr>
+            <tr><th scope="row">Light and dark themes</th><td class="no">No</td><td class="yes">Yes</td></tr>
+            <tr><th scope="row">Built-in app updates</th><td class="no">No</td><td class="yes">Yes†</td></tr>
+            <tr><th scope="row">Simul and rengo</th><td class="yes">Yes</td><td class="pending">Not yet tested</td></tr>
+          </tbody>
+        </table>
+        <p class="comparison-note" id="comparison-note">*Local AI analysis requires engine setup.<br>
+          †In-app updating is available in supported release packages.</p>
+      </section>
+      <section aria-labelledby="expectations">
+        <h2 id="expectations">Current status</h2>
+        <p>Nova is fairly mature but still changing quickly, with published updates about every one to
+          two days. That pace will slow as the client stabilizes.</p>
+        <div class="testing-note">
+          <p><strong>Simul and rengo games have not yet been tested.</strong> Both are on the testing list.</p>
+        </div>
+      </section>
+      <section aria-labelledby="feedback">
+        <h2 id="feedback">Feedback</h2>
+        <p>Bug reports, missing features, and usability feedback are welcome.</p>
+        <p><a href="https://github.com/amywarble/hoshi-hub/issues/new?template=nova_bug_report.yml">Report a problem</a>,
+          <a href="https://github.com/amywarble/hoshi-hub/issues/new?template=desktop_feature_request.md">suggest a feature</a>,
+          or email <a href="mailto:hoshihatchery@gmail.com">hoshihatchery@gmail.com</a>.</p>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <a href="https://amywarble.github.io/hoshi-hub/privacy/">Privacy</a> ·
+    <a href="https://amywarble.github.io/hoshi-hub/desktop/terms/">Terms of Use</a> ·
+    <a href="https://amywarble.github.io/hoshi-hub/desktop/support/">Support</a>
+  </footer>
+</body>
+</html>

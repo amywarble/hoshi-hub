@@ -75,6 +75,13 @@ relative to the site's `/hoshi-hub` base URL.
 
 ## Documentation and shared content
 
+The English Nova announcement review page is a standalone static page at
+`desktop/announcement/index.html`, with its screenshots alongside it. Its text
+draft is retained in `_drafts/nova-announcement.md`, excluded from normal builds.
+Keep the review page unlinked from navigation, homepages, help, and search, and
+retain its draft label and `noindex, nofollow` metadata until publication is
+requested. It intentionally has no localized-page front matter.
+
 The shared homepage uses `_includes/client-grid.html` to show Pocket KGS, Nova,
 and Mobi with their important links. It uses the full content width without the
 article sidebar; the client panels stack on smaller screens. Keep interface
