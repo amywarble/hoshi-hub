@@ -12,6 +12,14 @@ redirect_from: "/android/"
 
 Pocket KGS is an Android client for the [KGS Go Server](https://www.gokgs.com/). It is officially endorsed by KGS and the American Go Association (AGA).
 
+## Installation and updates {#installation}
+
+Pocket KGS evaluation builds are distributed directly through [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases). They require Android 12 or later on an ARM64 or x86_64 device.
+
+Download the **Pocket KGS** APK on your Android device and open it. If Android prompts you, allow your browser or file manager to install apps from this source, then confirm installation. You can turn that permission off afterward.
+
+For updates, download and open the APK from a newer Pocket KGS release.
+
 ## Sign in
 
 Sign in with your existing KGS username and password, or continue as a guest. To create an account, use the registration link on the sign-in screen; it opens the KGS website.

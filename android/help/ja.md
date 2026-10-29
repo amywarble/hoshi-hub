@@ -1,5 +1,5 @@
 ---
-source_revision: "ed29c95fad57837b4bfb0d71a53226c192370524688762fa919a747712363a99"
+source_revision: "60c40217e8321396e375409d18544b677da5ed0a8c4af35b1f59937a9f0c5a30"
 layout: localized
 title: "はじめに"
 lang: "ja"
@@ -12,6 +12,14 @@ redirect_from: "/ja/android/"
 ---
 
 Pocket KGS は [KGS Go Server](https://www.gokgs.com/) 用の Android クライアントです。KGS と American Go Association（AGA）の公式な承認を受けています。
+
+## インストールと更新 {#installation}
+
+Pocket KGS の評価版は [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases) から直接配布されます。ARM64 または x86_64 デバイスで Android 12 以降が必要です。
+
+Android デバイスで **Pocket KGS** の APK をダウンロードして開きます。Android に確認されたら、ブラウザーまたはファイルマネージャーにこの提供元からのアプリのインストールを許可し、インストールを確定してください。この許可は後で解除できます。
+
+更新するには、新しい Pocket KGS リリースの APK をダウンロードして開いてください。
 
 ## ログイン
 

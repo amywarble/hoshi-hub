@@ -1,5 +1,5 @@
 ---
-source_revision: "ed29c95fad57837b4bfb0d71a53226c192370524688762fa919a747712363a99"
+source_revision: "60c40217e8321396e375409d18544b677da5ed0a8c4af35b1f59937a9f0c5a30"
 layout: localized
 title: "入门指南"
 lang: "zh-Hans"
@@ -12,6 +12,14 @@ redirect_from: "/zh-Hans/android/"
 ---
 
 Pocket KGS 是 [KGS Go Server](https://www.gokgs.com/) 的 Android 客户端，已获得 KGS 和美国围棋协会（AGA）的官方认可。
+
+## 安装与更新 {#installation}
+
+Pocket KGS 评估版通过 [GitHub Releases](https://github.com/amywarble/hoshi-hub/releases) 直接分发。需要运行 Android 12 或更高版本的 ARM64 或 x86_64 设备。
+
+在 Android 设备上下载 **Pocket KGS** APK 并打开。如果 Android 提示，请允许浏览器或文件管理器安装来自此来源的应用，然后确认安装。之后可以关闭该权限。
+
+更新时，下载并打开较新 Pocket KGS 版本的 APK。
 
 ## 登录
 
